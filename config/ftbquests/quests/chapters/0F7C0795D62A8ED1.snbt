@@ -1,0 +1,16 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "0F7C0795D62A8ED1"
+	group: "0CD6E10830E3FDCB"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "ba_bt:land_monolith"
+	id: "0F7C0795D62A8ED1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Боевые башни"
+}

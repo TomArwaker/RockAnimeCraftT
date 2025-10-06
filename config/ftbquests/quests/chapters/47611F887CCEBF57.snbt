@@ -1,0 +1,316 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "47611F887CCEBF57"
+	group: "08BE8EB081684B04"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "steam_powered:oxygen_compressor"
+	id: "47611F887CCEBF57"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Создайте бронзовый паровой двигатель - основу системы"]
+			id: "76F6AE78642E6D8E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "095FF5517DFD3375"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "508A68423A07E143"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44E0E12906DCFB88"
+				item: "steampowered:bronze_steam_engine"
+				type: "item"
+			}]
+			title: "Бронзовый двигатель"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Создайте бронзовые компоненты: котел, шестерни, маховик"]
+			id: "406FDDC96E4FEAC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41417C6B5ABE265A"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F5C7801DFFB7E55"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3E4F024272EA0F14"
+					item: "steampowered:bronze_boiler"
+					type: "item"
+				}
+				{
+					id: "471E2F5F9AB118E8"
+					item: "steampowered:bronze_burner"
+					type: "item"
+				}
+			]
+			title: "Бронзовые компоненты"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["Создайте чугунные детали: котел и горелку"]
+			id: "77507EC094C9EE44"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35AAEE3CC38ADA1E"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "470DD3C449B5837E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "713A575D3BD90E37"
+					item: "steampowered:cast_iron_boiler"
+					type: "item"
+				}
+				{
+					id: "021A4E5CBB1287E1"
+					item: "steampowered:cast_iron_burner"
+					type: "item"
+				}
+			]
+			title: "Чугунные детали"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["Создайте стальной двигатель - улучшенную версию"]
+			id: "61A47C514DCAC3C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A75307A01167762"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56365FD63E23C96E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2F170F1AE641758D"
+				item: "steampowered:steel_steam_engine"
+				type: "item"
+			}]
+			title: "Стальной двигатель"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["Создайте стальные компоненты: горелку, шестерни, маховик"]
+			id: "0A10D1B445146042"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5050D0A135698972"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "527B7C85AE6D1500"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "73ED66583D4FAFCB"
+					item: "steampowered:steel_burner"
+					type: "item"
+				}
+				{
+					id: "6D4710C5C40CE0CA"
+					item: "steampowered:steel_flywheel"
+					type: "item"
+				}
+			]
+			title: "Стальные компоненты"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["Создайте альтернатор для преобразования энергии"]
+			id: "34F3EECE7161B059"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C05A306B71E1D8D"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B9B514188250CC4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "72C6715437918588"
+				item: "steampowered:alternator"
+				type: "item"
+			}]
+			title: "Паровой альтернатор"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			description: ["Создайте контейнеры для пара и газа"]
+			id: "45EBE9B3388FA63E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "299FBEC216092F10"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "777B9B32F94B2EE7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "14E0AB11C189F6FC"
+					item: "steampowered:pressurized_steam_container"
+					type: "item"
+				}
+				{
+					id: "068A179F2094A1DB"
+					item: "steampowered:pressurized_gas_container"
+					type: "item"
+				}
+			]
+			title: "Парогазовые контейнеры"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Создайте ведро для переноса пара"]
+			id: "4A88C9F6F611CD37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DC4E65C822397C2"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2723C589DCD15B47"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "66DB95FDE6D676B2"
+				item: "steampowered:steam_bucket"
+				type: "item"
+			}]
+			title: "Паровое ведро"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Создайте стальной баллон для хранения газов"]
+			id: "79CF1666B1468493"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EB9340FD7ADD75F"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1796985DAFD2FEAF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2317FC3112628974"
+				item: "steampowered:steel_boiler"
+				type: "item"
+			}]
+			title: "Стальной баллон"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Соберите комплексную систему с двигателем, альтернатором и контейнерами"]
+			id: "6472F279D83665E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FA2BA283B83CFBE"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31EB152933C03A8B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "597C46DAD8C0018F"
+					item: "steampowered:steel_steam_engine"
+					type: "item"
+				}
+				{
+					id: "09FBA51EE491EBA1"
+					item: "steampowered:alternator"
+					type: "item"
+				}
+				{
+					id: "08CD9D72F0285B16"
+					item: "steampowered:pressurized_steam_container"
+					type: "item"
+				}
+			]
+			title: "Мастер паровых систем"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+}

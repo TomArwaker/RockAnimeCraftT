@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "4B499A44B2723CF4", title: "База" }
+		{ id: "08BE8EB081684B04", title: "Технологии" }
+		{ id: "6E434B4FD255C1FB", title: "Магия" }
+		{ id: "3E5C9570DCB452CF", title: "Снаряжение" }
+		{ id: "5C72E74C0EB56E87", title: "Измерения" }
+		{ id: "0CD6E10830E3FDCB", title: "Приключения" }
+		{ id: "3B44E90EB23A6F28", title: "Другое" }
+		{ id: "42BE2BD1C98EFCD1", title: "Финал" }
+	]
+}

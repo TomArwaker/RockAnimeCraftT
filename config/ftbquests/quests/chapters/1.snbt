@@ -1,0 +1,2762 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "3E5C9570DCB452CF"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "jeg:assault_rifle"
+		tag: {
+			AmmoCount: 30
+			Damage: 0
+		}
+	}
+	id: "5871628CDEB015A2"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["65730E58BE0EB86B"]
+			description: ["Ты бы ещё из консервной банки самопал сделал"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: true
+			id: "72E36008B885A4D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E02B9ED7AC1BF36"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BF6BA0FF814B999"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Верстак для создания оружия начального уровня"
+			tasks: [{
+				id: "4517026A13BA7A1B"
+				item: "jeg:scrap_workbench"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			description: ["Вот это уже посерьёзнее"]
+			id: "6C5588882B73DD9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D654E908C212D36"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D18F302500F6D50"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Верстак для оружия и улучшений второго уровня"
+			tasks: [{
+				id: "5E7C97F3F104A2D5"
+				item: "jeg:gunmetal_workbench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			description: ["А вот это уже высший класс"]
+			id: "7625A4350C6BAF69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15ACADDD7E28608F"
+					table_id: 8065112049643510184L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45EF496037F07904"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DB15569EA446416"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Лучшие пушки"
+			tasks: [{
+				id: "3D0139947D1A40C0"
+				item: "jeg:gunnite_workbench"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "28117BA3D27EE8C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F3BB2B5BAF4F466"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			subtitle: "Позволяет рисовать схемы по готовому оружию"
+			tasks: [
+				{
+					id: "5C315AB09FCC1D2E"
+					item: "jeg:schematic_station"
+					type: "item"
+				}
+				{
+					id: "45ABD97B6B13457C"
+					item: "jeg:firearm_blueprint"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "409C77FBD0B7F184"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F57C74D87315B38"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			subtitle: "Позволяет делать оружие по схемам"
+			tasks: [{
+				id: "6FFB8FAAE7B8BB66"
+				item: "jeg:blueprint_workbench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "7EE8E283C8BF09B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B161E06F6E32522"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2467D0F905727EE1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Дополнение, содержимое видите сами)"
+			tasks: [{
+				id: "39860079DF501A20"
+				item: "mteg:mo_workbench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "0E53199C7675FC33"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D3BC997A2DE1B55"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5956F3033D73937C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5CF4B0225EADB32C"
+				item: {
+					Count: 1
+					id: "jeg:double_barrel_shotgun"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "1DB8829ADFFE59B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "292CE85BE4CE01C4"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FCE936F47E13A03"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1FF4330E3425D3E8"
+				item: {
+					Count: 1
+					id: "jeg:revolver"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "1EFD197E0997BD79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02D099C9168491B3"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BBB782DE6D7C156"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "29CB545D384EAE5C"
+				item: {
+					Count: 1
+					id: "jeg:custom_smg"
+					tag: {
+						AmmoCount: 24
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "1C98768D7902782F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77F5A522C8B83982"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2649AA6F0E99A2FC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1CC6DD1A6C840F1A"
+				item: {
+					Count: 1
+					id: "jeg:waterpipe_shotgun"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "44956CA7D1B029CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AF843AD00982EC7"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7EBECC615FF3059F"
+				item: {
+					Count: 1
+					id: "jeg:assault_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "30343E688A240E37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B8305B1EBA80AA2"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			tasks: [{
+				id: "21CD9B9786349D01"
+				item: {
+					Count: 1
+					id: "jeg:pump_shotgun"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "53893533399CABB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A1A14429D6670B5"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B94C8A07CAB79F5"
+				item: {
+					Count: 1
+					id: "jeg:semi_auto_rifle"
+					tag: {
+						AmmoCount: 16
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "351B7CDA7777234F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "002C7EB9CF3A0D95"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "098950AA6BEDB834"
+				item: {
+					Count: 1
+					id: "jeg:burst_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "1CA896B3E6A4CE3A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A9B6F389B69ACDC"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "17BDE88664F6F7FB"
+				item: {
+					Count: 1
+					id: "jeg:combat_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "5873A9100FC4863B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F55E7E865C72A74"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4936EF96E1BDAA41"
+				item: {
+					Count: 1
+					id: "jeg:bolt_action_rifle"
+					tag: {
+						AmmoCount: 4
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "5F529296BBAC1EBC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08A4E24654797420"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "326BDB53FE1858EE"
+				item: {
+					Count: 1
+					id: "jeg:blossom_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "067F06309C95D0CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "335A4990D3613ECE"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11C0BF86457A2822"
+				item: {
+					Count: 1
+					id: "jeg:holy_shotgun"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "2F1409DCA9840178"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D2C6EF212DA2297"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "099BF782FC227A4F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "554404240F0EF8DD"
+				item: {
+					Count: 1
+					id: "mteg:uzi"
+					tag: {
+						AmmoCount: 32
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "156D5DA44128B60F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "176E030921C84CEA"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20BA1E3FB897737A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "2D0DCAD8B668B086"
+				item: {
+					Count: 1
+					id: "mteg:m16a1"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "5D9BDADE85662C70"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45FE422F1CB336C2"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E72C44D329E5E09"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "1DE9BAB8981B5156"
+				item: {
+					Count: 1
+					id: "mteg:m107"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "23B023A9593E7324"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56654AE0F1B3803E"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20474D7A09B7D2DC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "4C834F289D06007E"
+				item: {
+					Count: 1
+					id: "mteg:m60"
+					tag: {
+						AmmoCount: 100
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "09658DF67C5995AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "413BA22B03CD96B9"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F8B46F53B30E121"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "549042B434E423FA"
+				item: {
+					Count: 1
+					id: "mteg:akm"
+					tag: {
+						AmmoCount: 40
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "3CDDA9DC697210C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17D592537BB1405F"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E195B2F73027AAA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "16C94CD0108CE21E"
+				item: {
+					Count: 1
+					id: "mteg:wrapped_rifle"
+					tag: {
+						AmmoCount: 40
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "043DC021D34352A0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02C6A5E77CB5FE81"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C092183F2CA5ECE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "556EE41EE6E7E8FF"
+				item: {
+					Count: 1
+					id: "mteg:micro_uzi"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "13E05D3920985803"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55FC12254A31DD68"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31E82FC2DF3FD0B9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "2ED443582C496AA0"
+				item: {
+					Count: 1
+					id: "mteg:ppsh_41"
+					tag: {
+						AmmoCount: 71
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "646DB79FACDBA236"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F76496FEAD56F84"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07EE814BD3C46DC6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "31906C18E5C27252"
+				item: {
+					Count: 1
+					id: "mteg:hellfire"
+					tag: {
+						AmmoCount: 18
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "41A87531036A8602"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30473A9C06D50ECD"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12A7188BD479AE10"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "48C19CD01ADB8502"
+				item: {
+					Count: 1
+					id: "mteg:scar_l"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "7CF257C7EF2CE82A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "022021A5DB8F4B20"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "467ABC331093C745"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "7825D3A5FEC17D1A"
+				item: {
+					Count: 1
+					id: "mteg:m2_flamethrower"
+					tag: {
+						AmmoCount: 75
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "6603CD38222E9DF7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BE22D849802E30D"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E03666EC6CF5DF2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "621C321711B173EE"
+				item: {
+					Count: 1
+					id: "mteg:mp5"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "4A56DD2471E27A2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67879FD0CF2E9E82"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "709833A9EB0451E9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "44FE35AC9CF41B97"
+				item: {
+					Count: 1
+					id: "mteg:double_barrel"
+					tag: {
+						AmmoCount: 2
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "4A2E917D04E06536"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02382616C688271C"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C422806844CA45C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "626D66DA42154A48"
+				item: {
+					Count: 1
+					id: "mteg:g36c"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "6F721CB7C38FBB5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "746A069E87B42861"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EE9910D02D7A6DD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "57E2C188169DC4B8"
+				item: {
+					Count: 1
+					id: "mteg:thompson"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "7A2A2FA4769765CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17022865A8048FCB"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D6C4BB837F2484B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "47DA6602D97F181F"
+				item: {
+					Count: 1
+					id: "mteg:as_val"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "1DA1790AEE855FE3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21E57A0313EE43CE"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34197F2005F512DA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "6B17C436AE095493"
+				item: {
+					Count: 1
+					id: "mteg:akm_custom"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "4CFCF8D74D98A102"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7643A96EF13735DA"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22A91173FE42EA9F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "1644B3917E987C92"
+				item: {
+					Count: 1
+					id: "mteg:m14_ebr"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "7DF33AF791FDE544"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4799426FD08C39B3"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52C859677D7C9E57"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "2C9EABCB6439B7A3"
+				item: {
+					Count: 1
+					id: "mteg:blue_heat"
+					tag: {
+						AmmoCount: 22
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "2CB18E439492C1C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "411CCAF7FCFE4CA2"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC965D4A9837603"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "0B425CF40C16DE58"
+				item: {
+					Count: 1
+					id: "mteg:m16_lsw"
+					tag: {
+						AmmoCount: 100
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "380A45E1D74B2B11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "550AA48925141F4C"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00453F07A73D98A7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "7814B60881EDCF44"
+				item: {
+					Count: 1
+					id: "mteg:mossberg_590"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "4ED8A265F4C1E0B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B1D95BB9CA323BF"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FCA8A181514387E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "316C4B8FBAF19CA4"
+				item: {
+					Count: 1
+					id: "mteg:scar_h"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "7F38DBEFEDE7A9B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06E8D0E4FE3473F2"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F4969C633313958"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "2B3FFBE51A43F6B4"
+				item: {
+					Count: 1
+					id: "mteg:lanchester"
+					tag: {
+						AmmoCount: 32
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "10C62D8FF90A8F69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7386D49D9E59B51E"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12B3F36BF1D08F6B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "706EE66E93837D07"
+				item: {
+					Count: 1
+					id: "mteg:walther_ppk"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "7F86EC99E4F715DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73F6B9A1A1F4E59D"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E591FD1FE36F462"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "27B34F9DD9F5E972"
+				item: {
+					Count: 1
+					id: "mteg:flamer"
+					tag: {
+						AmmoCount: 75
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "059945A0C83AF6CB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A3316D527677ECC"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72B9E0434177608D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "21009E61F255C3C2"
+				item: {
+					Count: 1
+					id: "mteg:glock_17"
+					tag: {
+						AmmoCount: 17
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "1DA5932A35F867F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D1EA55009FE0CD3"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12B96F3B1CC811CA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "3CF8436AE09EDF8A"
+				item: {
+					Count: 1
+					id: "mteg:remington_870"
+					tag: {
+						AmmoCount: 6
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "440262436F5F1776"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3343A4CF96EDEF9B"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FA7D87703360AB5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "1358CFB14803B147"
+				item: {
+					Count: 1
+					id: "mteg:baker_rifle"
+					tag: {
+						AmmoCount: 1
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "12A7CC2C16C38F9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "593E1D931E46C1DD"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B4468CBBD18BC74"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [
+				{
+					id: "556E13E28AFF36AF"
+					item: {
+						Count: 1
+						id: "mteg:flare_gun"
+						tag: {
+							AmmoCount: 1
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B6161663D210B54"
+					item: "mteg:flare"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "06041E0348BDE4DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A88508DFE0ACD64"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23557A76B604D301"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "1C3148F8E0F84583"
+				item: {
+					Count: 1
+					id: "mteg:famas"
+					tag: {
+						AmmoCount: 25
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "6D2B721F71DA5332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4539E0CF3373DE08"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B6283C678571FD9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "7B906E11C190A9D8"
+				item: {
+					Count: 1
+					id: "mteg:m249"
+					tag: {
+						AmmoCount: 200
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "4313215434D85DF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25BE9BAFA0FC62ED"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A7645AD08C9DC20"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "55CD6EB672132B7C"
+				item: {
+					Count: 1
+					id: "mteg:welrod"
+					tag: {
+						AmmoCount: 5
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "314D700714F91B57"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0375E232EAC514A8"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2422F793BAF31A2A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "7D6F2B5BE2B503CB"
+				item: {
+					Count: 1
+					id: "mteg:benelli_m4"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "3D560F8EDA35F4C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EAC17E866EDB38F"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E963C6AF760393A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "61885E3C54299429"
+				item: {
+					Count: 1
+					id: "mteg:awp"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "1F985389274DBF94"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25F8F44C83FDEED2"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F769515D84B683A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "36A9B9C05A447DBA"
+				item: {
+					Count: 1
+					id: "mteg:m1_garand"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "70A08FFC1B0B722A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CB884B6BF4FCD0E"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B8F4D391235933D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "4252DFFB379BF764"
+				item: {
+					Count: 1
+					id: "mteg:vss_vintorez"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "73A0016979C07822"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CD29A378B137714"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "107A2ED5490FD8E2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "31C56CA517735F3C"
+				item: {
+					Count: 1
+					id: "mteg:m1911"
+					tag: {
+						AmmoCount: 7
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			id: "4C828992B6B3970E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12F57AD54BF3CDC8"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18874F478F6F99BD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			tasks: [{
+				id: "686F0A819324DED9"
+				item: {
+					Count: 1
+					id: "mteg:m14"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "1DA4248DE2758337"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A362FCD15E8A2D5"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13794BB63E52A8F6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3A7BACE3A955F413"
+				item: {
+					Count: 1
+					id: "jeg:makeshift_stock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "1C44FDFF78062CFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A5E9F29340902D5"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44A54C67B76C321A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7F703371D2CEB285"
+					item: "jeg:pistol_ammo"
+					type: "item"
+				}
+				{
+					id: "36C42A255137E851"
+					item: "jeg:handmade_shell"
+					type: "item"
+				}
+			]
+			title: "Первые патроны"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "53D1409EE7BBF79A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E7D6C99453CEA63"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64F27460C3A7F61E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08818D85D300C1FB"
+				item: "jeg:molotov_cocktail"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "1D07880C4BF2390A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CAA63E3C80DD21C"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "089BD46B8C02C52B"
+				item: {
+					Count: 1
+					id: "jeg:silencer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "0E3080BFB7D1FB16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26C758AE93991E98"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "0A5FD1DCB012793B"
+				item: {
+					Count: 1
+					id: "jeg:vertical_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "1D966B819783E769"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "435693490A7A641B"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "3E3CD29EE858113C"
+				item: "jeg:extended_mag"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "7A3B4EFDDC0D3C02"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DDC7967451EB778"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "0AAD4582EDAA7634"
+				item: {
+					Count: 1
+					id: "jeg:holographic_sight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "2B906A0647A51246"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EB93B5F2B434FC5"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "4A47C1BD3D64114B"
+				item: {
+					Count: 1
+					id: "jeg:angled_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "4CD9345C7F30A04E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57F8F57E7363F741"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "6B6C2CC3415BD712"
+				item: {
+					Count: 1
+					id: "jeg:light_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "1D0568916BD34755"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B0C09C0207DF111"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "60B7C5E85415F377"
+				item: "jeg:stun_grenade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "6B016FE59203F8A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60E80A2442297538"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "643F7B3F19E473E4"
+				item: "jeg:grenade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "338E655282AFABF6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49622E2618D1D348"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					id: "1154C0C0CD732AED"
+					item: "jeg:rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "2613B61207426307"
+					item: "jeg:shotgun_shell"
+					type: "item"
+				}
+			]
+			title: "Аммуниция"
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "36329D101A831A61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76331725695C9C7C"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7D6CC95DCF83BE24"
+				item: "jeg:drum_mag"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "1AFA4D3996BEA3BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56D6B0752EBF7A0B"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0BBCEAAED5E8C4F6"
+				item: {
+					Count: 1
+					id: "jeg:light_stock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "217CDC874531A543"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5291002566C65F61"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79A4DB2446E6F293"
+				item: {
+					Count: 1
+					id: "jeg:telescopic_sight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "1ED637CA8FD27845"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "27E350015CABC56B"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7812AC6832E4F207"
+				item: {
+					Count: 1
+					id: "jeg:weighted_stock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "6CCBDD709ECC5E00"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BFBA07C6171688D"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "450BBFA0D8A54711"
+				item: {
+					Count: 1
+					id: "jeg:tactical_stock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "15B2A8A7DE324150"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F08BCF99D74ADF8"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5CA6D42F41CBD28F"
+				item: "jeg:spectre_round"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "55CBBA881CA018F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05762A595F55B39A"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EAF6DAB107F37B5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7AC89BFB42EE10A0"
+				item: "jeg:circuit_board"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "19FAD6714F39479E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "740A3C5B43C95906"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "650387019E344C0A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0D0562B748AD415D"
+				item: "jeg:healing_talisman"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "093EAA543C3F2C3D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A260E0F2414C6A9"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10507A9DC0FA69C3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7EA085CFC2750F13"
+				item: "jeg:gunmetal_ingot"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["72E36008B885A4D0"]
+			id: "4880FD9533BAF2E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60A21A6FBA246598"
+					table_id: 2042863176840254560L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76CC24EA11D8A1B5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6FB8679F3ECD8C0B"
+				item: "jeg:repair_kit"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "4EACA7EB15360F67"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2486ED8D1794F353"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "6E0B2309639B2D0E"
+				item: "jeg:gunnite_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			hide_dependency_lines: true
+			id: "779F6759EBA3BA8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14191321164272CD"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BBAD4B6EC04133E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Вкусная еда и патроны для одного из стволов"
+			tasks: [{
+				id: "2D9DACA50CA221CA"
+				item: "mteg:taki"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7EE8E283C8BF09B1"]
+			hide_dependency_lines: true
+			id: "25A758E9DC80A063"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F44AC0748D4EEE7"
+					table_id: 1855581044315637996L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C880577ACF25ECD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Мистер дудец"
+			tasks: [{
+				id: "3648DBAE2D0FBA1A"
+				item: {
+					Count: 1
+					id: "mteg:trumpet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "7F0A51CDF850DD29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38FDE0E0C6B67355"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			subtitle: "Моя любимая пушка в сборке, обязательно попробуйте, особенно если её чарить..."
+			tasks: [{
+				id: "09AFB48653EAE85C"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:mosin"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "07597454146D9ABB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C7BAEE5524F3471"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19F29A54983FC20B"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:ar_15"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "090FDB54A6AEFA64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14A25F5EC4AE991C"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "63F95F2DB86A5559"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:sr_25"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "6D692AAFDA987D7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "538145B52DAB289E"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6DE71BD86444A221"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:sr_25"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "4C3E39212845E3BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F7A7BC73D47E204"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54087BB607D1C769"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:g3a3"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "2ACEDF83652390C5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D04130FF017F1ED"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "07547E717FD798F3"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:ak_74m"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5E7C97F3F104A2D5"
+				"6C5588882B73DD9B"
+			]
+			id: "0766E81B4EE4763C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B69D9F868DBDC86"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4FF1C76AD93A831B"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:vepr_12"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "3B4DBAFAADDDB2C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15E25473F22976E9"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55E03862C54FFA81"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:vepr_hunter"
+					tag: {
+						AmmoCount: 20
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "28740A71884A246D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CAE68E74F2114BD"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11F4D6CD51515396"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:svd"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "2037E0F01976C3A8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "212548B754BA6A25"
+				table_id: 1855581044315637996L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BA7D8E3AC7CB505"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:sks"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "0A7B733CBD9073AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7497FC0FC6FB330A"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4D74C9134CA5483C"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:rpd"
+					tag: {
+						AmmoCount: 100
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "3CC4FDFB2F3E6053"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A6A95DB42791A4D"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "39B34AA71A2EF871"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:m249"
+					tag: {
+						AmmoCount: 150
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "55BC2DE6DD34FE48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26CC96CEB018C7F1"
+				table_id: 8065112049643510184L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C3A145C36111224"
+				item: {
+					Count: 1
+					id: "aurorasarsenal:m40a6"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "7CAEA01E2CF563AC"
+			subtitle: "Даже не пытайтесь из него прицелиться, поверьте, не стоит"
+			tasks: [{
+				id: "59E222CE40752A77"
+				item: {
+					Count: 1
+					id: "rogueguns:desert_eagle"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "5FDF456662102C1E"
+			subtitle: "Вы не поверите, но это гранатомёт"
+			tasks: [{
+				id: "4B45B1F686444B79"
+				item: {
+					Count: 1
+					id: "rogueguns:rapid_smg"
+					tag: {
+						AmmoCount: 22
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "7C45ABD579C3EDFD"
+			tasks: [{
+				id: "2AA60BA7508AD844"
+				item: {
+					Count: 1
+					id: "rogueguns:haunted_shotgun"
+					tag: {
+						AmmoCount: 9
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C5588882B73DD9B"]
+			id: "2D2FC5D2F289ABB1"
+			tasks: [{
+				id: "021ECE77E5E968C2"
+				item: {
+					Count: 1
+					id: "jeg:semi_auto_pistol"
+					tag: {
+						AmmoCount: 10
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7625A4350C6BAF69"]
+			id: "56A8A1B4C93408DA"
+			tasks: [{
+				id: "33B905CA29290105"
+				item: {
+					Count: 1
+					id: "jeg:combat_pistol"
+					tag: {
+						AmmoCount: 15
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Секретная глава"]
+	title: "Время пострелять"
+}

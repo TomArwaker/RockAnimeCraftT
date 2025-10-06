@@ -1,0 +1,12 @@
+{
+	id: "12CC16B4ADE6B7B7"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "magistuarmory:steel_ingot", random_bonus: 2, weight: 0.25f }
+		{ item: "immersiveengineering:ingot_lead", random_bonus: 2, weight: 0.25f }
+		{ count: 2, item: "minecraft:iron_ingot", random_bonus: 3, weight: 0.6f }
+		{ count: 2, item: "antiquelegacy:tin_ingot", random_bonus: 2, weight: 0.25f }
+	]
+	title: "сталь свинец железо"
+}

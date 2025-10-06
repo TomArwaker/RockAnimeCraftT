@@ -1,0 +1,2707 @@
+{
+	autofocus_id: "1C72D0B912BBA37D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5276B930FB93EAC5"
+	group: "6E434B4FD255C1FB"
+	hide_quest_until_deps_complete: true
+	icon: "ars_nouveau:creative_spell_book"
+	id: "5276B930FB93EAC5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Необходимый ресурс для создания декораций, магических жезлов и проведения ритуалов."]
+			id: "76167EEA84A7CCFB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11E154A8CF18A7A3"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0491689642FB4E37"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Основа основ"
+			tasks: [{
+				id: "56292CC90B355267"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76167EEA84A7CCFB"]
+			description: ["Камера впитывания пропитывает предметы Источником для создания новых предметов."]
+			id: "7524EE0B2D975300"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B2205D4C78C7F40"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39A5C3ECFAA009DC"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Начинаем работу с Источником!"
+			tasks: [{
+				id: "06B23937FB71B3B6"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7524EE0B2D975300"]
+			description: ["Вот, зачем нужно собирать аметист и лазурит."]
+			id: "17A2303FC89ECC2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "661A64E568ABEDB3"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40658D2B2B04A670"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Первый Исходный Самоцвет!"
+			tasks: [{
+				id: "026127FE7DB0D484"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17A2303FC89ECC2B"]
+			description: ["Исходный камень необходим для создания важнейших инструментов каждого мага: Чародейского аппарата, Арканового Ядра и Арканового Пьедестала."]
+			id: "7D0A254C4ACEB6FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "120C3A2433B995A6"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "412697B5D5F47E6E"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Краеугольный камень"
+			tasks: [{
+				id: "09F4965141B3580E"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D0A254C4ACEB6FB"]
+			description: ["Чародейский Аппарат используется для создания специальных машин, диковин и снаряжения."]
+			id: "3536005310D957B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A0C2E6B24A0246B"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0029D23014D75F20"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Чародеим по полной"
+			tasks: [{
+				id: "6B675D684D428B23"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D0A254C4ACEB6FB"]
+			description: ["Аркановое ядро небходимо для работы Чародейского Аппарата."]
+			id: "3B4BEBD3D8DB0BC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F250C0AE3746ECC"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B5D1702B30ABCA4"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Ещё одна необходимость"
+			tasks: [{
+				id: "03D342A925C96334"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17A2303FC89ECC2B"]
+			description: ["Источник можно генерировать с помощью многих инструментов, называемых Сочетаниями. "]
+			icon: "ars_nouveau:volcanic_sourcelink"
+			id: "7FC2FCF1E6679DBE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33451A13FB96F3ED"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FF75385EC929AB9"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Магия повсюду!"
+			tasks: [{
+				id: "5128D3E8BEC02C02"
+				title: "Магические Сочетания"
+				type: "checkmark"
+			}]
+			title: "Магические Сочетания"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3536005310D957B1"
+				"3B4BEBD3D8DB0BC3"
+				"452D2B1E519BECD0"
+			]
+			description: ["Чародейский Аппарат может добавлять новые чары или улучшать существующие, используя Источник и предметы для зачарований."]
+			icon: "ars_nouveau:enchanting_apparatus"
+			id: "7D5B9F71398B122E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CBCBE401D0BCA87"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56C4E5C3286684D6"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Время финтифлюшек!"
+			tasks: [{
+				id: "6D69C413EFF6868D"
+				title: "Создание на Чародейском аппарате"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D5B9F71398B122E"]
+			description: ["Чароцветы обеспечивают дополнительный Источник для Агрономических Сочетаний и служат источником Волокна Чароцвета. Также можно использовать для созданий зелий Заклинательного урона."]
+			id: "3191A1DF71DA75D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1266117A0AEEA99A"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6263628C21014F57"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Маленькое, а такое полезное"
+			tasks: [{
+				id: "7A4021BD80103C70"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3191A1DF71DA75D9"]
+			description: ["Волокна Чароцвета используются для создания магических Нитей, которые могут вставлены в магические доспехи для получения дополнительных эффектов."]
+			id: "7FF5836639C923CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38217F54DACC6364"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "752BE6C349B82961"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Время принарядиться"
+			tasks: [{
+				id: "3B09D89B9F6139E1"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7040999BF5A9DFFD"]
+			description: ["Книга заклинаний позволяет создавать, хранить и кастовать заклинания, используя ману. Данная книга даёт доступ к заклинаниям &5первого&r уровня."]
+			id: "6E84D8B591A4F97B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B05D7B179360F6C"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DEF26FD21CE4F98"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Начинаем кастовать!"
+			tasks: [{
+				id: "4CFF8D609FB9E471"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E84D8B591A4F97B"]
+			description: ["Книга заклинаний подмастерья открывает &5второй&r уровень заклинаний. Все выученные заклинания первого уровня переносятся в улучшенную версию книги. "]
+			id: "4BB65103177CA2E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12586F10634EDFE0"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B038B8FB456EA42"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Кастуем более сложные заклинания!"
+			tasks: [{
+				id: "15E597DE48128F96"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4BB65103177CA2E6"]
+			description: ["Книга заклинаний Архимага открывает доступ к заклинаниям &5третьего&r уровня. Вы превосходны!"]
+			id: "1617B8982207F463"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "522AECCAD677187C"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74F8BE83FE9847F5"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Совершенная магия"
+			tasks: [{
+				id: "750FC51A6A40DE27"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6AFDF3F5F61B0BD3"]
+			description: ["Жезл Владычества - инструмент для настройки Реле Источника и автоматизации существа. "]
+			id: "4671E28AACF0BBA3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74EDAFD2CA0920E9"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "725331647D4058EF"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Повелевай и властвуй!"
+			tasks: [{
+				id: "31E8BFB494C7D424"
+				item: {
+					Count: 1
+					id: "ars_nouveau:dominion_wand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76167EEA84A7CCFB"]
+			description: ["Писарский стол необходим каждому магу для создания глифов и начертания заклинаний."]
+			id: "7040999BF5A9DFFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39043541E46927EE"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3434C66339C56E38"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Организуем рабочее пространство!"
+			tasks: [{
+				id: "3CC2F3F3823B4C1A"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17A2303FC89ECC2B"]
+			description: ["В кувшинах хранится Источник, собранный из ближайших Магических Сочетаний. "]
+			id: "02EFB3C049F5980C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F0447F2BC7E61EC"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BAA660DDF74E21C"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Хранение Истока"
+			tasks: [{
+				id: "4E1B97D0984D48DD"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AFDF3F5F61B0BD3"]
+			description: ["Заклинания могут быть использованы в автоматическом режиме с помощью турелей заклинаний. Турели могут обеспечить компактную и эффективную автоматизацию."]
+			id: "3C5D52C50FA21935"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "043AE52FF4BA9793"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51FAA512D6B59151"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Полная автоматизация"
+			tasks: [{
+				id: "05AD720A3AE099C6"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			title: "Основная заклинательная турель"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C5D52C50FA21935"]
+			description: ["Зачарованные Заклинательные турели творят заклинания за половину стоимости Источника по сравнению с основными. Сплошная экономия! "]
+			id: "37C8D8A1135103FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A2EFE1B409A3F13"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "103E7BE0E2EAB9FF"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Сокращение издержек производства"
+			tasks: [{
+				id: "1AB264FA95675F28"
+				item: "ars_nouveau:spell_turret"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["02EFB3C049F5980C"]
+			description: ["Кувшин для зелий - это резервуар, в котором хранится до 100 зелий."]
+			id: "6CA13CC06F2D6A4A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F39E638D265C550"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "519AE547FC4DEB18"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Больше зелий богу зелий!"
+			tasks: [{
+				id: "7C4A5AD943DDBD1D"
+				item: "ars_nouveau:potion_jar"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6CA13CC06F2D6A4A"]
+			description: ["Связыватель зелий преобразует два зелья в новое зелье с объединёнными эффектами."]
+			id: "1DB5DA044AE354DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7065239540292E04"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CCB31976A00FA6B"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Магический микс!"
+			tasks: [{
+				id: "3CA2A84BDE9B53C1"
+				item: "ars_nouveau:potion_melder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37C8D8A1135103FA"]
+			description: ["Магические туррели можно зачаровать на &cОгненный&r, &9Водяной&r, &bВоздушный&r и &2Земляной&r заряды."]
+			icon: "ars_elemental:water_turret"
+			id: "40608F7124142C69"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D9321C081A1E7C5"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4997B95F31E6A2BA"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Магия стихий"
+			tasks: [{
+				id: "73C070F961B81152"
+				title: "Турели с зарядами стихий"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17A2303FC89ECC2B"]
+			description: ["Реле Источника позволяет передавать Источник между кувшинами и другими реле Источника. "]
+			id: "5BCDEA5E04FB99F4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E31B1D8B855D0DF"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C4F713579E98E32"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Перемещение Источника"
+			tasks: [{
+				id: "54414D5685595B09"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5BCDEA5E04FB99F4"]
+			description: ["При работе с большим количеством Источника необходимо наладить транспортировку Источника. Ничто не справится с этой задачей лучше, чем продвинутые реле."]
+			icon: "ars_nouveau:relay_warp"
+			id: "7A962A207C1F3B20"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "086A3DD5C9C32C92"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "156A56EEFEA8E192"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "А вы думали, что обычного реле будет достаточно?"
+			tasks: [{
+				id: "1AE189088B53D249"
+				title: "Продвинутые реле"
+				type: "checkmark"
+			}]
+			title: "Продвинутые реле Источника"
+			x: 3.2d
+			y: 2.8d
+		}
+		{
+			dependencies: ["5BCDEA5E04FB99F4"]
+			description: ["Конденсатор Источника позволяет превращать Источник из кувшинов в жидкость. Магия!"]
+			id: "15CB03BCBBD97F3F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DD1DB41345C952D"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D24862B12690B11"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Жидкий Источник"
+			tasks: [{
+				id: "639F22F18A435D7E"
+				item: "starbunclemania:source_condenser"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7FF5836639C923CD"]
+			description: ["Стол Чередования используется для нанесения Нитей на магические доспехи."]
+			id: "70D3C88E3EB32C11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61FBADBA77EC7271"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4570128F9494CCD5"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Кастомные шмотки!"
+			tasks: [{
+				id: "4C2083E1E858B08C"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FF5836639C923CD"]
+			description: ["Пустой пергамент используется для создания свитков, скрижалей и даже Пояснительного Кодекса."]
+			id: "21CDE60D6187A243"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EE46AE169EE229F"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2125C1D1F82F5EF0"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Текст смыло водой"
+			tasks: [{
+				id: "05AEA3FA9B614104"
+				item: "ars_nouveau:blank_parchment"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Списки предметов предоставляют список предметов для автоматизации связанных сущностей."]
+			id: "2F0BBE2EFB3E1611"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50FEF0DE9A6A33B4"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0858B1C6D92B1C5B"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Раздаём указания"
+			tasks: [
+				{
+					id: "3A1A66E294DDBF8A"
+					item: "ars_nouveau:allow_scroll"
+					type: "item"
+				}
+				{
+					id: "02928D37EE46013F"
+					item: "ars_nouveau:deny_scroll"
+					type: "item"
+				}
+			]
+			title: "Список предметов: принять / отклонить"
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["21CDE60D6187A243"]
+			description: ["Пояснительный Кодекс позволяет игрокам делиться своими знаниями о глифах с другими игроками. "]
+			id: "1422C253965AE107"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D2C9901EA5DB2CD"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B71E9C5E4C8DCDF"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Слушаю, мастер"
+			tasks: [{
+				id: "45B2D5DBEB1F8BB2"
+				item: {
+					Count: 1
+					id: "ars_nouveau:annotated_codex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["21CDE60D6187A243"]
+			description: ["Варп-свиток можно использовать, чтобы телепортироваться в записанное место."]
+			id: "49F1DA1BDA996291"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2821D2BA76D1ABBA"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DC14F0E93D5BF6F"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Когда очень лень куда-то идти"
+			tasks: [{
+				id: "5ACA820BBD0AE715"
+				item: {
+					Count: 1
+					id: "ars_nouveau:warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49F1DA1BDA996291"]
+			description: ["Варп-сккрижаль необходима для проведения ритуала Варп."]
+			id: "185D2A556CB17056"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B8A499D8BC58819"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EA4E6D0D3A1ADFA"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "31D6C5392E7EB9F8"
+				item: "ars_nouveau:ritual_warping"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49F1DA1BDA996291"]
+			description: ["Стабилизированный варп-свиток создаёт временный варп-портал при использовании на блоке. Позволяет телепортироваться между измерениями."]
+			id: "6FBCCEF98287AA28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FF319F226289041"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AFD046BB343C32B"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Кротовая нора"
+			tasks: [{
+				id: "2BCC8BC5A0CFF393"
+				item: {
+					Count: 1
+					id: "ars_nouveau:stable_warp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76167EEA84A7CCFB"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Данный вид магии предоставляет доступ к творению заклинаний, магических устройств, мощной бижутерии и автоматизации магических сущностей."]
+			id: "05706F542CF408CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B1D35EC8689ED0B"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EEBDF77B74120CB"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Magic!"
+			tasks: [{
+				id: "6347D6B7AA29BEEB"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7FC2FCF1E6679DBE"]
+			description: ["Агрономическое Сочетание генерирует Источник из растущих культур и деревьев."]
+			id: "31386483FC322A80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F0F5B938C0E2B73"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7956D47515EA9873"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Природа - это магия!"
+			tasks: [{
+				id: "4510FDA5A7FD89F8"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -4.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7FC2FCF1E6679DBE"]
+			description: ["Вулканическое Сочетание генерирует Источник и тепло для Лава-Лилий, потребляя горящие предметы. "]
+			id: "5A19E47B58403BBB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16707154EC262FF0"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EBC563EC2D9F1EB"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Гори-гори ясно!"
+			tasks: [{
+				id: "4AE6FFC6D0E8155C"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: -3.2d
+			y: 4.8d
+		}
+		{
+			dependencies: ["7FC2FCF1E6679DBE"]
+			description: ["Генерирует Источник, потребляя зелья из соседних кувшинов с зельями. Хм, а у него много общего с Наташей..."]
+			id: "5B7A7ACADB23D073"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2860B017F5BFB5A2"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33D03AF13D638A45"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Точно не самогонный аппарат!"
+			tasks: [{
+				id: "72DFB1591A1A3967"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: -2.4d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7FC2FCF1E6679DBE"]
+			description: ["Живучее Сочетание генерирует Исток от смерти мобов и разведения животных поблизости."]
+			id: "457DCD31BE449F2F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06DC6D1C78880131"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CE3BF90B995D038"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Жизнь и смерть"
+			tasks: [{
+				id: "2C7FC5829ADFF76E"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.4d
+		}
+		{
+			dependencies: ["7FC2FCF1E6679DBE"]
+			description: ["Нет-нет, речь идёт не только о грибах. Грибное Сочетание генерирует Исток из близлежащих продуктов питания, а также превращает траву или грязь в мицелий."]
+			id: "6CB9CA7FD60603AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BB2CFAE9808DFDA"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3287D1EC66BDB11A"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Грибооочки"
+			tasks: [{
+				id: "09B04119A8C9D2D7"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: -4.8d
+			y: 3.2d
+		}
+		{
+			dependencies: ["7A962A207C1F3B20"]
+			description: ["Сплиттер поддерживает одновременное получение и передачу в несколько кувшинов."]
+			id: "3B505396513CA907"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B7E7B6F477CBCE6"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "503718D82CF1FB13"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Разделение большей пропускной способности"
+			tasks: [{
+				id: "70D33EE631B38874"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.9d
+		}
+		{
+			dependencies: ["7A962A207C1F3B20"]
+			description: ["Вносит Исток в банки, с которыми он не связан."]
+			id: "72BAAB0C34CB16D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03E641CDE43C5129"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3698B2D431A8771A"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Вклады под хороший процент"
+			tasks: [{
+				id: "06918B95A6AB17FD"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: 2.4000000000000004d
+			y: 3.8d
+		}
+		{
+			dependencies: ["7A962A207C1F3B20"]
+			description: ["Сновальщик работает анологично Сплиттеру, но может телепортировать Исток на бесконечное расстояние между трансляторами."]
+			id: "2446AD184ED360E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26560004E59DC518"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51236CABA5907459"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Бесконечность - не предел!"
+			tasks: [{
+				id: "68F5E295BAA1DD8B"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.8d
+		}
+		{
+			dependencies: ["7A962A207C1F3B20"]
+			description: ["Коллектор автоматически извлекает Исток из кувшинов, несвязанных с ним."]
+			id: "09D41C10C6A8F642"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61D7FB95AB537F28"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03A0D687D58652A1"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			size: 0.8d
+			subtitle: "Гони сюда Исток"
+			tasks: [{
+				id: "70F85640B3191E3E"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: 4.3999999999999995d
+			y: 2.9d
+		}
+		{
+			dependencies: ["7D0A254C4ACEB6FB"]
+			description: ["Аркановый Пьедестал используется для размещения на нём предметов, необходимых для зачарования предмета на Чародейском Аппарате."]
+			id: "452D2B1E519BECD0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C9F9C036E4EE5A4"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73FF8881CCC0BEA0"
+					table_id: 1037174816327975422L
+					type: "random"
+				}
+			]
+			subtitle: "Сюда класть штуки"
+			tasks: [{
+				id: "400B12850ED15E3F"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15CB03BCBBD97F3F"]
+			description: ["Поглощает жидкость, чтобы генерировать Источник."]
+			id: "1C72D0B912BBA37D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "479220E9FECC7D66"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Жидкостный Источник"
+			tasks: [{
+				id: "50FEA2C9D386777E"
+				item: "starbunclemania:fluid_sourcelink"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&eЗвездоух&r будет собирать ближайшие предметы и перемещать их между инвентарями. Также собирает разросшиеся кусты Ягод Источника. Звездоух-фамильяр увеличивает вашу скорость на 2. Если дать Звездоуху золотой самородок, владелец получит на короткое время способность предсказания для золотой руды."]
+			id: "641E90AB8A575533"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "569CC53E1D38216D"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "4704579AA4783E30"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&3Книгочей&r-фамильяр автоматически подберёт предметы и шары опыта в радиусе 5 блоков от игрока. Выброшенные предметы подобраны не будут."]
+			id: "6CF07113462652BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5070F4B4B62D21FA"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "У вас на побегушках"
+			tasks: [{
+				id: "12E71B8A28A81CCF"
+				item: "ars_nouveau:bookwyrm_charm"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&aВертявки&r производят природные материалы: древесину. культуры, семена и цветы. В качестве фамильяра Вертявка уменьшает стоимость глифов Элементаля Земли в два раза и даёт бонус к насыщению при потреблении пищи."]
+			id: "61658A63026339AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16233E46827C6257"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Дитя природы"
+			tasks: [{
+				id: "44B1AAEE00699C90"
+				item: "ars_nouveau:whirlisprig_charm"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&5Викси&r может автоматически изготавливать предметы, потребляя Источник. Викси автоматически выберет рецепт для создания, основываясь на запасах поблизости. Викси-фамильяр увеличивает продолжительность действия зелий. Во время боя Викси будет применять к врагам вредные зелья."]
+			id: "6148786939326AC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DE7A0BC824F6E58"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Сабрина - маленькая ведьма"
+			tasks: [{
+				id: "7242BED6172D6A86"
+				item: "ars_nouveau:wixie_charm"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&6Дрыгм&r генерирует предметы и самоцветы опыта, после чего помещает их в ближайшие инвентари. Став фамильяром, Дрыгм увеличивает урон заклинаний Земли на 2, а также имеет шанс увеличить количество лута при убийстве врагов."]
+			id: "0C06848D358D9BE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C4E9EEB7A19AB7B"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Хоббит-Плюшкин"
+			tasks: [{
+				id: "499CCD356BDCF736"
+				item: "ars_nouveau:drygmy_charm"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&9Аметистовые&r големы будут собирать, выращивать и хранить аметист рядом со своим домом. Голем-фамильяр уменьшает отбрасывание наполовину и отбрасывает всех атакующих. Если дать голему осколок аметиста, он получит защиту на 3 минуты."]
+			id: "4C1F3B5FFF3F7006"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4749A961B5189BF8"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Телохранитель-спелеолог."
+			tasks: [{
+				id: "1431CE2F9D5C005D"
+				item: "ars_nouveau:amethyst_golem_charm"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"05706F542CF408CA"
+			]
+			description: ["&dФамильяры&r - это не просто милые зверюшки, но и очень трудолюбивые работники. В этой ветви развития магии вы научитесь находить общий язык с магическими созданиями, а также автоматизировать простые действия и делегировать их на зверьков, пока вы упорно продолжаете изучать все возможности мира магии."]
+			id: "6AFDF3F5F61B0BD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AD1F420B58DD035"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Больше свободного времени!"
+			tasks: [{
+				id: "075A1A6006C157D8"
+				item: {
+					Count: 1
+					id: "ars_nouveau:starbuncle_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Фамильяры и автоматизация"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6AFDF3F5F61B0BD3"]
+			description: ["Аркановый стол позволяет отправлять сигнал редстоуна на окружающие его машины."]
+			id: "018DFBBB4323BE7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DF14EA325733BAB"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "А - автоматизация"
+			tasks: [{
+				id: "6B65D9D76BE5124A"
+				item: "ars_instrumentum:arcane_applicator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7A962A207C1F3B20"]
+			description: ["Редстоуновое реле может быть присоединено к другим редстоуновым реле в радиусе 30 блоков для беспроводной передачи сигнала."]
+			id: "70E2F98A0C23489A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66C8D47A18003F18"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			size: 0.8d
+			subtitle: "Ещё более крутое реле"
+			tasks: [{
+				id: "3229518AD40D68E0"
+				item: "ars_nouveau:redstone_relay"
+				type: "item"
+			}]
+			title: "Реле из редстоуна"
+			x: 3.2d
+			y: 4.3d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&4Флейркэннон&r-фамильяр увеличивает урон заклинаний огня на 2 и снижает стоимость заклинаний, основанных на снарядах, на 20% Скормив Флейркэннону сгусток магмы, владелец получает короткий бафф сопротивления огню."]
+			id: "1445202CD9E68351"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2309AFAA9C1A6D8F"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Горячая кровь"
+			tasks: [{
+				id: "0BDABECF48C464DA"
+				item: "ars_elemental:firenando_familiar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F2FB9D37B3E4F19"]
+			description: ["&bСирена&r-фамильяр увеличивает урон заклинаний Воды на 2. Кроме того, Сирена даёт призывателю Дельфинью грацию II, пока он находится в воде."]
+			id: "21A20162BE6B853D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C2DE90E1B4CB8AE"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Under the sea"
+			tasks: [{
+				id: "20EC6ED8D574E9AD"
+				item: "ars_elemental:siren_familiar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6AFDF3F5F61B0BD3"]
+			id: "1F2FB9D37B3E4F19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C5255D2F06CF3D0"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6455FB68E48E7936"
+				item: "ars_nouveau:ritual_binding"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Предоставляет список предметов для автоматизации связанных сущностей. Когда этот свиток прикреплён к инвентарю, сущности будут вставлять только те предметы, которые уже существуют в этом инвентаре."]
+			id: "7134967A853FF3D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A89BD1F0FAF7A93"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Во всём должен быть порядок."
+			tasks: [{
+				id: "27BB017515172C91"
+				item: "ars_nouveau:mimic_scroll"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Задаёт направление для автоматизации Звездоухов. Когда свиток использован на Звездоухе или помещён в предметную рамку на блоке, Звездоухи будут взаимодействовать с блоком с определённой стороны."]
+			id: "638D1BD54A51FAF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A6FA299CE7B9FD9"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Чтобы все ходили по струнке."
+			tasks: [{
+				id: "261BEC227A00E783"
+				item: "starbunclemania:direction_scroll"
+				type: "item"
+			}]
+			title: "Свиток направления"
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Позволяет Звездоухам транспортировать энергию."]
+			id: "1FC08EE42B159C4B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A381BA1397D008A"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Кролик-Дюрасел"
+			tasks: [{
+				id: "21C4CE6C673347DB"
+				item: "starbunclemania:star_battery"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Позволяет Звездоухам транспортировать жидкость."]
+			id: "7DF51000D00FCF4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31EFB7C266028EAE"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Принесёт вам стакан воды в старости"
+			tasks: [{
+				id: "486D4AF1D9D86D0D"
+				item: "starbunclemania:star_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Позволяет Звездоухам транспортировать простые газы."]
+			id: "4E7B078117AFD1C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A93C1FD191FCE46"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Лишь бы Звездоух не улетел на нём"
+			tasks: [{
+				id: "75E13D38C1943A99"
+				item: "starbunclemania:star_balloon"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Позволяет Звездоухам утилизировать мусор."]
+			id: "1FD10AF0B62DE6DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B90729EA0D445F0"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Автоматизированный клининг"
+			tasks: [{
+				id: "4AE319655D1FB458"
+				item: "starbunclemania:star_bin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Позволяет Звездоухам транспортировать игроков."]
+			id: "0D8775856D0FBE92"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DBB9FA7D4A6E9A2"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Лошади больше не нужны"
+			tasks: [{
+				id: "238E7384A93E1F01"
+				item: "starbunclemania:star_saddle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Кровать Звездоуха, к которой он может быть привязан Жезлом Владычества. Когда у Звездоуха не будет задач, он будет отдыхать на кровати."]
+			id: "6F2A60651485A27B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E851C0B04A6C155"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Спят усталые зверушки"
+			tasks: [{
+				id: "1A60F45375FBC25B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:yellow_sbed"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:orange_sbed"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:green_sbed"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:red_sbed"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:blue_sbed"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:purple_sbed"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Позволяет Звездоухам переносить зелья."]
+			id: "0323316B74091C3B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73A91D76C6127236"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Не для Викси..."
+			tasks: [{
+				id: "6C3F5928866BD338"
+				item: "ars_nouveau:wixie_hat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["21A20162BE6B853D"]
+			description: ["Если использовать Амулет Сирены на призмарине, вы создадите Святилище Сирен. Святилище генерирует рыболовные предметы."]
+			id: "7B59705636850038"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49AF54DF37FD1C9C"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Знает о рыбалке всё"
+			tasks: [{
+				id: "402BC159999AD233"
+				item: "ars_elemental:siren_charm"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1445202CD9E68351"]
+			description: ["Флейрканнон можно использовать в качестве блуждающего часового. Он будет патрулировать заданную область и стрелять во врагов в этой области."]
+			id: "0A65FBA4BFA5505B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DFD361FDC1FA95A"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Ох, рано встаёт охрана"
+			tasks: [{
+				id: "4375F970CB96BE3E"
+				item: "ars_elemental:firenando_charm"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6A435842E653E51C"]
+			description: ["Выпускает сигнал редстоуна при нанесении заклинания рядом."]
+			id: "7A55B4DE5E45E419"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EAD3E3286293388"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CBD678D7F0FDAFB"
+				item: "ars_nouveau:spell_sensor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6A435842E653E51C"]
+			description: ["Когда заклинание-снаряд попадает в блок Заклинательной Призмы, оно перенаправляется в направлении, к которому обращена Призма."]
+			id: "1FE1CE334C3B5AE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E93524736B14DD8"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "609594E893D7BB90"
+				item: "ars_nouveau:spell_prism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A435842E653E51C"]
+			description: ["Зеркало можно размещать на стенах, полу и потолке. Если снаряд заклинания в Зеркало, он отражается под зеркальным углом."]
+			id: "54E16A1DC66449CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21BD7C114D894066"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A3491D642EAACAD"
+				item: "ars_elemental:spell_mirror"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6A435842E653E51C"]
+			description: ["Уничтожает любые снаряды заклинаний, которые проходят через неё."]
+			id: "001ABFF46443AAEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0451D8DCAE63892F"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "672EC51C09C75E60"
+				item: "ars_nouveau:void_prism"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FE1CE334C3B5AE0"]
+			description: ["Модифицированная призма заклинаний, которую можно настроить для наведения на определённый блок."]
+			id: "01912799DF176443"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C15156F3EDD17B1"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "47373A40A8DA8D5B"
+				item: "ars_elemental:advanced_prism"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6AFDF3F5F61B0BD3"]
+			description: ["Помимо помощи фамильяров, вы можете самостоятельно автоматизировать многие процессы с помощью призм, заклинаний и сигнала редстоуна."]
+			icon: "ars_elemental:advanced_prism"
+			id: "6A435842E653E51C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E43D05339828AF0"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19C6BE4F4E5DA562"
+				title: "Автоматизации с помощью Призм"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6A435842E653E51C"]
+			description: ["Используется для сохранения конфигурации на реле."]
+			id: "4F1B74B6483068F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "753B3894A336A940"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "652DBBBD293A7F08"
+				item: {
+					Count: 1
+					id: "ars_instrumentum:runic_storage_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7FF5836639C923CD"]
+			description: ["Рунический мел можно использовать для нанесения на землю постоянных рун, которые будут сотворять заклинания на существ, проходящих по ним."]
+			id: "68018DAFFBC163A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DF9CFE252DB7051"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Капкан посреди леса"
+			tasks: [{
+				id: "36C3087AF5E88A9E"
+				item: {
+					Count: 1
+					id: "ars_nouveau:runic_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FF5836639C923CD"]
+			description: ["Различного рода нити используются для усовершенствования ваших магических доспехов."]
+			id: "71F003A340F59013"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "122C566D46CA10EC"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			subtitle: "Курсы кройки и шитья"
+			tasks: [{
+				id: "52AE3049C3C43931"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"05706F542CF408CA"
+			]
+			description: ["Магические доспехи увеличивают регенерацию маны и могут быть улучшены специальными способностями с помощью Нитей. Выберите костюм по себе!"]
+			icon: {
+				Count: 1
+				id: "ars_nouveau:arcanist_hood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4FE54F0E54CFBD4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "395402A1C1E8B218"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Время наряжаться!"
+			tasks: [{
+				id: "605835C6BECDDFE0"
+				title: "Магические доспехи"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			description: ["Набор колдуна обеспечивает наименьшую защиту, но при этом предоставляет самые мощные слоты."]
+			id: "2F794639BCF17563"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7544ABC711BF1D98"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0B58C150798EC01F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D291BD4DD0A2321"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BFDC6F69592AC51"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3182EDD00361B0FB"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Колдуна"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			description: ["Набор чародея обеспечивает средний уровень защиты и средний уровень слотов для нитей."]
+			id: "3A7CAE4818C79290"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "409C896F614C163D"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3EF805F5D6F60F68"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A0270363AD2D0F8"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FA35C1E57D42E6F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D0F243C9BD37B1B"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Чародея"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			description: ["Набор Боевого Мага обеспечивает высокую защиту, но слабы слоты для нитей."]
+			id: "517941BF562CD889"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03D2C4616B583021"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "790FD627D54E7235"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CE2FE2B737B2654"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12EC921BE1B024D4"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F89137EE7835E12"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Боевого Мага"
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			description: ["Каждый элемент этих доспехов усиливает глифы воды, делает их дешевле и уменьшает урон, связанный с водой, такой как утопление, замораживание и молния. "]
+			id: "67455418362F7E8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17BEBFED94F0DA8A"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "250F0EA52FBD50A4"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F34F7B307BC7B5A"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09B76D0477EA5BC6"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04A8C25AB30BA0E1"
+					item: {
+						Count: 1
+						id: "ars_elemental:aqua_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Акваманта"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			description: ["Каждый элемент этой брони, настроенный на школу воздуха, усиливает воздушные глифы, делает их дешевле и снижает урон, связанный с воздухом: падение, удар о стены во время полёта и молнии."]
+			id: "1987C9240597E366"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DDC01686C43934D"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5AC814B970837CA6"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03BB9E09D22C2FE9"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "119EA33076657868"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09D7CCC583E51979"
+					item: {
+						Count: 1
+						id: "ars_elemental:air_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Набор Аэроманта"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			description: ["Каждый элемент этой брони усиливает глифы земли, делает их дешевле и уменьшает урон, связанный с землёй: голод, ягодные кусты, кактус и раздавливание."]
+			id: "715249DE58348601"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FBFC7D9C5751067"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "700CFB2CB77E0107"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C77107F217C8DDC"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C4EA04D3C82137B"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "572692B54DDC59C0"
+					item: {
+						Count: 1
+						id: "ars_elemental:earth_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			description: ["Настроенная на школу огня, каждая часть этой брони усиливает огненные глифы, уменьшает их стоимость и уменьшает урон, связанный с огнём: лава, дыхание дракона и магма."]
+			id: "3C3ADAA4610AC622"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26901959464552DA"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6BBA49D2BF30B626"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04705A18635A57E6"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5913BE5820BCCF2F"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1178EFB9CDDDC238"
+					item: {
+						Count: 1
+						id: "ars_elemental:fire_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"05706F542CF408CA"
+			]
+			description: ["Магия Ars Elemental фокусируется на четырёх стихиях. Вы сможете специализироваться в одной из четырех элементарных школ, получая преимущество в этой области и разблокируя новые эффекты на существующих заклинаниях. Вам также будут доступны различные аксессуары, такие как фокусы, браслеты, сумки для амулетов и многое другое."]
+			icon: "ars_nouveau:summon_focus"
+			id: "776C31F812AC2717"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E7ADC3F1C71191B"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "4C66022E6CD8D0BE"
+				title: "Ars Elemental"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["776C31F812AC2717"]
+			description: ["Этот блок генерирует восходящее течение, которе заставит окружающих существ в воде плыть вверх."]
+			id: "08E2B189676E8BFE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "187ED12D6B62E808"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7A37C579833E73FF"
+				item: "ars_elemental:water_upstream"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["776C31F812AC2717"]
+			description: ["Этот блок генерирует восходящее течение, которое заставит окружающих существ в лаве всплыть вверх и получить короткий эффект Сопротивления огню."]
+			id: "2C2C70BE564358E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7087CECDB682C399"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "593ED775AA07EA2B"
+				item: "ars_elemental:magma_upstream"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["776C31F812AC2717"]
+			description: ["Этот блок генерирует восходящее течение, которое заставляет окружающие предметы левитировать."]
+			id: "3D22C0E3CEEF21CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06D8ED5BD3D852D7"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "13F28EB56E53C718"
+				item: "ars_elemental:air_upstream"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["776C31F812AC2717"]
+			description: ["Эта волшебная урна превращает источник в воду."]
+			id: "6659286E55B82741"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "234F6845B1C648A1"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A28B4ACF451F7DA"
+				item: "ars_elemental:everfull_urn"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["776C31F812AC2717"]
+			description: ["Эти волшебные тома имитируют способности школьной фокусировки. Произносит заклинание за половину стоимости или за весь запас маны игрока в зависимости от того, что меньше."]
+			id: "517DFB5E751C6C5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F82D3F19BC74410"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "51C810D80957B7F4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:anima_caster_tome"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:earth_caster_tome"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:air_caster_tome"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:water_caster_tome"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:fire_caster_tome"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Магические тома стихий"
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["776C31F812AC2717"]
+			description: ["Каждый Фокус настроен на отдельную школу магии. Пока он экипирован, глифы этой школы будут усилены, а глифы других элементальных школ будут ослаблены."]
+			id: "279F330FF1CF2EB5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63808AE81935FE9D"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34AB84B51B37EC7E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_elemental:necrotic_focus"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:earth_focus"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:air_focus"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:water_focus"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:fire_focus"
+							}
+							{
+								Count: 1b
+								id: "ars_elemental:debug"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Фокусы стихийной магии"
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["641E90AB8A575533"]
+			description: ["Генерирует силу вращения для Create. Размещение золотого блока напротив колеса повышает количество оборотов в минуту."]
+			id: "7F504FEA5D6B6887"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "236A191673E4BA94"
+				table_id: 1037174816327975422L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F38F847361332F2"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			id: "53AD1F426EBFD866"
+			subtitle: "Для тех, кто хочет сфокусироваться на магии крови, но не желает отказываться и от других плюшек"
+			tasks: [
+				{
+					id: "586AEBB41245FBC2"
+					item: {
+						Count: 1
+						id: "tomeofblood:living_mage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F491061F2715F20"
+					item: {
+						Count: 1
+						id: "tomeofblood:living_mage_robes"
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68638E4179D6DB83"
+					item: {
+						Count: 1
+						id: "tomeofblood:living_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62E26978CE9ABC70"
+					item: {
+						Count: 1
+						id: "tomeofblood:living_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Снаряжение темнейшего мага"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			id: "3930A1DB33B4F0D5"
+			subtitle: "Даёт интересные способности"
+			tasks: [
+				{
+					id: "47760EEF001861EB"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ABA63A1D506A5C1"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CFBDAD7E6E778BF"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1277732F5356F40E"
+					item: {
+						Count: 1
+						id: "ars_technica:technomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Костюм техномага "
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4FE54F0E54CFBD4C"]
+			id: "71500402C160141E"
+			subtitle: "Боевой комплект, высокие показатели защиты"
+			tasks: [
+				{
+					id: "581BDF8C22E3BB67"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:mage_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB0F6C1DE64ECB0"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:mage_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E3C7EC6A6B3EE6D"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:mage_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34581967044330EA"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:mage_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Самурайская чародейская броня"
+			x: -5.0d
+			y: 9.0d
+		}
+	]
+	subtitle: ["Вперёд, Лизард Визард!"]
+	title: "Магия"
+}

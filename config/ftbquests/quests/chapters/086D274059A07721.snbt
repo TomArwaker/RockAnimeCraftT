@@ -1,0 +1,977 @@
+{
+	autofocus_id: "6662CEB55C7B8016"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "086D274059A07721"
+	group: "4B499A44B2723CF4"
+	hide_quest_until_deps_complete: true
+	icon: "xercamusic:piano"
+	id: "086D274059A07721"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "172929E297C7DCD8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "038472AC1296018B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D0B5FD7D096D22E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F276BDC09121339"
+				item: {
+					Count: 1
+					id: "immersive_melodies:bagpipe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "3DC08A5A6069F91E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "001853CAF1F54A22"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C37D01E796D84F2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6D4D37B59DCEFE30"
+				item: {
+					Count: 1
+					id: "immersive_melodies:didgeridoo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "17B28D352D9C3894"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6539D592909DF585"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46BC0EA0D67CE49F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "157FC056F1BDAD10"
+				item: {
+					Count: 1
+					id: "immersive_melodies:flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "40F40EA38D714C5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C73B386238F530E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05E1E899AF00E8B8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4DAFF3AFCB4B8202"
+				item: {
+					Count: 1
+					id: "immersive_melodies:lute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "5C80DB8091FAECD7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "616C5CE7C40E3EA4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17920F035240A079"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12DEA8C77B43DA85"
+				item: {
+					Count: 1
+					id: "immersive_melodies:piano"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "743D7838EB91A149"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37CE260CCA32FD03"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EDC93E67C3EACE2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09961911042C329A"
+				item: {
+					Count: 1
+					id: "immersive_melodies:triangle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "4BA7EC27067E5FEC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A029990CB01C0CB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74BB33CBC22D1577"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5EE0F547AB41A922"
+				item: {
+					Count: 1
+					id: "immersive_melodies:trumpet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "5A715DA6B8433DD9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0445B429C278C38F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7ECB22D525F906C2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "22AA2F6427C9F4B8"
+				item: {
+					Count: 1
+					id: "immersive_melodies:tiny_drum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04F3AC06F427A767"]
+			id: "65829CF1333019A4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DC5E919FA876426"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C2BCF3C59472EF2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D4BC8B54C24487E"
+				item: {
+					Count: 1
+					id: "immersive_melodies:vielle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Эти инструменты стильно играют встроенные мелодии и поддерживают загрузку любых песен в Midi формате с компьютера"]
+			id: "04F3AC06F427A767"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A34689980F44748"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DBC64E8CD4DA42A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Просто загрузи"
+			tasks: [{
+				id: "437FEB219496F2AF"
+				title: "Набор инструментов попроще"
+				type: "checkmark"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"04F3AC06F427A767"
+			]
+			description: ["Вам понадобится нотный лист и вы сможете записать на него что угодно и сыграть на любом инструменте"]
+			id: "3D9EAECE4206B022"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52A3E06367AA0FAC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5F1907E34D236B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "А с этими инструментами можно создавать мелодии прямо из игры"
+			tasks: [
+				{
+					id: "685A4BDFD3F14042"
+					item: "xercamusic:music_sheet"
+					type: "item"
+				}
+				{
+					id: "715459A77E3F1AF6"
+					item: "xercamusic:music_box"
+					type: "item"
+				}
+				{
+					id: "1EBE037F720CBDD1"
+					item: "xercamusic:metronome"
+					type: "item"
+				}
+			]
+			title: "Выбирай на любой вкус"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "333C42F5796901C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34DCB122A1EC9530"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "150662C09F4C4FBC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "769A6AC6CEE51284"
+				item: "xercamusic:guitar"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "539F79B1696E41A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35940863324F5F61"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55E3E4A730E3B2C5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "74783DA4604F2CF0"
+				item: "xercamusic:lyre"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "6662CEB55C7B8016"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18846AC4D3EFB445"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "074C3CBB5DC0BD26"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5A3A0CABE089C78E"
+				item: "xercamusic:banjo"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "3C2E7C2B69BE2AA1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "437D096A07248A24"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D2785F0C18734C2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "42B4737584051930"
+				item: "xercamusic:drum"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "4585BDBB766CBD0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DF774F24758B7FA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B24F0DA72CBB5F2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2DC2A83522AC40E5"
+				item: "xercamusic:cymbal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "6485588D0F38FECD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76544044155EA527"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "265FA4DEEDB19845"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1717313DBE42A277"
+				item: "xercamusic:drum_kit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "779ABD7E00D50618"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "438004D99FD0A356"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52068A4EAC00872A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3A15826022A4797E"
+				item: "xercamusic:xylophone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "368C2E71F8747579"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BF28F68FD442A2E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44F3A420C7AF0C8D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2254ECB8B8A6D2AB"
+				item: "xercamusic:tubular_bell"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "2298CC69F8116AFB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D0E46F5F101D551"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0548449AB34CB068"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41BDE789A26BA698"
+				item: "xercamusic:sansula"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "1B20D44D3876CE25"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D92F8AE5334BC66"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "717C786074EA494B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "761E92C43AAD6ED9"
+				item: "xercamusic:violin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "36B851B5A2A5818E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "325253C55E1D4AF8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33CE31A2F427FF7E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "087860B5369B3181"
+				item: "xercamusic:cello"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "2B9BAE6CA53795E4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65612C0DB9AD5577"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B0792A655F71829"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1C04FE058E4F9D2F"
+				item: "xercamusic:flute"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "738AB281B58732CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08E0A22A426C13B1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D5B516A2E3CC43A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04DBAD16706394C4"
+				item: "xercamusic:saxophone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "74AF70DA51CAE595"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E9F1ACAEAA82A5B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "293F86C7CE7CB844"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7CA15CF453A87C87"
+				item: "xercamusic:god"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "7D6C93B180F75B22"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "510AE17EA22C3EBC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FFD22EC954F66BC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "213A5E8D52E74CB6"
+				item: "xercamusic:piano"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "613A78AEAA6AF6CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "545A4B4F982CF51D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "657E381EBAB7AD82"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "412BD44D930319A0"
+				item: "xercamusic:oboe"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "2571EF60755EC038"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C39EBE69505CD34"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52D5092A738DA687"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "32149434FDE1341B"
+				item: "xercamusic:redstone_guitar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "543753BC5F34947F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F35CBD65269B10E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B2570FB6F1E56FB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "37C1E32A2378E9F8"
+				item: "xercamusic:french_horn"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D9EAECE4206B022"]
+			id: "1BECF8738F5BD039"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5689C226DA43294F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DCA343C565FB1D5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0C0CDCBE0B90C36D"
+				item: "xercamusic:bass_guitar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"04F3AC06F427A767"
+			]
+			description: ["Этот мод огромен и имеет сложный процесс производства моделей гитар из реального мира! Если интересно будет разобраться, то пишите, сделаю и по нему квесты. Пока вставил авторскую пасхалку - эта гитара почти один в один как моя основная в жизни. Всё переплетается..."]
+			id: "1E33924600F04ADC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DACAC7ED933E36C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "608268E95A7C19E9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			subtitle: "@nuclear guitars..."
+			tasks: [{
+				id: "1D1CD49FEDF5E9B1"
+				item: "ng:gibson_les_paul_honey"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["45244DB35A623B85"]
+			id: "37EB881ECA357C7E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78F55F4949D4FE22"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6046767B21880AA6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "44277FB22F910D75"
+				item: "xercapaint:item_palette"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["45244DB35A623B85"]
+			id: "036B10A867FB6615"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16C3E4BF057F63E8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "417B781154070749"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08A4ABB43E5B0E09"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "xercapaint:item_canvas_large"
+							}
+							{
+								Count: 1b
+								id: "xercapaint:item_canvas_tall"
+							}
+							{
+								Count: 1b
+								id: "xercapaint:item_canvas_long"
+							}
+							{
+								Count: 1b
+								id: "xercapaint:item_canvas"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45244DB35A623B85"]
+			id: "03C0CF051FC998F7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F439C6AB2293A4D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "382CFB771D6F4833"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "56CBBCB72F51D3B4"
+				item: "xercapaint:item_easel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Этот набор позволит вам рисовать любые картины самостоятельно. Вам понадобится палитра, в которую вы сможете добавлять любые красители через крафт. Также там можно смешивать цвета. "]
+			id: "45244DB35A623B85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13248E13D11DC31D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "268027D6E05651D0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Для художеств"
+			tasks: [{
+				id: "7E932AAD77DEDC72"
+				title: "А вы любите искусство?"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+	]
+	title: "Музыка и рисование"
+}

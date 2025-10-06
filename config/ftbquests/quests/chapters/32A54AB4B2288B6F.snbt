@@ -1,0 +1,583 @@
+{
+	autofocus_id: "0451F95EC1EDE364"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "32A54AB4B2288B6F"
+	group: "08BE8EB081684B04"
+	icon: "createdieselgenerators:crude_oil_bucket"
+	id: "32A54AB4B2288B6F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37D2CE701B1EDE81"]
+			description: [
+				"Нефть просто добыть, но её невыгодно использовать в сыром виде! "
+				"В этой главе будут разные сопсобы её переработки и некоторые виды двигателей, где можно использовать полученное топливо"
+			]
+			icon: "createdieselgenerators:crude_oil_bucket"
+			id: "0451F95EC1EDE364"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "263B16544E733E20"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "0589C95AF036DA9C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			subtitle: "Чёрное золото!"
+			tasks: [{
+				id: "5C803F920E7E28D5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createdieselgenerators:crude_oil_bucket"
+							}
+							{
+								Count: 1b
+								id: "thermal:crude_oil_bucket"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:oil_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Нефть!"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0451F95EC1EDE364"]
+			description: ["Один из способов переработки нефти для получения очищенного топлива. На подобные машины можно ставить улучшение, которое позволит перегонять ресурсы с выхода механизма обратно на вход прямо изнутри."]
+			id: "5468AB886F09020E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1726A49133E68AFF"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "2CE4D4C31519384C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Самогон не гонит"
+			tasks: [{
+				id: "3ED5F59A205366F7"
+				item: "thermal:machine_refinery"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0451F95EC1EDE364"]
+			description: ["При нагреве из такой конструкции можно получить бензин и дизель, их свойства и использование примерно аналогичны"]
+			id: "290DF155F1A69857"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0478104877241DE9"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "4DE8F551909C3282"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Классика"
+			tasks: [
+				{
+					count: 3L
+					id: "46F426CE8ED8693C"
+					item: { Count: 3, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "43E5A2D74DEBC048"
+					item: "createdieselgenerators:distillation_controller"
+					type: "item"
+				}
+			]
+			title: "Дистиляционная башня"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0451F95EC1EDE364"]
+			description: ["При помощи такого очистительного завода из сырой нефти можно получить сразу четыре разных ресурса"]
+			id: "707531ECF0833944"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19F23099C94EC310"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "37EB684FA4696473"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Пневматика"
+			tasks: [
+				{
+					id: "1011D739BCD087BA"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					id: "64FEEF50D9B01D11"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+			]
+			title: "Очистительный завод"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5468AB886F09020E"]
+			description: ["Тяжелая и лёгкая нефть в качестве топлива столь же эффективны, что и сырая, но их можно дистиллировать ещё раз для получения очищенного топлива, которое намного эффективнее, а также может использоваться в компрессионном генераторе."]
+			id: "3BBDE058067DE907"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1776A119B211D8D1"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "7ACDB56D43393615"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Идёт ли речь про массу?"
+			tasks: [
+				{
+					id: "12188512C0E8EC89"
+					item: "thermal:heavy_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "2EBFD365C83F46E8"
+					item: "thermal:light_oil_bucket"
+					type: "item"
+				}
+			]
+			title: "Лёгкая и тяжёлая"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BBDE058067DE907"]
+			description: ["Сгорает не так долго, как бензин и дизель, но выделяет огромное количество энергии в компрессионном генераторе."]
+			id: "4C835B1D48E0182F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59A5477C7305C63D"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "72BB55E529CDB0A1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Почти как бензин"
+			tasks: [{
+				id: "6B81A5197A958264"
+				item: "thermal:refined_fuel_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4C835B1D48E0182F"]
+			id: "6EF1166BBF3BE42E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "759B078F3D294014"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "5F00429A00D2E147"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Один из лучших способов использовать очищенное топливо"
+			tasks: [{
+				id: "1DB96E6681391204"
+				item: "thermal:dynamo_compression"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"290DF155F1A69857"
+				"707531ECF0833944"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Похож на дизель по своему применению, но ещё эффективнее"]
+			id: "68D1A49A5F3D74E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17ACC8BE037C989E"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "6632B7FF0E8E7AA7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Заправимся?"
+			tasks: [{
+				id: "0112D558CB3349FB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:gasoline_bucket"
+							}
+							{
+								Count: 1b
+								id: "createdieselgenerators:gasoline_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Бензин"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"290DF155F1A69857"
+				"707531ECF0833944"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Используется многими генераторами, довольно эффективен и хорошо горит"]
+			id: "71634A1966699C80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67D42B8103B94355"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "4921932EB07AAAEE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Не вин"
+			tasks: [{
+				id: "4B52263D71FC643A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createdieselgenerators:diesel_bucket"
+							}
+							{
+								Count: 1b
+								id: "pneumaticcraft:diesel_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Дизель"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["707531ECF0833944"]
+			description: ["Неплохо горит в разных печах, также можно использовать для создания бензина в термопневматическом обрабатывающем заводе (он в главе с пневматикой)"]
+			id: "5AA86427DE785D4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48610BEE32315DAB"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "3019530720D9466C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Не для трактора"
+			tasks: [{
+				id: "5AE1546F7ACCE0C6"
+				item: "pneumaticcraft:kerosene_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["707531ECF0833944"]
+			description: ["В термопневматическом обрабатывающем заводе позволяет получить расплавленный пластик, если добавить уголь"]
+			id: "50A8C222F22B42B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67EBFC6A38FB1058"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "4E06650BBE1C6BAF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Почти как в зажигалке"
+			tasks: [{
+				id: "05A8251375710200"
+				item: "pneumaticcraft:lpg_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["37D2CE701B1EDE81"]
+			description: ["Вырабатывает энергию засчёт нагретой воды, занимает много места"]
+			id: "6BF7BF991FC51849"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "615071DDB100E66E"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "153AAB3AD3B16858"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			subtitle: "Немного стимпанка"
+			tasks: [{
+				id: "46CF8D648949DEBD"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37D2CE701B1EDE81"]
+			id: "0F0CF9161334EE9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C402BBDE129B5D5"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "06655920950FA3B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			subtitle: "Название говорит само за себя"
+			tasks: [{
+				id: "507CF03F63A8AD0E"
+				item: "compressedcreativity:compressed_air_engine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["37D2CE701B1EDE81"]
+			description: ["Вырабатывает энергию вращения при помощи жидкого топлива, компактный. Эффективнее всего работает на бензине, чуть похуже на дизеле."]
+			id: "1FAC099D5E2012C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70B56BB5C1074613"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "525CB5A4516D26ED"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			subtitle: "На самом деле он не только дизельный"
+			tasks: [{
+				id: "28A3681AE067F81E"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FAC099D5E2012C3"]
+			id: "5943E1C921556EA6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1774D9323000DA0A"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "6D104D77F979FD36"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Тот же двигатель, но соединённый из нескольких"
+			tasks: [{
+				id: "14B3591C8CF9CC80"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6BF7BF991FC51849"
+				"1FAC099D5E2012C3"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Изготавливается из парового генератора, но потребляет уже топливо и создаёт больше энергии"]
+			id: "7D5DEFDC5844E9E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F6A55D18020867B"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "487079716FBD71E1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Такой же большой, как паровой"
+			tasks: [{
+				id: "78574DE990EA451F"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+			]
+			description: ["Другие способы получения энергии вращения или электричества смотрите в главах с механикой, электричеством и пневматикой!"]
+			hide_until_deps_visible: true
+			id: "37D2CE701B1EDE81"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EEB9AD924AC2EED"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "647B37E65C420262"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "То, что связано с жидким топливом и движки, удобные для транспорта"
+			tasks: [{
+				id: "13297CD703E601FD"
+				title: "Отдельная ветка"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["37D2CE701B1EDE81"]
+			id: "456129132C3D9853"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3371D2446A371846"
+					table_id: 692045173299017098L
+					type: "random"
+				}
+				{
+					id: "2D45528E05169A2F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			subtitle: "Вращается электричеством"
+			tasks: [{
+				id: "4BDDBA0498FB76E1"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Заходит нефтяник в ресторан..."]
+	title: "Двигатели и нефть"
+}

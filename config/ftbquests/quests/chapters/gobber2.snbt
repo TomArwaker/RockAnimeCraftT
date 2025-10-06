@@ -1,0 +1,2043 @@
+{
+	autofocus_id: "2EB7BD516DAA92FB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gobber2"
+	group: "3E5C9570DCB452CF"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "gobber2:gobber2_sword_nether"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2EC2D23D3AE2BA9B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Глоубеты Gobber&r можно получить, добывая руду Gobber в шахте. "
+				""
+				"Для добычи нужна минимум незеритовая кирка."
+				""
+				"Глоубеты Gobber нужны для создания &aГлоубов Gobber&r. "
+			]
+			id: "1ED09DF6E49AE5FC"
+			rewards: [
+				{
+					count: 6
+					id: "5A90A52CB05AC7FD"
+					item: "gobber2:gobber2_globette"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F858788412F84FA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Камушки!"
+			tasks: [{
+				count: 8L
+				id: "72298EF5FE859123"
+				item: "gobber2:gobber2_globette"
+				type: "item"
+			}]
+			x: -0.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1ED09DF6E49AE5FC"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Глоуб Gobber&r создаётся из &e9&r маленьких глоубетов Gobber. "
+				""
+				"Глоуб Gobber нужен для создания &aСлитков Gobber&r, а также множества других &aполезных предметов&r."
+			]
+			id: "08EDE234BE786942"
+			rewards: [
+				{
+					count: 3
+					id: "12BEC47F5A8108C0"
+					item: "gobber2:gobber2_glob"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A1BC17578641995"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Полноценный ресурс!"
+			tasks: [{
+				count: 2L
+				id: "1AFB526E670016E5"
+				item: "gobber2:gobber2_glob"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"08EDE234BE786942"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Слиток Gobber&r создается при помощи 4-х глоубов Gobber, а также некоторых других ресурсов: &e4&r-х алмазов и осколка аметиста. "
+				""
+				"Слиток Gobber необходим для создания &aинструментов&r, &aброни&r, &aпосохов&r, &aмедальонов&r и &aколец&r. А также, для создания некоторых &aкомпонентов&r, которые потребуются в создании этих предметов."
+				""
+				"Слиток Gobber можно улучшить до &aАдского слитка Gobber&r."
+			]
+			id: "31A5D8D3BA9D9B6F"
+			rewards: [
+				{
+					count: 3
+					id: "29CC97D16D826EE3"
+					item: "gobber2:gobber2_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F4D5090C09A5FF3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Настоящий слиток!"
+			tasks: [{
+				count: 4L
+				id: "1F4561855CF50D46"
+				item: "gobber2:gobber2_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"31A5D8D3BA9D9B6F"
+				"16BB3BF0783762C2"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адский слиток Gobber&r создаётся при помощи &e4&r-х адских глоубов Gobber, а также некоторых других ресурсов: &e4&r-х слитков Gobber и незеритового лом."
+				""
+				"Адский слиток Gobber необходимо для создания &aинструментов&r, &aброни&r, &aпосохов&r, &aмедальонов&r и &aколец&r. А также, для создания некоторых &aкомпонентов&r, которые потребуются в создании этих предметов."
+				""
+				"Адский слиток Gobber можно улучшить до &aСлитка края Gobber&r."
+			]
+			id: "74F59CD499BC477C"
+			rewards: [
+				{
+					count: 3
+					id: "59B6624B9CD434FE"
+					item: "gobber2:gobber2_ingot_nether"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25E73D58360F19A0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Настоящий Адский слиток!"
+			tasks: [{
+				count: 4L
+				id: "4971FA7544473F14"
+				item: "gobber2:gobber2_ingot_nether"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C8971B6DFD6A54B"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адский глоуб Gobber&r создаётся при помощи &e9&r-и адских глоубетов Gobber. "
+				""
+				"Адский глоуб Gobber нужен для создания &aАдского слитка Gobber&r, а также множества других &aполезных предметов&r. "
+			]
+			id: "16BB3BF0783762C2"
+			rewards: [
+				{
+					count: 3
+					id: "567A9ED2DCF570C9"
+					item: "gobber2:gobber2_glob_nether"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BD6341A1C3BF086"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Полноценный Адский ресурс!"
+			tasks: [{
+				count: 2L
+				id: "0B3C167F74156548"
+				item: "gobber2:gobber2_glob_nether"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адский глоубет Gobber&r можно получить, добывая адскую руду Gobber в &4Незере&r."
+				""
+				"Адский глоубет Gobber &aдобывается&r только &aGobber киркой&r. "
+				""
+				"Адский глоубет Gobber необходим для создания &aАдского глоуба Gobber&r. "
+			]
+			id: "3C8971B6DFD6A54B"
+			rewards: [
+				{
+					count: 6
+					id: "4631ADCE3070979E"
+					item: "gobber2:gobber2_globette_nether"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32FE9352DAE63EC6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Адские камушки!"
+			tasks: [{
+				count: 8L
+				id: "7CF0CECA3C276B72"
+				item: "gobber2:gobber2_globette_nether"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"74F59CD499BC477C"
+				"19A6C469328914AA"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Слиток края Gobber&r создаётся при помощи &e4&r-х глоубов края Gobber, а также некоторых других ресурсов: &e4&r-х адских слитков Gobber и слитка стеллия."
+				""
+				"Слиток края Gobber необходимо для создания &aинструментов&r, &aброни&r, &aпосохов&r, &aмедальонов&r и &aколец&r. А также, для создания некоторых &aкомпонентов&r, которые потребуются в создании этих предметов."
+				""
+				"Кроме этого, слиток края Gobber необходим для создания &aЗвезды дракона&r и &aЭлитр дракона&r. "
+			]
+			id: "50C683E564944A1A"
+			rewards: [
+				{
+					count: 3
+					id: "4AA02ECDF919110D"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C5F60D1BAD40B43"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Настоящий слиток Края!"
+			tasks: [{
+				count: 4L
+				id: "3AC1997D53397F49"
+				item: "gobber2:gobber2_ingot_end"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2D0CBF484C3D09CB"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Глоуб края Gobber&r создаётся при помощи &e9&r-и глоубетов края Gobber. "
+				""
+				"Глоуб края Gobber нужен для создания &aСлитка края Gobber&r, а также множества других &aполезных предметов&r. "
+			]
+			id: "19A6C469328914AA"
+			rewards: [
+				{
+					count: 3
+					id: "358E4601913CEDA7"
+					item: "gobber2:gobber2_glob_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DE1E76F362D725D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Полноценный ресурс Края!"
+			tasks: [{
+				count: 2L
+				id: "2208E4CF061F0AE4"
+				item: "gobber2:gobber2_glob_end"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Глоубет края Gobber&r можно получить, добывая руду края Gobber в &5Краю&r."
+				""
+				"Глоубет края Gobber &aдобывается&r только &aадской киркой Gobber&r. "
+				""
+				"Глоубет края Gobber необходим для создания &aГлоуба края Gobber&r. "
+			]
+			id: "2D0CBF484C3D09CB"
+			rewards: [
+				{
+					count: 6
+					id: "381C0FB7131B6D81"
+					item: "gobber2:gobber2_globette_end"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C434735653E2AED"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Камушки края!"
+			tasks: [{
+				count: 8L
+				id: "5ED66C9EC623E61B"
+				item: "gobber2:gobber2_globette_end"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"50C683E564944A1A"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Звезда дракона&r создаётся при помощи &e4&r-х слитков края Gobber, а также некоторых других ресурсов: &e4&r-х яиц дракона и звезды Незера. "
+				""
+				"Звезда дракона необходима для создания &aДракониевой брони&r.  "
+			]
+			id: "4B44DD08F7769D65"
+			rewards: [
+				{
+					count: 4
+					id: "76E8C06B2EE3AC4F"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72ED41575DA546FD"
+					item: "minecraft:nether_star"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05B57558827553F5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Ингредиент для крафта Дракониевой брони!"
+			tasks: [{
+				count: 2L
+				id: "66721D008AE2D880"
+				item: "gobber2:dragon_star"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"50C683E564944A1A"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Элитры дракона&r создаются при помощи &e4&r-х слиток края Gobber, а также некоторых других ресурсов: &e4&r-х яиц дракона и элитр."
+				""
+				"Элитры дракона необходимы для создания &aДракониевого нагрудника&r."
+			]
+			id: "026336A8F6BA44CF"
+			rewards: [
+				{
+					count: 4
+					id: "288FEDCF85BA10E9"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1E47DD9418F0E057"
+					item: "minecraft:nether_star"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71D395BDBBD8944C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Ингредиент для крафта Дракониевого нагрудника!"
+			tasks: [{
+				id: "341882209F29087C"
+				item: "gobber2:dragon_elytra"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4B44DD08F7769D65"
+				"2EB7BD516DAA92FB"
+			]
+			description: ["&6Драконий шлем&r - один из &aлучших&r шлемов в этой сборке."]
+			id: "2F7C76899D352F45"
+			rewards: [
+				{
+					id: "3CB207FB8AD7EE8C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EFBD2AE8AFFB37F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
+			tasks: [{
+				id: "157F0BB45E177D1C"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_helmet_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4B44DD08F7769D65"
+				"2EB7BD516DAA92FB"
+			]
+			description: ["&6Драконий нагрудник&r - один из &aлучших&r нагрудников в этой сборке."]
+			id: "6DEEF116F0C17DB3"
+			rewards: [
+				{
+					id: "4D8797C4FB4769BC"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32EC693C3714A5B0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
+			tasks: [{
+				id: "571EA3D8AB174A98"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_chestplate_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4B44DD08F7769D65"
+				"2EB7BD516DAA92FB"
+			]
+			description: ["&6Драконие поножи&r - одни из &aлучших&r поножей в этой сборке."]
+			id: "419201FBE07A6BCD"
+			rewards: [
+				{
+					id: "7D94D1E5E797DC70"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F35762BD29EFE6A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
+			tasks: [{
+				id: "2A0AAD7144F41849"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_leggings_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"4B44DD08F7769D65"
+				"2EB7BD516DAA92FB"
+			]
+			description: ["&6Драконие ботинки&r - одни из &aлучших&r ботинок в этой сборке."]
+			id: "2E6489E73B5AED47"
+			rewards: [
+				{
+					id: "5E4D2BBEC4D327F6"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F8693CE5CCF2A7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Неуязвимость и удобства!"
+			tasks: [{
+				id: "20F6B542B380387C"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_boots_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08EDE234BE786942"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Липкая жижа&r создаётся при помощи глоуб Gobber, а также некоторых других ресурсов: яйцо, сгусток слизи и сахар. "
+				""
+				"Липкая жижа необходима для создания питательной еды. А именно - &aЛипкое яблоко&r, &aЛипкий хлеб&r и &aЛипкая говядина&r. "
+			]
+			id: "346F69616CFC6A8A"
+			rewards: [
+				{
+					count: 3
+					id: "6CA7AE644B6E41DF"
+					item: "gobber2:gobber2_goo"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F80619BA84890D1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Ингредиент для создания питетельной еды!"
+			tasks: [{
+				count: 4L
+				id: "46FFF9E5AC500FEA"
+				item: "gobber2:gobber2_goo"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"346F69616CFC6A8A"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Липкая говядина&r создаётся при помощи липкой жижи, а также &e8&r обычных стейков."
+				""
+				"Липкая говядина &aутоляет голод&r намного лучше обычной, а также даёт &aбольше насыщения&r, чем обычный стейк. "
+				""
+				"Липкая говядина используется в создании &aЛипкого бифштекса&r."
+			]
+			id: "226F9DFBDDCAAABC"
+			rewards: [
+				{
+					count: 2
+					id: "6391446A67619FC8"
+					item: "gobber2:gobber2_gooey_beef"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2EE12399C5A9F5A4"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15DB1CDD28C4DC6D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Улучшенная говядина, дающая больше насыщения!"
+			tasks: [{
+				count: 4L
+				id: "1A7919A3D83A3D3D"
+				item: "gobber2:gobber2_gooey_beef"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"226F9DFBDDCAAABC"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Липкий бифштекс&r создаётся при помощи липкой говядины, а также некоторых других ресурсов: миска, картофель, морковь и липкая жижа."
+				""
+				"Липкий бифштекст является очень &aсытным&r блюдом, а также даёт &e100&r% &aнасыщение&r. "
+			]
+			id: "01772069520E9529"
+			rewards: [
+				{
+					id: "52B478825BE6E11E"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					id: "442014CF11006AAA"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3579F4E27E4F1D2A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Сытное блюдо, дающее 100% насыщение!"
+			tasks: [{
+				id: "4E88A4667E7E06B6"
+				item: "gobber2:gobber2_gooey_beefstew"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"346F69616CFC6A8A"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Липкий хлеб&r создаётся при помощи липкой жижи, а также &e8&r обычных кусков хлеба."
+				""
+				"Липкий хлеб &aутоляет голод&r намного лучше обычного, а также даёт &aбольше насыщения&r, чем обычный хлеб."
+			]
+			id: "3065F2E991D65BC4"
+			rewards: [
+				{
+					count: 2
+					id: "009C44C4C89CFA70"
+					item: "gobber2:gobber2_gooey_bread"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0B4007A80D0EA14B"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "746164E1D1C71448"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Улучшенный хлеб, дающий больше насыщения!"
+			tasks: [{
+				count: 4L
+				id: "72B66B9E2FE5363D"
+				item: "gobber2:gobber2_gooey_bread"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"346F69616CFC6A8A"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Липкое яблоко&r создаётся при помощи липкой жижи, а также &e8&r обычных яблок. "
+				""
+				"Липкое яблоко &aутоляет голод&r намного лучше обычного, а также даёт &aбольше насыщения&r, чем обычное яблоко."
+				""
+				"Липкое яблоко используется в создании &aМедальона небольшого исцеления&r. "
+			]
+			id: "2D2BF6AE7C91C24E"
+			rewards: [
+				{
+					count: 2
+					id: "68A28418D4BD72D1"
+					item: "gobber2:gobber2_gooey_apple"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00AA94149828CDB7"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51BECA9F769DF17C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Улучшенное яблоко, дающее больше насыщения!"
+			tasks: [{
+				count: 4L
+				id: "3DD904173D171733"
+				item: "gobber2:gobber2_gooey_apple"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"08EDE234BE786942"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Фо Gobber&r создаётся из глоуб Gobber и древесного угля."
+				""
+				"Фо Gobber является &aулучшенным топливом&r для печи, которое лучше, чем обычный и древесный уголь."
+				""
+				"Время горения фо Gobber &e64000&r, когда у обычного и древесного угля это время составляет всего &e80&r. "
+			]
+			id: "0653B7E8FBB27AA1"
+			rewards: [
+				{
+					count: 6
+					id: "3C7D527AC2BACA58"
+					item: "gobber2:gobber2_foo"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "471EB799C5039181"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Улучшенное топливо!"
+			tasks: [{
+				count: 4L
+				id: "7AC8BB5733DB2D74"
+				item: "gobber2:gobber2_foo"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"08EDE234BE786942"
+				"040561DDC1113B5C"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Посох урожая&r создаётся при помощи &e2&r-ух стержней Gobber, а также некоторых других ресурсов: глоуба Gobber и &e2&r-ух жёлтых красителей. "
+				""
+				"Посох урожая позволяет &aсобирать созревший урожай&r вокруг Игрока. Дальность действия данного магического предмета - &e12&r блоков. "
+				""
+				"Посох урожая можно улучшить до &aПосоха фермера&r. "
+			]
+			id: "1A03FE01A8A8A3D3"
+			rewards: [
+				{
+					count: 4
+					id: "363571B7A86202B3"
+					item: "gobber2:gobber2_glob"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "73BC0CFCBCB7CD46"
+					item: "oceansdelight:bowl_of_guardian_soup"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58177C5D3F12E809"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Удобно использовать вместе с магнитом на больших по площади фермах!"
+			tasks: [{
+				id: "514D066BC3FA6766"
+				item: "gobber2:gobber2_staff_harvest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"31A5D8D3BA9D9B6F"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Стержень Gobber&r создаётся при помощи &e3&r-х слитков Gobber."
+				""
+				"Стержень Gobber необходим для создания различного &aоружия&r, &aинструментов&r и &aпосохов&r. "
+			]
+			hide_dependency_lines: true
+			id: "040561DDC1113B5C"
+			rewards: [
+				{
+					count: 3
+					id: "009A65C610E581D1"
+					item: "gobber2:gobber2_rod"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09A28C99A3FF0B26"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Настолько прочный, что может содержать большую силу!"
+			tasks: [{
+				count: 4L
+				id: "238559D050853D72"
+				item: "gobber2:gobber2_rod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"040561DDC1113B5C"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Топор для деревьев Gobber&r создаётся при помощи &e2&r-ух стержней Gobber, а также некоторых других ресурсов: блока Gobber и &e2&r-ух слитков Gobber. "
+				""
+				"Топор для деревьев Gobber позволяет &aсрубать дерево целиком&r. А также, данный топор имеет &aнеплохой урон&r."
+				""
+				"{@pagebreak}"
+				"&6Молот Gobber&r создаётся при помощи &e2&r-ух стержней Gobber, а также &e5&r слитков Gobber."
+				""
+				"Молот Gobber позволяет &aкопать туннель&r &e3&rх&e3&r. "
+				""
+				"{@pagebreak}"
+				"&6Паксель Gobber&r создаётся при помощи &e2&r-ух стержней Gobber, а также некоторых других ресурсов: кирки Gobber, топора Gobber и лопаты Gobber. "
+				""
+				"Паксель Gobber &aсовмещает&r в себе &aкирку&r, &aтопор&r и &aлопату&r. По сути, данный инструмент является &aмульти-инструментом&r. А также, этот мульти-инструмент имеет &aнеплохой урон&r. "
+			]
+			id: "2FA19D8AA76A35C9"
+			rewards: [
+				{
+					count: 8
+					id: "3801E2244ECBF8E8"
+					item: "gobber2:gobber2_ingot"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "4E2FA9DE38FCD716"
+					item: "oceansdelight:elder_guardian_roll"
+					type: "item"
+				}
+				{
+					id: "6AFD065877534704"
+					item: "culturaldelights:calamari_roll"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A2DDABEAE0186A4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Инструменты, которые помогут выживать более эффективно!"
+			tasks: [
+				{
+					id: "52739BA76FB6868B"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_tree_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CE4B6B93D23FFEE"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "278000A3B4800CEE"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_paxel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Различные инструменты"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"040561DDC1113B5C"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Посох преисподней&r создаётся при помощи &e2&r-ух стержней Gobber, а также некоторых других ресурсов: нити и &e2&r-ух изумрудов."
+				""
+				"Посох преисподней позволяет &aзахватить и хранить&r несколько &aмобов&r (&oмирных и враждебных&r). Но он не работает на боссах. "
+				""
+				"{@pagebreak}"
+				"&6Посох очистки&r создаётся при помощи &e2&r-ух стержней Gobber, а также некоторых других ресурсов: семечки пшеницы и &e2&r-ух зелёных красителей."
+				""
+				"Посох очистки позволяет  &aотчистить территорию&r &e12&rх&e12&r от травы, высокой травы и т.п. "
+			]
+			id: "00F51DB0B4CA3D5A"
+			rewards: [
+				{
+					count: 2
+					id: "637DF1BCEEAA8061"
+					item: "gobber2:gobber2_ingot"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "544BBC1E9EDF041C"
+					item: "culturaldelights:pufferfish_roll"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B46DE3867469FBA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Посохи, которые могут упростить игру в некоторых ситуациях!"
+			tasks: [
+				{
+					id: "6EC4F83F358668CE"
+					item: "gobber2:gobber2_staff_ensnarement"
+					type: "item"
+				}
+				{
+					id: "75D82D93E197A052"
+					item: "gobber2:gobber2_staff_clearing"
+					type: "item"
+				}
+			]
+			title: "Различные посохи"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"31A5D8D3BA9D9B6F"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Броня Gobber&r создаётся при помощи слитков Gobber и изумрудов. "
+				""
+				"Броня Gobber &aнеплохо защищает&r своего носителя."
+			]
+			id: "494F4F366329C0EA"
+			rewards: [
+				{
+					count: 9
+					id: "5FFFAEBC02C6F291"
+					item: "gobber2:gobber2_ingot"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6B949D20D948BC8B"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49B92C2E225F3437"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Хорошо защищающая, тяжёлая броня!"
+			tasks: [
+				{
+					id: "12D7165069AEF94C"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "770B0E6C5E8E8D7F"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5512C9831F648918"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BDAD223A83E4B67"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня Gobber"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"16BB3BF0783762C2"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адская липкая жижа&r создаётся при помощи адского глоуба Gobber, а также некоторых других ресурсов: сгусток магмы, яйцо и сахар. "
+				""
+				"Адская липкая жижа необходима для создания очень питательной еды. А именно - &aАдское липкое яблоко&r, &aАдский липкий хлеб&r и &aАдская липкая говядина&r. "
+			]
+			id: "4DB29EF37AEF8D72"
+			rewards: [
+				{
+					count: 3
+					id: "478E1633B0819B9F"
+					item: "gobber2:gobber2_goo_nether"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03E1EFCCF578274E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Ингредиент для создания более питательной еды!"
+			tasks: [{
+				count: 4L
+				id: "01A3818476869435"
+				item: "gobber2:gobber2_goo_nether"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4DB29EF37AEF8D72"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адская липкая говядина&r создаётся при помощи адской липкой жижи, а также &e8&r обычных стейков."
+				""
+				"Адская липкая говядина &aутоляет голод&r намного лучше обычной, а также даёт &aбольше насыщения&r, чем обычный стейк и липкая говядина. "
+				""
+				"Адская липкая говядина используется в создании &aАдского липкого бифштекса&r."
+			]
+			id: "3A8100A96AEC9A9F"
+			rewards: [
+				{
+					count: 2
+					id: "304DAF8499E3F192"
+					item: "gobber2:gobber2_gooey_beef_nether"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72174FBBA4E101E4"
+					item: "upgradednetherite_items:netherite_apple"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34F5BA1968E51DEB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Улучшенная говядина, дающая ещё больше насыщения!"
+			tasks: [{
+				count: 4L
+				id: "165A522C33D604B4"
+				item: "gobber2:gobber2_gooey_beef_nether"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A8100A96AEC9A9F"]
+			description: [
+				"&6Адский липкий бифштекс&r создаётся при помощи адской липкой говядины, а также некоторых других ресурсов: миска, картофель, морковь и адская липкая жижа."
+				""
+				"Адский липкий бифштекст является очень &aсытным&r блюдом, а также даёт &e150&r% &aнасыщение&r. "
+			]
+			id: "412061AFA7BECEF9"
+			rewards: [
+				{
+					id: "4273D9F30491E333"
+					item: "farmersrespite:yellow_tea"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3207076529F6F80D"
+					item: "minecraft:baked_potato"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A5FD7100E0C6856"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Очень сытное блюдо, дающее 150% насыщения!"
+			tasks: [{
+				id: "0B6DEDC416792A90"
+				item: "gobber2:gobber2_gooey_beefstew_nether"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4DB29EF37AEF8D72"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адское липкое яблоко&r создаётся при помощи адской липкой жижи, а также &e8&r обычных яблок. "
+				""
+				"Адское липкое яблоко &aутоляет голод&r намного лучше обычного, а также даёт &aбольше насыщения&r, чем обычное и липкое яблоко."
+			]
+			id: "40F06A7132CB9833"
+			rewards: [
+				{
+					count: 2
+					id: "0E37DA7F4ECC89D1"
+					item: "gobber2:gobber2_gooey_apple_nether"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "009E81ADF813B98B"
+					item: "upgradednetherite_items:netherite_apple"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32BB397A940397E4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Улучшенное яблоко, дающее ещё больше насыщения!"
+			tasks: [{
+				count: 4L
+				id: "6A5467B54649A2E2"
+				item: "gobber2:gobber2_gooey_apple_nether"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4DB29EF37AEF8D72"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адский липкий хлеб&r создаётся при помощи адской липкой жижи, а также &e8&r обычных кусков хлеба."
+				""
+				"Адский липкий хлеб &aутоляет голод&r намного лучше обычного, а также даёт &aбольше насыщения&r, чем обычный и липкий хлеб."
+			]
+			id: "0C292064CCFCB1D8"
+			rewards: [
+				{
+					count: 2
+					id: "276B2E16AC3412D2"
+					item: "gobber2:gobber2_gooey_bread_nether"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17FF888F4D531330"
+					item: "upgradednetherite_items:netherite_apple"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67CFAE1673A806D0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Улучшенный хлеб, дающий ещё больше насыщения!"
+			tasks: [{
+				count: 4L
+				id: "38A47BBA047D45B1"
+				item: "gobber2:gobber2_gooey_bread_nether"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"16BB3BF0783762C2"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адский фо Gobber&r создаётся из адского глоуба Gobber и &e8&r-и фо Gobber."
+				""
+				"Адский фо Gobber является &aулучшенным топливом&r для печи, которое лучше, чем обычный и древесный уголь."
+				""
+				"Время горения адского фо Gobber &e96000&r, когда у обычного и древесного угля это время составляет всего &e80&r. "
+			]
+			id: "305FE6E6399956B5"
+			rewards: [
+				{
+					count: 6
+					id: "1B79177340B83FEB"
+					item: "gobber2:gobber2_foo_nether"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B0446F295D82602"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Улучшенное топливо!"
+			tasks: [{
+				count: 4L
+				id: "571AF4E425BED450"
+				item: "gobber2:gobber2_foo_nether"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"74F59CD499BC477C"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адский стержень Gobber&r создаётся при помощи &e3&r-х адских слитков Gobber."
+				""
+				"Адский стержень Gobber необходим для создания различного &aоружия&r, &aинструментов&r и &aпосохов&r. "
+			]
+			id: "31CB28162642A634"
+			rewards: [
+				{
+					count: 3
+					id: "0F4AB71A6A3717C5"
+					item: "gobber2:gobber2_rod_nether"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "646033A59C72DEBF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Ещё более прочный и позволяет содержать большую силу!"
+			tasks: [{
+				count: 4L
+				id: "32926842B3DBFBF2"
+				item: "gobber2:gobber2_rod_nether"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"31CB28162642A634"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адкий топор для деревьев&r создаётся при помощи &e2&r-ух адских стержней Gobber, а также некоторых других ресурсов: адского блока Gobber и &e2&r-ух адских слитков Gobber. "
+				""
+				"Адский топор для деревьев позволяет &aсрубать дерево целиком&r. А также, данный топор имеет &aнеплохой урон&r."
+				""
+				"{@pagebreak}"
+				"&6Адский молот&r создаётся при помощи &e2&r-ух адских стержней Gobber, а также &e5&r адских слитков Gobber."
+				""
+				"Адский молот позволяет &aкопать туннель&r &e3&rх&e3&r. "
+				""
+				"{@pagebreak}"
+				"&6Адский паксель&r создаётся при помощи &e2&r-ух адских стержней Gobber, а также некоторых других ресурсов: адской кирки Gobber, адского топора Gobber и адской лопаты Gobber."
+				""
+				"Адский паксель &aсовмещает&r в себе &aкирку&r, &aтопор&r и &aлопату&r. По сути, данный инструмент является &aмульти-инструментом&r. А также, этот мульти-инструмент имеет &aнеплохой урон&r. "
+			]
+			id: "4CE0C4BB9E927681"
+			rewards: [
+				{
+					count: 8
+					id: "55668A40F33F0584"
+					item: "gobber2:gobber2_ingot_nether"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "71680F26F188B044"
+					item: "culturaldelights:chicken_roll"
+					type: "item"
+				}
+				{
+					id: "7E467DA1F9994843"
+					item: "farmersdelight:kelp_roll"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25E21D8EBD8F63A1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Инструменты, которые помогут выживать ещё эффективнее!"
+			tasks: [
+				{
+					id: "4CBDC92F3A6CA42C"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_tree_axe_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "703F4606939CCEB4"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_hammer_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "402A9318964EE9A9"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_paxel_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Различные Адские инструменты"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"31CB28162642A634"
+				"2EB7BD516DAA92FB"
+			]
+			id: "19A05964363C4592"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15CDDF47E1C90B0A"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5BC05BB6A1CA0AEB"
+					item: "gobber2:gobber2_staff_stars"
+					type: "item"
+				}
+				{
+					id: "6C828587A94D4AA8"
+					item: "gobber2:gobber2_staff_nature"
+					type: "item"
+				}
+			]
+			title: "Различные адские посохи"
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"74F59CD499BC477C"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Адская броня&r создаётся при помощи адских слитков Gobber и звёзд Незера. "
+				""
+				"Адкая броня &aдостойно защищает&r своего носителя."
+			]
+			id: "0FBBCAD46B69BD6B"
+			rewards: [
+				{
+					count: 9
+					id: "2D0E4A3E79353E6B"
+					item: "gobber2:gobber2_ingot_nether"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					count: 2
+					id: "54B0C5E3031F4AF2"
+					item: "minecraft:nether_star"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "467EF8E26B551910"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Броня, защищающая намного лучше!"
+			tasks: [
+				{
+					id: "4D6762703250B1D3"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_helmet_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BB73DFBA32E90AA"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_chestplate_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "795012E705466933"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_leggings_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C9502C4A1C7EE80"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_boots_nether"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Адская броня"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"19A6C469328914AA"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Фо края Gobber&r создаётся из глоуба края Gobber и &e8&r-и адских фо Gobber."
+				""
+				"Фо края Gobber является &aулучшенным топливом&r для печи, которое лучше, чем обычный и древесный уголь."
+				""
+				"Время горения фо края Gobber &e128000&r, когда у обычного и древесного угля это время составляет всего &e80&r. "
+			]
+			id: "41CFAA2B493FD21D"
+			rewards: [
+				{
+					count: 6
+					id: "3323DB53F7B1705E"
+					item: "gobber2:gobber2_foo_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63294FE94A409C92"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Улучшенное топливо!"
+			tasks: [{
+				count: 4L
+				id: "230FDCC05A689B1E"
+				item: "gobber2:gobber2_foo_end"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"50C683E564944A1A"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Кольцо края&r создаётся при помощи &e4&r-х слитков края Gobber. "
+				""
+				"Кольцо края необходимо для создания множество других &aколец&r, а также для создания &aСоединения брони края&r. "
+			]
+			id: "634B483DE20BAAE6"
+			rewards: [
+				{
+					count: 4
+					id: "625995455F9E6EB9"
+					item: "gobber2:gobber2_ring_end"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6293C2FBB8F40368"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Основной компонент других колец! Обязательно их изучите, они невероятно полезны!"
+			tasks: [{
+				count: 4L
+				id: "0E4EC83A75981D6F"
+				item: "gobber2:gobber2_ring_end"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"634B483DE20BAAE6"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Соединения брони края&r создаются при помощи &e8&r-и колец края, а также &e2&r-ух звёзд Незера. "
+				""
+				"Соединения брони края необходимы для создания &aБрони края&r."
+			]
+			id: "461AC034EF33F28E"
+			rewards: [
+				{
+					count: 4
+					id: "5658B8808716C35B"
+					item: "gobber2:gobber2_links_end"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "104E28E0B4086F61"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Ингредиент для крафта Брони края!"
+			tasks: [{
+				count: 8L
+				id: "6A8861374B29324C"
+				item: "gobber2:gobber2_links_end"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"461AC034EF33F28E"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Броня края&r создаётся при помощи соединений брони края. "
+				""
+				"Броня края очень &aхорошо защащает&r своего хозяина."
+				""
+				"Броню края можно улучшить до &aДракониевой брони&r."
+			]
+			id: "0599C97AAB449DB4"
+			rewards: [
+				{
+					count: 9
+					id: "156A40D62A7B0DEE"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					count: 2
+					id: "61394AD8B0665175"
+					item: "minecraft:nether_star"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "022E87F98CF9CAA7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Практически максимальная защита!"
+			tasks: [
+				{
+					id: "4D2AA73E155AD965"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_helmet_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3954CE905CE17861"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_chestplate_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619385ABF90286EA"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_leggings_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20EDDA3D6D9C9683"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_boots_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня края"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"50C683E564944A1A"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Стержень края Gobber&r создаётся при помощи &e3&r-х слитков края Gobber."
+				""
+				"Стержень края Gobber необходим для создания различного &aоружия&r, &aинструментов&r и &aпосохов&r. "
+			]
+			id: "7590E34F91E8F0FC"
+			rewards: [
+				{
+					count: 3
+					id: "71EF9C6F1B9917DC"
+					item: "gobber2:gobber2_rod_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37EEC68920BC5F5C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Максимально прочный и содержит максимальную силу!"
+			tasks: [{
+				count: 4L
+				id: "2F2F923FF741F983"
+				item: "gobber2:gobber2_rod_end"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7590E34F91E8F0FC"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Топор для деревьев края&r создаётся при помощи &e2&r-ух стержней края Gobber, а также некоторых других ресурсов: блока края Gobber и &e2&r-ух слитков края Gobber. "
+				""
+				"Топор для деревьев края позволяет &aсрубать дерево целиком&r. А также, данный топор имеет &aнеплохой урон&r."
+				""
+				"{@pagebreak}"
+				"&6Молот края&r создаётся при помощи &e2&r-ух стержней края Gobber, а также &e5&r слитков края Gobber."
+				""
+				"Молот края позволяет &aкопать туннель&r &e3&rх&e3&r. "
+				""
+				"{@pagebreak}"
+				"&6Паксель края&r создаётся при помощи &e2&r-ух стержней края Gobber, а также некоторых других ресурсов: кирки края Gobber, топора края Gobber и лопаты края Gobber."
+				""
+				"Паксель края &aсовмещает&r в себе &aкирку&r, &aтопор&r и &aлопату&r. По сути, данный инструмент является &aмульти-инструментом&r. А также, этот мульти-инструмент имеет &aнеплохой урон&r. "
+			]
+			id: "7303D56D81BABB45"
+			rewards: [
+				{
+					count: 8
+					id: "5ABE782AE9E4A73B"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "6C5DE9CAA63F6398"
+					item: "ends_delight:smoked_dragon_leg"
+					type: "item"
+				}
+				{
+					id: "6B49FB986786B97D"
+					item: "ends_delight:roasted_dragon_steak"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C4EC95CDDE28006"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Инструменты, которые помогут выживать максимально эффективно!"
+			tasks: [
+				{
+					id: "6967C8305881E0E8"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_tree_axe_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07AD1FFDF666C461"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_hammer_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "124B683C7FB1E46B"
+					item: {
+						Count: 1
+						id: "gobber2:gobber2_paxel_end"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7303D56D81BABB45"
+				"2EB7BD516DAA92FB"
+			]
+			description: [
+				"&6Звёздный паксель&r создаётся при помощи пакселя края и звёздного посоха."
+				""
+				"Звёздный паксель - улучшенная версия пакселя края, который &aимеет возможности&r звёздного посоха. "
+				""
+				"А именно - размещать факела. Для этого необходимо нажимать &eПКМ&r. Чтобы включить/выключить эту способность необходимо нажать &eShift&r + &eПКМ&r. "
+			]
+			id: "5A83B8344FBEA809"
+			rewards: [
+				{
+					count: 3
+					id: "47356625C31644D6"
+					item: "gobber2:gobber2_ingot_end"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "010E75E621116926"
+					item: "ends_delight:roasted_dragon_meat"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E0EF19519DD48F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Оно умеет размещать свет!"
+			tasks: [{
+				id: "1E180EBD150EF605"
+				item: {
+					Count: 1
+					id: "gobber2:gobber2_paxel_stars"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Способ получить крайне мощное снаряжение, которое местами похоже на то, что находится в финальной главе, но без помощи технологий и магии, исключительно добыча ресурсов и крафты, крафты, крафты..."]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "2EB7BD516DAA92FB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "373153E2DB305812"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Так тоже можно"
+			tasks: [{
+				id: "3FC93E6B869CB7C2"
+				title: "Альтернативное развитие через гринд"
+				type: "checkmark"
+			}]
+			title: "Иной путь"
+			x: -1.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Особый материал"]
+	title: "Gobber 2"
+}

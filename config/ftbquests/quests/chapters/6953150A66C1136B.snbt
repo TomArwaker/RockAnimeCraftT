@@ -1,0 +1,1178 @@
+{
+	autofocus_id: "6D2F62AF25B42BF4"
+	default_hide_dependency_lines: false
+	default_quest_shape: "tech_circle"
+	filename: "6953150A66C1136B"
+	group: "08BE8EB081684B04"
+	icon: {
+		Count: 1
+		id: "pneumaticcraft:manometer"
+		tag: {
+			"pneumaticcraft:air": 30000
+		}
+	}
+	id: "6953150A66C1136B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+			]
+			description: ["Укреплённые кирпичи используются для создания различных блоков и предметов, связанных с пневматикой."]
+			hide_until_deps_visible: true
+			id: "45A07D9B8081F2A0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B5F41BC2C36FE68"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BFAAA47DC941534"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Их понадобится много"
+			tasks: [
+				{
+					count: 10L
+					id: "39BDF8E430CC2295"
+					item: "pneumaticcraft:reinforced_stone"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "6981E956A2111882"
+					item: "pneumaticcraft:reinforced_bricks"
+					type: "item"
+				}
+			]
+			title: "Укреплённые кирпичи"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A07D9B8081F2A0"]
+			description: ["Барокамера один из важнейших приборов этого мода. С помощью неё вы будете нагнетать давление, чтобы сжимать предметы или просто хранить сжатый воздух."]
+			id: "24D7624AB316B3C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05D92ACA78974B6C"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B0DF3A3243DDD44"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Следите за утечками"
+			tasks: [
+				{
+					id: "4A03F42E6F9A3B1A"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "0FB2A6130D27A5B8"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					id: "73D18C42190595E4"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+			]
+			title: "Барокамера "
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29D3BB90C1AFD93D"]
+			description: ["С помощью воздушного компрессора можно вырабатывать сжатый воздух, путём сжигания топлива, главный вид \"энергии\" в этом моде!"]
+			id: "11FC3733A1D623C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1079F4FB048AE96A"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "183702FD265A0FB7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "tech_square"
+			tasks: [{
+				id: "4977DE8F94F8EB25"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45A07D9B8081F2A0"]
+			description: ["С помощью труб под давлением можно передавать сжатый воздух в различные механизмы."]
+			id: "29D3BB90C1AFD93D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "260E7ED6A02D85EF"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06E8732F7D9BD110"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "229EBC5EE7D03062"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29D3BB90C1AFD93D"]
+			description: ["С помощью гаечного пневмаключа можно забирать предметы из этого мода, закрывть/открывать трубы и т.п."]
+			id: "1B7652DB784BCFA6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19DD2614CB90DF86"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D6055847CF08159"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B67B0A336139BEF"
+				item: "pneumaticcraft:pneumatic_wrench"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45A07D9B8081F2A0"]
+			description: ["Позволяет изготавливать много разных полезных жидкостей от топлива и смазки до растительного масла"]
+			id: "4750ED395F4119D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64450AD601B154D7"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "513F4A1C9371612C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Нужно давление и нагрев"
+			tasks: [{
+				id: "0B31D8F39B8C3EE8"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4750ED395F4119D0"]
+			description: ["Листы пластика можно получить путём затвердевания в мире. Сам пластик используется во многих крафтах на этой сборке."]
+			id: "491435ED023469B3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "728C07326AEA3C94"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55170A425BDB3EAB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "tech_square"
+			size: 1.1d
+			tasks: [{
+				count: 10L
+				id: "482E3F3536CFE566"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			title: "Листы пластика"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["45A07D9B8081F2A0"]
+			description: ["С помощью резервуара для травления можно получить печатные платы. Для этого нужно заполнить резервуар кислотой и вставить пустые печатные платы."]
+			id: "58A6DAC2644D7A3E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "481B49AF712E314D"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25F197F191AC7F7A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "tech_square"
+			size: 1.1d
+			tasks: [
+				{
+					id: "26805C887BAA8AE8"
+					item: "pneumaticcraft:etching_tank"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2004EBC9072D9A20"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58A6DAC2644D7A3E"]
+			description: ["С помощью сборочного контроллера можно управлять другими сборочными машинами."]
+			id: "6D2F62AF25B42BF4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63F7B687E66D1301"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70CD42796A6BA661"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "737762EAC9EF87E6"
+				item: "pneumaticcraft:assembly_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58A6DAC2644D7A3E"]
+			description: ["С помощью программатора можно программировать дронов."]
+			id: "669D2D535CE74E00"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0415CB5A2D8A8568"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A3664C7F694716B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "03C83A88C9CDE623"
+				item: "pneumaticcraft:programmer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["669D2D535CE74E00"]
+			description: ["Обычный дрон, которого можно запрограммировать почти на любое действие."]
+			id: "519DF9A53D61AED0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DE3C47932A1DD25"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "022805184D07B202"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "tech_square"
+			subtitle: "Для мирных целей!"
+			tasks: [{
+				id: "49820B0E5ECE489F"
+				item: "pneumaticcraft:drone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["519DF9A53D61AED0"]
+			description: ["С помощью программировоного контроллера можно заменить дронов. Чаще всего используется для масшатабных проектов, таких как - карьер!"]
+			id: "0E8AA98C7E41B191"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F7ECE41CCB39BCD"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60203BBFA5E181F0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "261EB70DB7B17C01"
+				item: "pneumaticcraft:programmable_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["519DF9A53D61AED0"]
+			description: ["Дрон-логистик выполняет логистические задачи."]
+			hide_dependency_lines: true
+			id: "2DC43B829EA05B7A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D9B0FFE8951D9D4"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6259F0EB12921C17"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "040CB5F1187D93F3"
+				item: "pneumaticcraft:logistics_drone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["519DF9A53D61AED0"]
+			description: ["Дрон-фермер собирает любые полностью выросшие растения."]
+			hide_dependency_lines: true
+			id: "149EEDB69FF1A900"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "384910C80BCC300D"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5522EB830F0FB3FD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1784862C6A9E5488"
+				item: "pneumaticcraft:harvesting_drone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["519DF9A53D61AED0"]
+			description: ["Дрон-защитник может защищать территорию от враждебных мобов."]
+			hide_dependency_lines: true
+			id: "1044D5274BE72552"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "335051AC36708838"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "653D21C3F00D2E07"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "035D1FA1AE9096F3"
+				item: "pneumaticcraft:guard_drone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["519DF9A53D61AED0"]
+			description: ["Дрон-собиратель собирает различные предметы в области его действия."]
+			hide_dependency_lines: true
+			id: "11740A14D6774375"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DE2367B65C07E26"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07264DA1B93B74B9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "662AD241A16D21A9"
+				item: "pneumaticcraft:collector_drone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11FC3733A1D623C4"]
+			description: ["Продвинутая версия воздушного компрессора."]
+			id: "4558CD67EADF401F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54A5B5B40231C26F"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ED031DE9531EBEB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00E06C75991A6435"
+				item: "pneumaticcraft:advanced_air_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4558CD67EADF401F"]
+			description: ["С помощью электростатического компрессора можно вырабатывать сжатый воздух, путём попадания молнии в сам механизм, сделать это очень сложно!"]
+			id: "1418F3518E83EC8E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16A78EC43D67D24E"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B991C47C9F32010"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64CEC95B150FD320"
+				item: "pneumaticcraft:electrostatic_compressor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11FC3733A1D623C4"]
+			description: ["С помощью жидкостного компрессра можно вырабатывать сжатый воздух, путём сжигания различных топливных жидкостей."]
+			id: "149B92FBFDBACFD9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F0B087FF6C6B913"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "716B5893212C43F2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3BAF13242D11B476"
+				item: "pneumaticcraft:liquid_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["149B92FBFDBACFD9"]
+			description: ["Продвинутая версия жидкостного компрессора"]
+			id: "02F2E3A42E301527"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19937FF92F8CA755"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E341C02CF7F252F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01872EA99D3A0DBD"
+				item: "pneumaticcraft:advanced_liquid_compressor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11FC3733A1D623C4"]
+			description: ["С помощью флаксового компрессора можно вырабатывать сжатый воздух, путём преобразования Forge Enegry."]
+			id: "7AAF2AC6B08EE590"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F5FB6996E5E25F1"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57BA05A03EDD6DEE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2C5076B668111801"
+				item: "pneumaticcraft:flux_compressor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11FC3733A1D623C4"]
+			description: ["С помощью термального компрессора можно вырабатывать сжатый воздух при помощи перепада температуры."]
+			id: "06907AE75B374A5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14ED5444DA743CB6"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04E67FD739E91DE8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12AD8006B73FE067"
+				item: "pneumaticcraft:thermal_compressor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29D3BB90C1AFD93D"]
+			description: ["Продвинутая версия трубы под давлением.(по названию не понятно)"]
+			id: "3D3C7FD61E230EAA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6168EF872CEE8E8C"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03B33B78F2B5DC05"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1DE15B119386AE88"
+				item: "pneumaticcraft:advanced_pressure_tube"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29D3BB90C1AFD93D"]
+			description: ["Воздушная канистра может быть использована для заправки сжатым воздухом на станции заправки."]
+			id: "268FCC2C8C81C4DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10669902329C8CE2"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56F4EC9FE1F0724D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64672656C8B6F142"
+				item: "pneumaticcraft:air_canister"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["268FCC2C8C81C4DC"]
+			description: ["Улучшенная версия воздушной канисты."]
+			id: "7E3215B6AA8043DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17A272C83ADCA387"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22B9C331A6D0CDD6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "28327A12D4A75FB3"
+				item: "pneumaticcraft:reinforced_air_canister"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24D7624AB316B3C9"]
+			description: ["Очень питательный и вкусный хлеб, обязательно попробуйте!"]
+			id: "37059FDED1AD1C58"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C9B8A83E8665EFB"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49D924468BE4BD8B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7019E648626AD28F"
+				item: "pneumaticcraft:sourdough_bread"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["268FCC2C8C81C4DC"]
+			description: ["С помощью вихревой пушки можно стрелять потоками воздуха. А с помощью них, например, можно стричь животных."]
+			id: "192E4E411B871C96"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3971F2B0537C7D67"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "249ECF075ACC83C1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "474B512AFD376DFA"
+				item: "pneumaticcraft:vortex_cannon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["491435ED023469B3"]
+			description: ["Маркер GPS сохраняет координаты в мире. Используете в различных приборах из этого мода, например программатор и воздушная пушка."]
+			id: "73F313E9E587150D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4831667DA727C15B"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31767F841FBCAEBD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "75FCE787C90773A9"
+				item: "pneumaticcraft:gps_tool"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73F313E9E587150D"]
+			description: ["С помощью воздушной пушки можно перебрасывать предметы по воздуху. Для её работы нужен маркер GPS."]
+			id: "2AA9EE59F2E904E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "403D7838366E7DC9"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65C60A862440FAC1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "709677792734B917"
+				item: "pneumaticcraft:air_cannon"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4750ED395F4119D0"]
+			description: ["Очень вкусная еда, попробуйте обязательно!"]
+			id: "7B1C5B1C711FACCF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50BE4041D0C171FB"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42EC7D21DC448449"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0068EDC53C148C07"
+				item: "pneumaticcraft:cod_n_chips"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45A07D9B8081F2A0"]
+			description: ["С помощью экстрактора спаунера можно извлекать ядро спаунера из спаунера. Но весьма интересным способом..."]
+			id: "4187103267BDC294"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B2B694A13531358"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "014EA7FD574040FE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Выжимка"
+			tasks: [{
+				id: "04E799F7DBCD50EC"
+				item: "pneumaticcraft:spawner_extractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4187103267BDC294"]
+			description: ["С помощью пустого спаунера можно создать герметичный спаунер."]
+			id: "5F78168421BAA44A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "316291BEFD98EF9D"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73329C0CA646B507"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5026B896C4A9EF4C"
+				item: "pneumaticcraft:empty_spawner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F78168421BAA44A"]
+			description: ["С помощью спаунера под давлением можно создавать мобов, используя сжатый воздух и ИГНОРИРУЯ уровень освещения!"]
+			id: "1A8B1232DA3B698F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EB1F4DEEB5A39E2"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43EBD7A73D2D300C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "tech_square"
+			tasks: [{
+				id: "19A20D7E226A5D8A"
+				item: "pneumaticcraft:pressurized_spawner"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4750ED395F4119D0"]
+			description: ["Ядро спаунера можно поместить в герметичный спаунер, чтобы спавнить мобов, находящихся в этом ядре."]
+			id: "110F8BC45D436115"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0207A660C1D0F5EC"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AEA35FA0FF37C5E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6A472EB39576C1D9"
+				item: "pneumaticcraft:spawner_core"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6D2F62AF25B42BF4"]
+			id: "47F8FB706B6B7D54"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20BF1B8A21B51D87"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37409B9ABD893CB1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Часть солнечного компрессора"
+			tasks: [{
+				id: "7F94DC3A679F9C01"
+				item: "pneumaticcraft:solar_cell"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47F8FB706B6B7D54"]
+			id: "4604545A66A40868"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F594C475FBF4647"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "514E802A451364B8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Сжимает воздух солнечной энергией"
+			tasks: [{
+				id: "748EDC54594005C7"
+				item: "pneumaticcraft:solar_compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["268FCC2C8C81C4DC"]
+			id: "515B68B51A714E9E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43F0594DF4C872F4"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4002551B9FE2EEC7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Работает на сжатом воздухе"
+			tasks: [{
+				id: "4813C805F4D96B78"
+				item: "pneumaticcraft:minigun"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7E3215B6AA8043DE"]
+			description: ["Огромный жидкостный резервуар позволит вам хранить до 512 вёдер любой жидкости. "]
+			id: "0794E79277B6712D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E18918F3ED0D6D1"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18878CCB9A9244E7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "24843048A327DBD4"
+				item: "pneumaticcraft:huge_tank"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["45A07D9B8081F2A0"]
+			id: "063792352FEAE9A5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1846383F1DEBE1EC"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23E36CA1075398EA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Для тех, кто пока не шарит"
+			tasks: [{
+				id: "215F11BE4AAAD1CF"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58A6DAC2644D7A3E"]
+			description: ["Один из лучших видов доспехов по функционалу"]
+			id: "6581C7BA254B6900"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3985A00C60EB2E7A"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F9B252BBE71F5A7"
+					table_id: 3811133590909521347L
+					type: "random"
+				}
+			]
+			subtitle: "Много улучшений"
+			tasks: [
+				{
+					id: "3D24A0D32ABB7E95"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3002BD84B20B14E9"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A9EEE62DE4C057B"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2537F0E67C410A5B"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пневмоброня"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["491435ED023469B3"]
+			id: "3D23D77A44F7D183"
+			subtitle: "Крайне полезная вещь, хранит до 99 уровней опыта. Можно надеть в слот артефактов и включить автосбор."
+			tasks: [{
+				id: "60A8BD77A0C4166E"
+				item: "pneumaticcraft:memory_stick"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Воздух тоже сильный"]
+	title: "Пневматика"
+}

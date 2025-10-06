@@ -1,0 +1,10 @@
+{
+	id: "6FFD5AE083049A69"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 2, item: "createbigcannons:cast_iron_ingot", random_bonus: 2 }
+		{ item: "antiquelegacy:bronze_ingot", random_bonus: 2 }
+	]
+	title: "большие пушки"
+}

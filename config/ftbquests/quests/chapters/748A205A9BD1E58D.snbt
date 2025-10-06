@@ -1,0 +1,1178 @@
+{
+	autofocus_id: "7533BF7183C8362F"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "748A205A9BD1E58D"
+	group: "3E5C9570DCB452CF"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "weaponsofthemultiverse:rhitta_hammer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "748A205A9BD1E58D"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "0A98EC9BC56C90C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BD86DD943E73E12"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5854B273D8CC23FF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A463463EE81AF9F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5F9EB93A3BEC24E5"
+				item: "weaponsofthemultiverse:crystallite_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A98EC9BC56C90C8"]
+			id: "6A763CA22F2ECBAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2127721B84B457CF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "453C4021EB33DF5A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D715351BFD1C276"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Кто тут главный мастер меча онлайн?"
+			tasks: [{
+				id: "0A3A256810C748B5"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:dark_repulser_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "5361B99F684EABD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "362078436F7CA642"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3340EAA1DC42C6B4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00B80E9220D2E558"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7D9B00CDCFEF261D"
+				item: "weaponsofthemultiverse:dark_scrap"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5361B99F684EABD6"]
+			id: "6644D8E42ED6C957"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21233F245583C8B9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40E8E6CB4920FE98"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51FC22D23CC5C265"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1E8ADFF8A9EB7018"
+				item: "weaponsofthemultiverse:dark_steel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6644D8E42ED6C957"]
+			id: "449DF7C22693E914"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75559298324DBA5D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07B291D454D10AE0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2ABDA5F17B394A23"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Меч больше среднего"
+			tasks: [{
+				id: "2FE6B2FAAAD64705"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:black_iron_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6644D8E42ED6C957"]
+			id: "1D9EEF2CF618EDA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4792BE64B3E34DB5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72240A88B9BA4713"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "703A2C1B89AFB06E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Кое-что оригинальное"
+			tasks: [{
+				id: "28AA7B7D12C1E974"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:phantom_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6644D8E42ED6C957"]
+			id: "24D3136DDD2EFF42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76783B3419BF2E7D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "518B58AC0CAF982B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "227A3AD3182748F2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Абсолютный мастер"
+			tasks: [{
+				id: "05E741CDC5B19C54"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:absolute_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6644D8E42ED6C957"]
+			id: "74428DFF553CF874"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2399419FD454E50D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A7E9A26B0ECFC75"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E76D804840BC168"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Вроде мастер меча, а это не меч, а молот..."
+			tasks: [{
+				id: "2960C09CFAE39423"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:blacksmiths_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6644D8E42ED6C957"]
+			id: "5ECC533A4FC8E04D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "668AFF503361B57C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "547EC9AB63DD651F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "692DD2986B9C644B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Просто красивый меч"
+			tasks: [{
+				id: "0BAC83A620154D97"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:earth_blade_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6644D8E42ED6C957"]
+			id: "3303D25F5BE166BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "593C858C843A3424"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0371E6F7864E6A17"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "534702B5AEA2474B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Это не меч чёрного мечника"
+			tasks: [{
+				id: "0EA9E70FC77E6781"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:elucidator_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "2A6FC3066EB9CBAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51D15BFFA257ACE4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BCCB99186797FD0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CD247A44E2FAD54"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0DD414323DB079C1"
+				item: "weaponsofthemultiverse:light_scrap"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2A6FC3066EB9CBAE"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "4C5EEFD2A64FC586"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0115FC33C50B5BD8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05D57A2C1A43069D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36C1A4160EB612BA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3F6AD310CB7AB442"
+				item: "weaponsofthemultiverse:light_steel"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C5EEFD2A64FC586"]
+			id: "241C7115DA4482B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DAAA9AAF026D138"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C453388E7244DD1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7673141B1B71B3A2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Освободит от отсутствия аниме"
+			tasks: [{
+				id: "29D78AE499EAC991"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:liberator_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4C5EEFD2A64FC586"]
+			id: "68A20FE8E81A3079"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D92071CF9DA08B1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A8554640ECE1860"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79308032C188FC2B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Эти приключения для добряков!"
+			tasks: [{
+				id: "2E4E3BD39B46B050"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:finn_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4C5EEFD2A64FC586"]
+			id: "77937E0710BC3FCB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5897093EE936E806"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24A90945942C2251"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27EEDB0C104C4D69"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "У них кривые мечи..."
+			tasks: [{
+				id: "07812A95FA289794"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:karakurenai_katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4C5EEFD2A64FC586"]
+			id: "7CC8EDD09156A9AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78299D4CB8A3233F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "518A9309400BF02C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BE79D867864E22B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "И это кинжал"
+			tasks: [{
+				id: "416747F87611DEA0"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:ivory_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4C5EEFD2A64FC586"]
+			id: "7F1273ACBCCDCFDA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32DC1A8793D9C231"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BA16F8E790D92C0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A27CA46AC53B4CC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Этот тоже не тянет на меч"
+			tasks: [{
+				id: "027A64A0B9227326"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:mate_chopper_coral_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C5EEFD2A64FC586"]
+			id: "79609B385A22AB1B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34AC2CF500724DD1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76EFC20DF564E079"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CF6FF5C195960BD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "А это вообще кинжал"
+			tasks: [{
+				id: "3A1EB157D5980A73"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:shadow_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "66016030723762F1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "392EDFDDC4E58BDB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F5A737EDF182E67"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F320E8B2297E45B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "55FA4B0ED13AB408"
+				item: "weaponsofthemultiverse:ignitium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66016030723762F1"]
+			id: "5C7E35A8A78D9F3F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BC9E612E08E0C1E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "008C0DFD0E4AD126"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F3ED53852161B3A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Время приключений (злыдней)"
+			tasks: [{
+				id: "79B547EA05FC8958"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:demon_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66016030723762F1"]
+			id: "69866D2F60B1C583"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "79FE55C121E7D7A3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E6D9C554EB20D20"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E437850CE80E59C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Желаю, чтобы у всех комп тянул геншин!"
+			tasks: [{
+				id: "3D1A790140EA79CD"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:staff_of_homa_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66016030723762F1"]
+			id: "69E9DE8439B13258"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45EA7C8DEC50088C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36274984067253F0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "688A30F6CDB25CE1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Семь смертных грехов"
+			tasks: [{
+				id: "6573DA1E2E571BDA"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:rhitta_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "174B197F41A067AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "232D0AC23738F7B1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "046AAF25A90E25E4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09197C6280ABCF1E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Это не настоящая сталь, не надейтесь"
+			tasks: [{
+				id: "036F310583D03227"
+				item: "weaponsofthemultiverse:steel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["174B197F41A067AB"]
+			id: "1177434C9347F1E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C8F34A634AC3618"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "060A67D071622859"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5912B99B49862B4F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Этот просто из стали"
+			tasks: [{
+				id: "3A9E42DE63A7C6C5"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:anneal_blade_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["174B197F41A067AB"]
+			id: "32039656FFD005A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "174F08039FC167A5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "561A5538704D4426"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F7B6AE96B61783F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Его цвет вас не обманет, это медь"
+			tasks: [{
+				id: "0004738E82A02BC6"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:guilty_thorn_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["174B197F41A067AB"]
+			id: "1415065BF4C5AA1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26C718ACF814597E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "638973A84FCB7D0B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "539850F6E49521F0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Не нуждается в представлении"
+			tasks: [{
+				id: "0E27977937E3B064"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:dragon_slayer_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["174B197F41A067AB"]
+			id: "0E829E0BFD75696E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7EB2D84061A4177D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2644860435E9038D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51944976312C77E5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Только для тиранов"
+			tasks: [{
+				id: "5F3BF0280248E4E1"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:tyrant_dragon_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C5EEFD2A64FC586"]
+			id: "5A02A318D4AFC1F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F752AF7E2E5AAEF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E7FC60EB4510382"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E5CB9163093B862"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "И рубит, и колет"
+			tasks: [{
+				id: "2738403BF9CF8478"
+				item: {
+					Count: 1
+					id: "weaponsofthemultiverse:lambent_light_rapier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "24FD66C0D5C07F50"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08D865D7FDACEDD9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "265A8C7167503A9A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "742FB472404DF311"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Этот вариант намного дешевле"
+			tasks: [{
+				id: "58BD0493CA5825D8"
+				item: {
+					Count: 1
+					id: "chasehasadragonslayer:dragonslayer_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ещё одна вариация великого меча"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Только для настоящих воинов"]
+			id: "630D5F027EA320B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54C7DB19D6AE973C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A59CBB6B0C9FBFF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "719E7693E665C042"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Даёт необычные способности"
+			tasks: [
+				{
+					id: "7E66ED4DF7DDD07E"
+					item: {
+						Count: 1
+						id: "chasehasadragonslayer:berserker_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2968547CEC92AB24"
+					item: {
+						Count: 1
+						id: "chasehasadragonslayer:berserker_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EBDF24C0AAC94E8"
+					item: {
+						Count: 1
+						id: "chasehasadragonslayer:berserker_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F04BA666F61FB77"
+					item: {
+						Count: 1
+						id: "chasehasadragonslayer:berserker_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня берсерка"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Одни из сильнейших образцов холодного оружия в сборке"]
+			id: "7533BF7183C8362F"
+			rewards: [{
+				id: "54DCD665FCDB75FA"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Для ценителей (да и само оружие очень сильное)"
+			tasks: [{
+				id: "384C22EBBED2F842"
+				title: "Оружие из аниме и разных игр"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+	]
+	subtitle: ["Да, геншин и берсерк тут"]
+	title: "Аниме и не только"
+}

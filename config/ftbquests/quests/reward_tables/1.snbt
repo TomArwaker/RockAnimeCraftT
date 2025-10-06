@@ -1,0 +1,13 @@
+{
+	id: "1C59B53C5C4A1460"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "jeg:pistol_ammo", random_bonus: 5 }
+		{ item: "jeg:gunmetal_ingot", random_bonus: 1 }
+		{ item: "jeg:handmade_shell", random_bonus: 5 }
+		{ count: 2, item: "jeg:scrap", random_bonus: 2 }
+		{ count: 2, item: "jeg:tech_trash", random_bonus: 2 }
+	]
+	title: "Пушки 1"
+}

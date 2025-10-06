@@ -1,0 +1,2372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0F38F2E08CA84FDC"
+	group: "5C72E74C0EB56E87"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "blue_skies:zeal_lighter"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0F38F2E08CA84FDC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["72733968ECC1C246"]
+			id: "33C118E36D9FA1E1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52F29A2E7836A5D7"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "dirt"
+			subtitle: "Новое измерение!"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "484669DACC558B6C"
+				title: "Посетить измерение Эвербрайт"
+				type: "dimension"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33C118E36D9FA1E1"]
+			description: ["Добудьте немного камня для инструментов."]
+			id: "0A65F1010B1D56BA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7515BB04C8B594F4"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Красивый камень!"
+			tasks: [{
+				count: 4L
+				id: "06DF09AA64BA9B49"
+				item: "blue_skies:turquoise_cobblestone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0A65F1010B1D56BA"
+				"06EB44453CFA0D9E"
+			]
+			description: ["Это печка выполняет те же функции, что и обычная. Только если вы положите в слот топлива особые предметы, то они смогут перевоплотиться в земные аналоги."]
+			id: "21294D4889484551"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F07506A27F6E09F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Грибная печь!"
+			tasks: [{
+				id: "5CAFC1FE3B51D42F"
+				item: "blue_skies:snowcap_oven"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["495BFE02895B7155"]
+			description: ["Из этих блоков можно создать печь этого мира."]
+			id: "06EB44453CFA0D9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB83D2E3099072A"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Блок грибочков!"
+			tasks: [{
+				id: "5A81958EE0B36738"
+				item: "blue_skies:snowcap_mushroom_block"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33C118E36D9FA1E1"]
+			description: ["Грибы можно найти в грибном биоме. Они могут служить как топливо для печи."]
+			hide_dependency_lines: true
+			id: "495BFE02895B7155"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FA340FB99A34F33"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Грибочек!"
+			tasks: [{
+				id: "502DF5FA177F3F58"
+				item: "blue_skies:snowcap_pinhead"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A65F1010B1D56BA"]
+			description: ["Обычная каменная кирка, которой вы сможите добыть некоторые руды."]
+			id: "3DE354A671C2D09B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25032470A6ACB291"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Каменная кирка!"
+			tasks: [{
+				id: "6B0B3A9CD69BF2ED"
+				item: {
+					Count: 1
+					id: "blue_skies:turquoise_stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DE354A671C2D09B"]
+			description: ["Из эти осколков можно создать источник света и различные копья."]
+			id: "7F34C736C90A6C82"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7470C21791F402BC"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Прилетели прямо с луны!"
+			tasks: [{
+				count: 2L
+				id: "0AB47B306710395A"
+				item: "blue_skies:moonstone_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3DE354A671C2D09B"]
+			description: ["Этот самоцвет можно найти в пещерах. Из него крафтятся инструменты и броня."]
+			id: "3E3F2A6658CB655C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AA44B8062DFA49F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Похож на рубин!"
+			tasks: [{
+				count: 6L
+				id: "4D447C80168BCB83"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3DE354A671C2D09B"]
+			description: ["Добыв эту руду, Вы сможете сделать вещи, которые будут не хуже железных."]
+			id: "71DB69814A0B47B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1574D11514EA135A"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Железо этого мира!"
+			tasks: [
+				{
+					count: 4L
+					id: "00AA6958D576820A"
+					item: "blue_skies:raw_aquite"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5E6D6B403DF8868B"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+			]
+			title: "Аквит"
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71DB69814A0B47B0"]
+			description: ["Кирка ничем от железной не отличается."]
+			id: "34FAA200D911BBFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72E94DAB7D8B98EB"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Железная кирка!"
+			tasks: [{
+				id: "0571593B5B5C15CF"
+				item: {
+					Count: 1
+					id: "blue_skies:aquite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3E3F2A6658CB655C"]
+			description: ["Эта кирка копает быстрее остальных, но уровень её добычи не выше камня("]
+			id: "09AD609EF2CF1F27"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A3E4B07F84734AF"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Быстрая кирка!"
+			tasks: [{
+				id: "4E0B416BE27A067C"
+				item: {
+					Count: 1
+					id: "blue_skies:pyrope_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["34FAA200D911BBFD"]
+			dependency_requirement: "one_completed"
+			description: ["Встречается редко, но предметы из этой руды очень хорошие по свойствам."]
+			id: "67DEE061A73F243E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53235308C5150CAC"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Алмазы этого мира!"
+			tasks: [
+				{
+					count: 4L
+					id: "6F83B1927BEA1ED7"
+					item: "blue_skies:raw_charoite"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "595080BE7E0A507F"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
+			title: "Чароит"
+			x: -13.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["67DEE061A73F243E"]
+			description: ["Алмазная кирка. Ничего необычного."]
+			id: "6BDD636E4AA02AA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A6A6A22E33CDF86"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Алмазная кирка!"
+			tasks: [{
+				id: "6EE5C80619C05F01"
+				item: {
+					Count: 1
+					id: "blue_skies:charoite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BDD636E4AA02AA2"]
+			description: ["Немного лучше, чем предыдущий материал."]
+			id: "7BD9063F0E0C0224"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73B86160B396C739"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Незерит этого мира!"
+			tasks: [{
+				count: 4L
+				id: "32D7304C884FE0BE"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BD9063F0E0C0224"]
+			description: ["Лучшая кирка в этом мире."]
+			id: "6264D9F5BC0CC4B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DDAF71AE0573EDC"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Лучше алмазной!"
+			tasks: [{
+				id: "683200A6D0A927D0"
+				item: {
+					Count: 1
+					id: "blue_skies:diopside_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F34C736C90A6C82"]
+			description: ["Неплохое дальное оружие."]
+			id: "4B13FDA474D9BFCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69D950345D9F0893"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Оружие дальнего боя!"
+			tasks: [{
+				id: "4BA71EC597FB9AAD"
+				item: {
+					Count: 1
+					id: "blue_skies:maple_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F34C736C90A6C82"]
+			description: ["Можно использовать для освещения местности."]
+			id: "0A5B07937CF23A7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "497C3B35F836BCB5"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Факела!"
+			tasks: [{
+				count: 4L
+				id: "0613D84F6911AFAC"
+				item: "blue_skies:moonstone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["67DEE061A73F243E"]
+			description: ["Одна из лучших бронь."]
+			id: "5D5593AC9E0DD2A5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78066D6F755CBF5D"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Это ещё не конец!"
+			tasks: [
+				{
+					id: "6E9AFC22F47F1CAC"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C998397DCB3CBA1"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75E84E90BF694FAF"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ED0481659304E80"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Чароитовая броня"
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["67DEE061A73F243E"]
+			description: ["Аналоги алмазных инструментов. Для боссов самое то."]
+			id: "6EE88B1FDF7FAAE6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D01D5356CE90061"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Алмазные инструменты!"
+			tasks: [
+				{
+					id: "016B51F2D817D13D"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AC812E1F9945366"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Чароитовое оружие"
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BD9063F0E0C0224"]
+			description: ["По защите броня может и хуже, но по твёрдости выигрывает."]
+			id: "63ED9D47E736BB72"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "400197A8E40D8AC1"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Травяная броня!"
+			tasks: [
+				{
+					id: "55777EEE59F4AB28"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F0DF4433915264E"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A64819BF462B583"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "611C9893140E9FBD"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Диопсидовая броня"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BD9063F0E0C0224"]
+			description: ["Сильнейшие оружия в этом мире."]
+			id: "4C88CDCBB0CD75DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74789844544726AD"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Сильнее некуда!"
+			tasks: [
+				{
+					id: "3A7F1E38FC1AC068"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "049C8B12C855CD2B"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Диопсидовое оружие"
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["33C118E36D9FA1E1"]
+			description: ["Эта башня появляется везде по миру и, причём, довольно часто."]
+			id: "4FEE0D0770EC7EFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17D3EF5C6B0B3420"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Башня мага!"
+			tasks: [{
+				id: "4E3525CBF40BF1F6"
+				structure: "blue_skies:everbright_blinding_dungeon"
+				type: "structure"
+			}]
+			title: "Найти структуру Ослепляющее Подземелье"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E3F2A6658CB655C"]
+			description: ["Неплохие инструменты для старта."]
+			id: "27B4392A969F6CED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38B4F9E5ED790253"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Рубиновые инструменты!"
+			tasks: [
+				{
+					id: "19CC5A3ECB6A7AA4"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "016402C0238FDBCD"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пироповое оружие"
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["71DB69814A0B47B0"]
+			description: ["С этим оружием и на боссов пойти можно."]
+			id: "3F4D39646481E843"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A8D861600AC8255"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Хорошие инструменты!"
+			tasks: [
+				{
+					id: "6CA5BFC85F86A812"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CC1FDEF8BFB7BFF"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквитовое оружие"
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["71DB69814A0B47B0"]
+			description: ["Мобы будут с трудом вас пробивать."]
+			id: "41F33E3A52BE84B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B7C24D2967F917A"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Хорошая броня!"
+			tasks: [
+				{
+					id: "40876D7053353151"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74C305E8B5B58B7F"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DA95F24FC87D4B2"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "136DCBCDBE04E2C5"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквитовая броня"
+			x: -11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3E3F2A6658CB655C"]
+			description: ["По защите броня схожа с кальчугой."]
+			id: "75CEFCBA2DDF3AA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20E02AF27E7F3B56"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Рубиновая броня!"
+			tasks: [
+				{
+					id: "411098E254FF310A"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68EC318812A58EDD"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FF215377D0431CD"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ADF7AFE44C21593"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пироповая броня"
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4FEE0D0770EC7EFD"]
+			description: ["По всей башне разбросано 4 ключа. Собрав их все, Вы сможете открыть путь к Заклинателю."]
+			id: "528E6FE97075D52E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6657262F1FDDC3DF"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Ключи от комнаты босса!"
+			tasks: [{
+				count: 4L
+				id: "3811CF034240B25D"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FEE0D0770EC7EFD"
+				"528E6FE97075D52E"
+			]
+			id: "3486ABDB78FD1EB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69D4F416A5C77581"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Босс!"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "1E28B3361691A464"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3486ABDB78FD1EB8"]
+			description: ["При броске, копьё всегда вернётся к отправителю."]
+			id: "489AD748B7E993CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AABE90464D43752"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Верный друг!"
+			tasks: [{
+				id: "51BE8839C01495FD"
+				item: {
+					Count: 1
+					id: "blue_skies:soulbound_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3486ABDB78FD1EB8"]
+			description: ["Увеличивает скорость персонажа на 10% при надевании."]
+			id: "589F399824648A26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D22FD8A38C24554"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Быстрые ноги смерти не боятся!"
+			tasks: [{
+				id: "0A72EBEEB9633506"
+				item: {
+					Count: 1
+					id: "blue_skies:ethereal_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3486ABDB78FD1EB8"]
+			description: ["Можно найти где-то в мире. Не заметить это здание невозможно."]
+			id: "441745D2CDEB36B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BC76CF52EE1D1CF"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Дом Старлита!"
+			tasks: [{
+				id: "501756C2DE9BEE13"
+				structure: "blue_skies:nature_dungeon"
+				type: "structure"
+			}]
+			title: "Найти структуру Подземелье Природы"
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["441745D2CDEB36B4"]
+			description: ["Вам придётся пройти все комнаты на всех этажах, чтобы найти эти ключи."]
+			id: "58414F06FB622D1E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1370FF0D9974A6FA"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Удачи!"
+			tasks: [{
+				count: 4L
+				id: "57B6B82D009D7B68"
+				item: "blue_skies:nature_key"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"58414F06FB622D1E"
+				"441745D2CDEB36B4"
+			]
+			id: "3E79B91DF82EEA6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19AB3D1BE11A6C39"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Босс!"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				id: "6A659631FE4D3EC6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E79B91DF82EEA6B"]
+			description: ["При зажатии ПКМ, молот подкидывает врагов в воздух и наносит им урон."]
+			id: "70EA89D7AB5A4666"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BAD34CCD3E06266"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Вызывает землетрясение!"
+			tasks: [{
+				id: "5EECDA7A2D1BFEAC"
+				item: {
+					Count: 1
+					id: "blue_skies:crushing_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E79B91DF82EEA6B"]
+			description: ["При надевании даёт одно дополнительное сердце."]
+			id: "63DAF99A3D05BE9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19820FA30BB17C11"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Больше жизней - дольше будут бить!"
+			tasks: [{
+				id: "3CAC7BF168F35138"
+				item: {
+					Count: 1
+					id: "blue_skies:nature_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Иногда, в лесу или на равнинах, можно найти дом Привратника. У него есть возможность купить книгу-руководитель по мирам и особенную зажигалку, которая и открывает путь в два, совершенно разных мира."]
+			id: "6F6EADB5F5C997B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67497A677193F751"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Одинокий домик жителя!"
+			tasks: [{
+				id: "3ADBAD9E0F1B6F31"
+				structure: "blue_skies:gatekeeper_house_plains"
+				title: "Найти структуру Дом привратника на равнине"
+				type: "structure"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F6EADB5F5C997B0"]
+			description: ["Эту зажигалку можно либо скрафтить, либо купить у Привратника за изумруды."]
+			id: "49FE34669CEAD13C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AFEEFF11B2117ED"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Ключ от порталов!"
+			tasks: [{
+				id: "02E6A75E4F309416"
+				item: {
+					Count: 1
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["453D4C05E7CA0894"]
+			id: "74BE7195932F349A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "261C5600D7083072"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "dirt"
+			subtitle: "Новое измерение!"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "6366D8B6199AE511"
+				title: "Посетить измерение Эвердоун"
+				type: "dimension"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["74BE7195932F349A"]
+			description: ["Добудьте немного камня для инструментов."]
+			id: "1CA1448CA3CB59B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42E6584D4A6251DD"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Красивый камень!"
+			tasks: [{
+				count: 4L
+				id: "5FD90E8B8E0EDD37"
+				item: "blue_skies:lunar_cobblestone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6324258A2DC7B85C"]
+			description: ["Печь, работающая от жара предметов."]
+			id: "153DC40D7E6589EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4155FF4A2080D9C2"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Горячая штучка!"
+			tasks: [{
+				id: "67F2DDEF2D443301"
+				item: "blue_skies:horizonite_forge"
+				type: "item"
+			}]
+			x: -9.999999999999993d
+			y: 2.642857142857146d
+		}
+		{
+			dependencies: ["1CA1448CA3CB59B7"]
+			description: ["Обычная каменная кирка, которой вы сможите добыть некоторые руды."]
+			id: "43DC786F5628C853"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C6F850C09902BD0"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Каменная кирка!"
+			tasks: [{
+				id: "332D38D32CF9B470"
+				item: {
+					Count: 1
+					id: "blue_skies:lunar_stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["43DC786F5628C853"]
+			description: ["Из эти осколков можно создать источник света и различные копья."]
+			id: "4ED834F722B5532A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "627E9FC3A7C12D8F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Прилетели прямо с луны!"
+			tasks: [{
+				count: 2L
+				id: "7BADFB7BB770D8CF"
+				item: "blue_skies:moonstone_shard"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4ED834F722B5532A"]
+			description: ["Неплохое дальное оружие."]
+			id: "36B1B4199044FF4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E3333EFF9F11BE5"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Оружие дальнего боя!"
+			tasks: [{
+				id: "09527FF8629363B1"
+				item: {
+					Count: 1
+					id: "blue_skies:lunar_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4ED834F722B5532A"]
+			description: ["Можно использовать для освещения местности."]
+			id: "78D739D261B53D12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7764D2C271ED5039"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Факела!"
+			tasks: [{
+				count: 4L
+				id: "56293593B9A59473"
+				item: "blue_skies:moonstone"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["43DC786F5628C853"]
+			description: ["Этот самоцвет можно найти в пещерах. Из него крафтятся инструменты и броня."]
+			id: "33508D908B2B3607"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6588A9CE2E7E2473"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Похож на рубин!"
+			tasks: [{
+				count: 6L
+				id: "0033C18E6680E041"
+				item: "blue_skies:pyrope_gem"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["43DC786F5628C853"]
+			description: ["Добыв эту руду, Вы сможете сделать вещи, которые будут не хуже железных."]
+			id: "7C1D2FEB6E08617F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05B01B6DE63FBC80"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Железо этого мира!"
+			tasks: [
+				{
+					count: 4L
+					id: "540C633AF265379C"
+					item: "blue_skies:raw_aquite"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "002F5341C8F6ACF4"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+			]
+			title: "Аквит"
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["33508D908B2B3607"]
+			description: ["Эта кирка копает быстрее остальных, но уровень её добычи не выше камня("]
+			id: "044A7DE657D3A217"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D397058C2FC34B6"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Быстрая кирка!"
+			tasks: [{
+				id: "510565842892348A"
+				item: {
+					Count: 1
+					id: "blue_skies:pyrope_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C1D2FEB6E08617F"]
+			description: ["Кирка ничем от железной не отличается."]
+			id: "6B0EA302FBA60970"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E6883DAB42B2D34"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Железная кирка!"
+			tasks: [{
+				id: "2C71CF7049033DDD"
+				item: {
+					Count: 1
+					id: "blue_skies:aquite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6B0EA302FBA60970"]
+			description: ["Встречается редко, но предметы из этой руды очень хорошие по свойствам."]
+			id: "0D3641128E425C35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EDFF4091174F3D2"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Алмазы этого мира!"
+			tasks: [
+				{
+					count: 4L
+					id: "43D94BFA1551A7DB"
+					item: "blue_skies:raw_charoite"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3D491A22F0BCD010"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+			]
+			title: "Чароит"
+			x: -13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D3641128E425C35"]
+			description: ["Одна из лучших бронь."]
+			id: "227073138F579099"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46EE9F699EE31762"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Это ещё не конец!"
+			tasks: [
+				{
+					id: "5388CE8CD811B4AB"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D85E382DBDDB89F"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01D18DE766078AF9"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76F028984304118F"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Чароитовая броня"
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D3641128E425C35"]
+			description: ["Аналоги алмазных инструментов. Для боссов самое то."]
+			id: "15920659902165B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445737B484EAB9AE"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Алмазные инструменты!"
+			tasks: [
+				{
+					id: "6636F12EE2CC60C4"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "334007664BF6D334"
+					item: {
+						Count: 1
+						id: "blue_skies:charoite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Чароитовое оружие"
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D3641128E425C35"]
+			description: ["Алмазная кирка. Ничего необычного."]
+			id: "5AAF794D906CB548"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E05AA997C742437"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Алмазная кирка!"
+			tasks: [{
+				id: "69258D4E20D4240B"
+				item: {
+					Count: 1
+					id: "blue_skies:charoite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43DC786F5628C853"]
+			description: ["Вещи, создаваемые из данной руды, имеют \"горячие\" свойства. Кирка, например, имеет авто-плавку."]
+			id: "6324258A2DC7B85C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03317B0A5FCC3F31"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Интересно, есть ли вертикалит?"
+			tasks: [
+				{
+					count: 4L
+					id: "161FC7BF2C0598FF"
+					item: "blue_skies:raw_horizonite"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "5FAE5F622B0F3367"
+					item: "blue_skies:horizonite_ingot"
+					type: "item"
+				}
+			]
+			title: "Горизонит"
+			x: -10.142857142857139d
+			y: 4.1666666666666785d
+		}
+		{
+			dependencies: ["6324258A2DC7B85C"]
+			description: ["Хорошая кирка с авто-плавкой."]
+			id: "23C3D1CBB35C69C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3826E31CEB689C02"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Излучает сильный жар!"
+			tasks: [{
+				id: "10391B3EF1129748"
+				item: {
+					Count: 1
+					id: "blue_skies:horizonite_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.999999999999993d
+			y: 2.738095238095241d
+		}
+		{
+			dependencies: ["6324258A2DC7B85C"]
+			description: ["По защите броня схожа с кальчугой."]
+			id: "20BEC1AF97284492"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4AB584235BBB576E"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Одежда для зимы!"
+			tasks: [
+				{
+					id: "2D1DEC361940E0F3"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6933D8EB490451F3"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "547F6AB3A46396BF"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B2B4C52E2A774EE"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Горизонтовая броня"
+			x: -12.047619047619044d
+			y: 3.738095238095248d
+		}
+		{
+			dependencies: ["6324258A2DC7B85C"]
+			description: ["При ударе мечом по врагу, тот будет подожжён."]
+			id: "11E041B635F5BBA6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "760C0AB5780AF688"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Оружие с огоньком!"
+			tasks: [
+				{
+					id: "3DE4BBA90485A7B5"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "185CF21C38E702DF"
+					item: {
+						Count: 1
+						id: "blue_skies:horizonite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Горизонтовое оружие"
+			x: -11.047619047619044d
+			y: 2.3095238095238173d
+		}
+		{
+			dependencies: ["49FE34669CEAD13C"]
+			description: ["Постройте из кирпичей, найденных в сарае у Привратника, рамку обычного портала."]
+			id: "72733968ECC1C246"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76218FDDBF8E017E"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Портал в Эвербрайт!"
+			tasks: [{
+				count: 10L
+				id: "78029706701E3DEE"
+				item: "blue_skies:turquoise_stonebrick"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49FE34669CEAD13C"]
+			description: ["Постройте из кирпичей, найденных в сарае у Привратника, рамку обычного портала."]
+			id: "453D4C05E7CA0894"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E8E9DCF9CD2EA16"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Портал в Эвердоун!"
+			tasks: [{
+				count: 10L
+				id: "0317A1DEBF957EB5"
+				item: "blue_skies:lunar_stonebrick"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74BE7195932F349A"]
+			description: ["Эта башня появляется везде по миру и, причём, довольно часто."]
+			id: "2972A0CEFB21C2B1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "59428756C31941A4"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Башня Алхимика!"
+			tasks: [{
+				id: "4ADB4E1851C510F0"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+				type: "structure"
+			}]
+			title: "Найти структуру Ослепляющее Подземелье"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2972A0CEFB21C2B1"]
+			description: ["По всей башне разбросано 4 ключа. Собрав их все, Вы сможете открыть путь к Алхимику"]
+			id: "40F07E51A846F1B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04E830194D5BBC2F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Ключи от комнаты босса!"
+			tasks: [{
+				count: 4L
+				id: "705062D8CA29BDA3"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2972A0CEFB21C2B1"
+				"40F07E51A846F1B0"
+			]
+			id: "0C8146FD6AE2E6B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F3BC46756172315"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Босс!"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "7D685D52322E427B"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0C8146FD6AE2E6B5"]
+			description: ["При зажатом шифте делает вас невидимым."]
+			id: "44F3EE06B029A769"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39996A65C22B7DD2"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Ниндзя!"
+			tasks: [{
+				id: "405DE8BD6F6552BC"
+				item: {
+					Count: 1
+					id: "blue_skies:dusk_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0C8146FD6AE2E6B5"]
+			description: ["Хороший щит для защиты."]
+			id: "3B5B432BEBBDEF43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58614021FFC27166"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Острые шипы!"
+			tasks: [{
+				id: "38EEB6E3BDAE7432"
+				item: {
+					Count: 1
+					id: "blue_skies:spike_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C8146FD6AE2E6B5"]
+			description: ["Появляется где-то в мире. Выглядит как засохшее дерево с проходом внутрь."]
+			id: "5364314C958C8AC2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3702E1A934DE3C3B"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Подземелье пауков!"
+			tasks: [{
+				id: "618E25C08CDA3F69"
+				structure: "blue_skies:poison_dungeon"
+				type: "structure"
+			}]
+			title: "Найти структуру Ядовитое Подземелье"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5364314C958C8AC2"]
+			description: ["Вам придётся пройти все комнаты на всех этажах, чтобы найти эти ключи."]
+			id: "1F2CE9AD100358CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4354063A6B486B38"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Удачи!"
+			tasks: [{
+				count: 4L
+				id: "5EC8AF19F1AA35A3"
+				item: "blue_skies:poison_key"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1F2CE9AD100358CC"
+				"5364314C958C8AC2"
+			]
+			id: "73636985F59A15F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "740F0DB2094A4A1F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Босс!"
+			tasks: [{
+				entity: "blue_skies:arachnarch"
+				id: "53E609CB4AA0D6DF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["73636985F59A15F6"]
+			description: ["Увеличивает нанесённый ущерб на 1 при отравлении."]
+			id: "2359DD90A1044134"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A8ACD513F0DDE18"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Опасная!"
+			tasks: [{
+				id: "650DA3DC1A7555C9"
+				item: {
+					Count: 1
+					id: "blue_skies:poison_arc"
+					tag: {
+						ArcLevel: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["73636985F59A15F6"]
+			description: ["Стреляет ядом."]
+			id: "4B41B27F5227595A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32CBADE1B5288253"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Жало паука!"
+			tasks: [{
+				id: "58F57418F5096418"
+				item: {
+					Count: 1
+					id: "blue_skies:venom_sac"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0C8146FD6AE2E6B5"]
+			description: ["При использовании, свиток сбрасывает с неба каменные глыбы, наносящие урон мобам."]
+			id: "74A6A52F4531A253"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66F63BF4E4128443"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Это каменный дождь!"
+			tasks: [{
+				id: "6148EBD277C51B77"
+				item: {
+					Count: 1
+					id: "blue_skies:alchemy_scroll"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3486ABDB78FD1EB8"]
+			description: ["Может как стрелять, так и призывать големов. Для того, чтобы сменить режим, нужно положить книгу и фрагмент души в стол призыва."]
+			id: "39B41C944074C20E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CA52E3FF7B40921"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Книга мага!"
+			tasks: [{
+				id: "4A85F487F2296591"
+				item: {
+					Count: 1
+					id: "blue_skies:summoning_tome"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33508D908B2B3607"]
+			description: ["Неплохие инструменты для старта."]
+			id: "6F504EA443F85C78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40A5C42B90D72C91"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Рубиновые инструменты!"
+			tasks: [
+				{
+					id: "778127AEB153E437"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E8EA9EE83946C48"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пироповое оружие"
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["33508D908B2B3607"]
+			description: ["По защите броня схожа с кальчугой."]
+			id: "3A01FE3B07CF0B8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0F8FB2B0E56C7624"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Рубиновая броня!"
+			tasks: [
+				{
+					id: "3A3BDBB18BDBEF1F"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7B59E460CD54EF"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C1EC337141B1507"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "282F2037072EB0FA"
+					item: {
+						Count: 1
+						id: "blue_skies:pyrope_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пироповая броня"
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C1D2FEB6E08617F"]
+			description: ["С этим оружием и на боссов пойти можно."]
+			id: "2DE9715170D2CC43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6566D3E13F159294"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Хорошие инструменты!"
+			tasks: [
+				{
+					id: "2BB7A1343E370B40"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59DC4A8515BF6872"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквитовое оружие"
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7C1D2FEB6E08617F"]
+			description: ["Мобы будут с трудом вас пробивать."]
+			id: "19F96EE667886B34"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ECD62E79017309F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Хорошая броня!"
+			tasks: [
+				{
+					id: "6F2F5611E8438148"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06C800329C0EA3DC"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6661938D1464DB91"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59DED8027139C987"
+					item: {
+						Count: 1
+						id: "blue_skies:aquite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Аквитовая броня"
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5AAF794D906CB548"]
+			description: ["Немного лучше, чем предыдущий материал."]
+			id: "1477F6D3F4F86FC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47A6C7107B35EB51"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Незерит этого мира!"
+			tasks: [{
+				count: 4L
+				id: "79B7770A6084FE11"
+				item: "blue_skies:diopside_gem"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1477F6D3F4F86FC3"]
+			description: ["Лучшая кирка в этом мире."]
+			id: "2084089963BBFB96"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72BD63F7B7E852CD"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Лучше алмазной!"
+			tasks: [{
+				id: "2BF7B63C2D731DDA"
+				item: {
+					Count: 1
+					id: "blue_skies:diopside_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1477F6D3F4F86FC3"]
+			description: ["Сильнейшие оружия в этом мире."]
+			id: "575E7DF623411B50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13371D96E87DFBCF"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Сильнее некуда!"
+			tasks: [
+				{
+					id: "30B1E21683ACA240"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54CDA60ECA06E9EF"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Диопсидовое оружие"
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1477F6D3F4F86FC3"]
+			description: ["По защите броня может и хуже, но по твёрдости выигрывает."]
+			id: "45BBF9477EEEFE74"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61AAC5E6FC68DD51"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Травяная броня!"
+			tasks: [
+				{
+					id: "287A65AF755DCFB1"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "044FEEA6C67D0A1C"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5543310ADBF92830"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43FC4E48B0F9F780"
+					item: {
+						Count: 1
+						id: "blue_skies:diopside_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Диопсидовая броня"
+			x: -12.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Два в одном"]
+	title: "Blue Skies"
+}

@@ -1,0 +1,579 @@
+{
+	autofocus_id: "03B74C34855AF1F7"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3A79A0250722BCFC"
+	group: "6E434B4FD255C1FB"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "tombstone:ankh_of_prayer"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3A79A0250722BCFC"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D2AAF89C0AB7526"]
+			id: "63324742A3836960"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1596C8A004A72E35"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1AD24EF58D41C10B"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "661B7E520C8D9325"
+				item: "wormhole:portal_frame"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Порталы потребляют энергию, но они слишком круты, чтобы считать их техникой, поэтому будем считать магией. Можно добавлять несколько точек перемещения на выбор (4 в обычном, 8 в продвинутом), менять цвет портала, строить его любого размера и при желании делать горизонтальным. Для каждого портала нужна рамка, стабилизатор, ячейка цели и энергетическая ячейка. Точки для телепортации создаются с пульта."]
+			id: "4D2AAF89C0AB7526"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AEC05497B5A1980"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "348544A1E8262A66"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Летим куда  хотим! Попробуем закинуть туда поезд?"
+			tasks: [{
+				id: "5592C529DD0B4D0C"
+				title: "Свой портал"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D2AAF89C0AB7526"]
+			id: "3920A4955DAFAA31"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27C00BF588A31763"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D1323D86BE3DD72"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12A53FEC7B7AB9B1"
+				item: {
+					Count: 1
+					id: "wormhole:portal_stabilizer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D2AAF89C0AB7526"]
+			id: "7DF05D0E83EE443E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C29BBED038423A7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06C53A04C4E82A61"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "115AECF05334B253"
+				item: "wormhole:basic_target_cell"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3864ED3A1188C62C"]
+			id: "2F42C7A7399B86A8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "137D73E97FF56C2F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D7F81355E81E966"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0D1F07AB5FC7CCAF"
+				item: {
+					Count: 1
+					id: "wormhole:advanced_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DF05D0E83EE443E"]
+			id: "6E9F359BE95414D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21918B3F76A1CC2F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A5FC9CCD8A026B8"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A66C0200C4F6410"
+				item: "wormhole:advanced_target_cell"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D2AAF89C0AB7526"]
+			id: "3864ED3A1188C62C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "490DD984DCC4C3A4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11319D000C6FD2EA"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12082BC61BCBAF79"
+				item: {
+					Count: 1
+					id: "wormhole:basic_energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D2AAF89C0AB7526"]
+			id: "0B32FA5040FFB29F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "073BC7A4FD865255"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D89BE533999B6EC"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "455CA809AE93BD61"
+				item: {
+					Count: 1
+					id: "wormhole:target_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B32FA5040FFB29F"]
+			id: "2B79E3C9EEDA6687"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63E4CAB5C2809584"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BD24C3E155223CB"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4AC5ABE3D96A7F5F"
+				item: {
+					Count: 1
+					id: "wormhole:advanced_target_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "03B74C34855AF1F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06DE1EC69308BA9C"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "И ещё один способ, не такой громоздкий"
+			tasks: [{
+				id: "7493BF8446B0C57C"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03B74C34855AF1F7"]
+			id: "2A0E39DB62570EE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B4CC49DFEDF66AD"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Между ними можно перемещаться"
+			tasks: [{
+				id: "7D39906B4BA115D5"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Могильная пыль - ремесленный игредиент, используемый в рецептах Могильного мрамора, Свитков и Скрижалей."]
+			id: "66EE7755CE6098C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F8F40861310050E"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "Сувенир для некроф..завра"
+			tasks: [{
+				id: "483E4F3A0DA7368A"
+				item: "tombstone:grave_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66EE7755CE6098C8"]
+			description: ["Тёмный (могильный) мрамор - ингредиент для создания декоративных могил."]
+			id: "66BCF7B2DBB323FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53A1D3BD923A881E"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Для готов"
+			tasks: [{
+				id: "0108887B68528886"
+				item: "tombstone:dark_marble"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"66BCF7B2DBB323FF"
+				"01891934092CE5D3"
+			]
+			description: ["Странная табличка используется для создания волшебных табличек."]
+			id: "4EC07123A974648D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05AF6E5B71523445"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Чистый лист"
+			tasks: [{
+				id: "60D377F3078895EB"
+				item: "tombstone:strange_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["66EE7755CE6098C8"]
+			description: ["Белый (могильный) мрамор - ингредиент для создания декоративных могил."]
+			id: "01891934092CE5D3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48E1B2D78A118DF5"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Светлая сторона"
+			tasks: [{
+				id: "36EBC2A2802909DD"
+				item: "tombstone:white_marble"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4EC07123A974648D"]
+			description: ["Планшет-напоминание позволяет телепортироваться к декоративной гробнице."]
+			id: "409920F3ACAAE8D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "008116084FAE9DD7"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "А голову ты дома не забыл?"
+			tasks: [{
+				id: "012B701B705CDE53"
+				item: "tombstone:tablet_of_recall"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EC07123A974648D"]
+			description: ["Табличка очага позволяет телепортироваться к точке возрождения."]
+			id: "3E5C52A091FFC958"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6DA533F8E52E7199"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Мама, роди меня обратно..."
+			tasks: [{
+				id: "2317387BBEBEBDD2"
+				item: "tombstone:tablet_of_home"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4EC07123A974648D"]
+			description: ["Табличка защиты позволяет призывать Спектрального Волка для защиты места на определённый момент."]
+			id: "792F0A89E0B9AC59"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36F61CA9F6D1D4CD"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Бобик, фас!"
+			tasks: [{
+				id: "07F44076CA0ADDE3"
+				item: "tombstone:tablet_of_guard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"01891934092CE5D3"
+				"66BCF7B2DBB323FF"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Молитвы у могил с помощью анха позволяют получать положительные эффекты."]
+			id: "36E7E64897F10CE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B7C4B8D8C83C736"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Клааадбище, черепааа, скелеееты..."
+			tasks: [{
+				id: "5519FC01888535ED"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tombstone:decorative_grave_original"
+								tag: {
+									model_texture: 1
+								}
+							}
+							{
+								Count: 1b
+								id: "tombstone:decorative_subaraki_grave"
+								tag: {
+									model_texture: 1
+								}
+							}
+							{
+								Count: 1b
+								id: "tombstone:decorative_grave_simple"
+								tag: {
+									model_texture: 1
+								}
+							}
+							{
+								Count: 1b
+								id: "tombstone:decorative_grave_cross"
+								tag: {
+									model_texture: 1
+								}
+							}
+							{
+								Count: 1b
+								id: "tombstone:decorative_grave_normal"
+								tag: {
+									model_texture: 1
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Могилы"
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["66EE7755CE6098C8"]
+			description: ["Анх молитвы - объект, позволяющий получать очки Знания о смерти."]
+			id: "454E3CF9CD27E76B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6ED1A8AD132C4644"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Никак не связан с Египтом"
+			tasks: [{
+				id: "2C28B73913029435"
+				item: {
+					Count: 1
+					id: "tombstone:ankh_of_prayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4EC07123A974648D"]
+			description: ["Скрижаль жадности позволяет телепортироваться в места, где удача может улыбнуться вам или принести потерю..."]
+			id: "2113A70407C0DED3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10734C0A41C4F30B"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Есть два стула"
+			tasks: [{
+				id: "5992BA5D1258E9AE"
+				item: "tombstone:tablet_of_cupidity"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4EC07123A974648D"]
+			description: ["Потерянный планшет - предмет крайне неоднозначный. Со всеми его функциями можно ознакомиться в Компендиуме."]
+			id: "48560958A70FE37A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23A9C37132395F5E"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Загадочная вещица"
+			tasks: [{
+				id: "566EBCA3D535EDDA"
+				item: "tombstone:lost_tablet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+	]
+	subtitle: ["Магия смерти, порталы и быстрое перемещение"]
+	title: "Прочее"
+}

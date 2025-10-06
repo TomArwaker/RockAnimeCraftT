@@ -1,0 +1,100 @@
+{
+  // -----------------------------------------------------------
+  //              Item Obliterator by ElocinDev
+  // -----------------------------------------------------------
+  //  
+  // How to add items?
+  //   - They are json strings, so you need to separate each
+  //     entry with a comma, except the last
+  //   - If you start an entry with !, it will be treated as a regular expression
+  //     Example: "!minecraft:.*_sword" to disable all swords
+  //  
+  // -----------------------------------------------------------
+  // Do not touch this
+  "configVersion": 2,
+  // -----------------------------------------------------------
+  // Items here will be unusable completely
+  //    Example: minecraft:diamond
+  "blacklisted_items": [
+    "examplemod:example_item",
+"steam_powered:vehicle_constructor",
+"steam_powered:vehicle_engine",
+"steam_powered:water_pump",
+"steam_powered:bronze_pipe",
+"steam_powered:iron_pipe",
+"steam_powered:oxygen_compressor",
+"steam_powered:bot_constructor",
+"steam_powered:steel_casing",
+"steam_powered:boiler_casing",
+"steam_powered:boiler_tank",
+"steam_powered:tin_ore",
+"steam_powered:zinc_ore",
+"steam_powered:verdantium_ore",
+"steam_powered:surface_crawler_block",
+"steam_powered:tri_wheeler_block",
+"steam_powered:cogbot_block",
+"steam_powered:diving_suit_helmet",
+"steam_powered:diving_suit_chestplate",
+"steam_powered:diving_suit_leggings",
+"steam_powered:steam_handbook",
+"steam_powered:raw_tin",
+"steam_powered:raw_bronze",
+"steam_powered:raw_zinc",
+"steam_powered:raw_brass",
+"steam_powered:raw_steel",
+"steam_powered:bronze_ingot",
+"steam_powered:location_scanner",
+"steam_powered:brass_ingot",
+"steam_powered:brass_sheet",
+"steam_powered:tin_ingot",
+"steam_powered:steel_ingot",
+"steam_powered:steel_sheet",
+"steam_powered:tin_cog_wheel",
+"steam_powered:verdantium_crystal",
+"steam_powered:liquid_meter",
+"steam_powered:mechanical_processor",
+"steam_powered:wheel",
+"steam_powered:wet_leather",
+"steam_powered:hardened_leather",
+"steam_powered:location_data",
+"steam_powered:cogbot_blueprint",
+"steam_powered:surface_crawler_blueprint",
+"steam_powered:tri_wheeler_blueprint",
+"steam_powered:steam",
+"steam_powered:item_depot"
+  ],
+  // -----------------------------------------------------------
+  // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.
+  // Use with caution! This is a very expensive operation and can cause lag if you have a lot of items blacklisted.
+  // 	
+  // 	 Example to disable a regeneration potion: Potion:"minecraft:regeneration"
+  // 	
+  // 	 You can also use regular expressions by starting the value with !
+  "blacklisted_nbt": [],
+  // -----------------------------------------------------------
+  // Items here will not be able to be right-clicked (Interact)
+  //    Example: minecraft:apple
+  "only_disable_interactions": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will not be able to be used to attack
+  //    Example: minecraft:diamond_sword
+  "only_disable_attacks": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // Items here will get their recipes disabled
+  // Keep in mind this already is applied to blacklisted items
+  "only_disable_recipes": [
+    "examplemod:example_item"
+  ],
+  // -----------------------------------------------------------
+  // If true, the mod will use a hashset to handle the blacklisted items
+  // This is a more optimized approach only if you have a lot of items blacklisted (20 or more is recommended)
+  // If you just have a small amount of items blacklisted, keep this false
+  //  
+  // [!] Enabling this will disable all regular expressions
+  // [!] Does not apply to NBT, only item blacklist / interaction / attack
+  "use_hashmap_optimizations": true
+}

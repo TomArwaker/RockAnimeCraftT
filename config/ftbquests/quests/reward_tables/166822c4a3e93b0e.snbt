@@ -1,0 +1,10 @@
+{
+	id: "166822C4A3E93B0E"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "minecraft:honeycomb", random_bonus: 3 }
+		{ item: "minecraft:honey_bottle", random_bonus: 3 }
+	]
+	title: "мёд"
+}

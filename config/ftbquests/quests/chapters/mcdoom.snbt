@@ -1,0 +1,1600 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mcdoom"
+	group: "3E5C9570DCB452CF"
+	icon: {
+		Count: 1
+		id: "doom:doom_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3DB8808F939D236E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "000501009C8FF650"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D48EBD50E9036C1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CDD552ECF737674"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Пистолет и автомат"
+			tasks: [{
+				id: "6DDE022B1767B56D"
+				item: "doom:bullets"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "34BBCDE841EA279E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E17603425FFF752"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ACE0E86C8FAFCBB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Пулемёт"
+			tasks: [{
+				id: "41CC0B8641567B5B"
+				item: "doom:chaingunbullets"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "1107243320ADCEB6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B530C66BFE3D014"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51E472B73A62FAE3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Дробовики!"
+			tasks: [{
+				id: "029E7FD7ECE7AC82"
+				item: "doom:shotgun_shells"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "4632EB7C5FE1CE9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "682816CCD34CD130"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33C8EB6797348A36"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70D2F20CAE4E41BC"
+				item: {
+					Count: 1
+					id: "doom:shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "1384D0BB5A3D8E6C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "21652E23C16B1C4F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2773381ACF46B9A0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1D239D546909E0B1"
+				item: {
+					Count: 1
+					id: "doom:doomed_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "0F3B3CA1EACAF722"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C07B7A629E688DD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78E7A3E81B1ECDC4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6CD363204ECBCAA9"
+				item: {
+					Count: 1
+					id: "doom:supershotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "1DFFB73C5CD1D20F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B4326ABCA345C05"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "086F44EB44FAC53E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Плазма!"
+			tasks: [{
+				id: "3013824913FDFDFB"
+				item: "doom:energy_cells"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "3DD802E9ACF6BC3C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6BE85258CD1A2CB5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D689134BF4E151B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4D38D92C3C95A32E"
+				item: {
+					Count: 1
+					id: "doom:pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "41362918B17C2822"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CE352D925B0351C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00A54FD96A428A93"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4AE40ACBF86A2248"
+				item: {
+					Count: 1
+					id: "doom:chaingun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "775635FEF375EDBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F879D43BD6B370A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50C42E923FD520D0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5BA68D434CE2B8E7"
+				item: {
+					Count: 1
+					id: "doom:heavycannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "155547F67201A959"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "114DC652457CDEB9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CD8E6B68EA0A8A9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5D32C0FED1B49E50"
+				item: {
+					Count: 1
+					id: "doom:plasmagun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "325739A2F3AC7734"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0301664D07C6D31E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D4E94B88646E87F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1E36FB0406F6C067"
+				item: {
+					Count: 1
+					id: "doom:doomed_plasma_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "59561C39E48D1BAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "67699E9D6B5C743E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "419296678120E894"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Ракетница"
+			tasks: [{
+				id: "6829EF3299EBC04B"
+				item: "doom:rocket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "4911D5205645A347"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "686592C941A9C49D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00A12371AED6C4C1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62527CAA6670431B"
+				item: {
+					Count: 1
+					id: "doom:rocketlauncher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			description: ["Есть много других вариантов этой брони"]
+			hide_until_deps_visible: true
+			id: "1C7C505F20E24B18"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0445F2CE57FC997E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "540228A71949C9EC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Мода незера"
+			tasks: [
+				{
+					id: "5D617472637608FD"
+					item: {
+						Count: 1
+						id: "doom:doom_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AB9A1BB9F0A0024"
+					item: {
+						Count: 1
+						id: "doom:doom_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59C60D407F331357"
+					item: {
+						Count: 1
+						id: "doom:doom_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EC76BD362AA2343"
+					item: {
+						Count: 1
+						id: "doom:doom_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня рока"
+			x: -2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			description: ["Есть много других вариантов этой брони"]
+			hide_until_deps_visible: true
+			id: "3C6C4A2D6BA812B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AC09A8B6D62FA48"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E02B7EE7D606B0A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Ещё вариант"
+			tasks: [
+				{
+					id: "29BDDCBEE9031ADF"
+					item: {
+						Count: 1
+						id: "doom:praetor_doom_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06668469781A1C76"
+					item: {
+						Count: 1
+						id: "doom:praetor_doom_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "511F37F72D814113"
+					item: {
+						Count: 1
+						id: "doom:praetor_doom_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33525FBC607FE515"
+					item: {
+						Count: 1
+						id: "doom:praetor_doom_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Преторианская броня"
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "236B16CC56D5E779"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "547B67DE52FD00A1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "701FE3AAFFA2BF07"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4E6ACC2B6D90F8F1"
+				item: {
+					Count: 1
+					id: "doom:chainsaw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "369C1A5A5025B4D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A041F625A584B67"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "257EF7A059D3940A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B886AF98A37EB12"
+				item: {
+					Count: 1
+					id: "doom:chainsaw64"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "515C29C6CF9BC3B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69323641663BDC65"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "122949AB83AB4E0A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5198A4DA025107E8"
+				item: {
+					Count: 1
+					id: "doom:chainsaweternal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "551DEB20BB55DEAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DA319AF30398E40"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "104FA2FC063C6B75"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "181936F4721DEF42"
+				item: {
+					Count: 1
+					id: "doom:doomed_gauss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "12A8032CF4F3061D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "224B0930ECDC7C3B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7785C7DC3FACE490"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Три вида бензопилы"
+			tasks: [{
+				id: "168C6EEDBC1872B3"
+				item: "doom:gas_barrel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			hide_until_deps_visible: true
+			id: "0914EC21DA386C88"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C90D716B57D364D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EA8A878709B54C6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "Блоки не сносит, но урон неплохой"
+			tasks: [{
+				id: "16111F3EA1EACE8D"
+				item: "doom:doomed_grenade"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "695F9CC6AA8D86B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "670A2C4FD0ED790B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61B6EAEE5820C46B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Догадайтесь, как расшифровывается название"
+			tasks: [{
+				id: "731012773FDB7725"
+				item: "doom:bfg_cell"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "4949846063F62AE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B13986698E30AB6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A7E3E9A2B4765A2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "09BB7E7031B0878A"
+				item: {
+					Count: 1
+					id: "doom:bfg9000"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "7C6BC382453EB142"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F149C2786D5B701"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4437C4327BA6FE44"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2F670747DEF349E4"
+				item: {
+					Count: 1
+					id: "doom:bfg_eternal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"784141803D88C42E"
+				"3196FFCC14766A93"
+			]
+			hide_until_deps_visible: true
+			id: "01C7BF71AE391CEF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D726FCB183C25D4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53E3A577620E93C3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Основной ресурс"
+			tasks: [{
+				id: "5965F9A2E472513E"
+				item: "doom:argent_energy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"784141803D88C42E"
+				"3196FFCC14766A93"
+			]
+			hide_until_deps_visible: true
+			id: "78963FE31BB44A1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BDC2C01DBAB76EA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D02A61DBB034DA9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Второй основной ресурс"
+			tasks: [{
+				id: "240DDE1E62CEFE18"
+				item: "doom:argent_plate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "doom:darklordcrucible"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2C9006A515003721"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05FEEC7F1557A4FA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E12B743313ED3B1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "7BB9E8C3734DEEFE"
+				item: {
+					Count: 1
+					id: "doom:darklordcrucible"
+					tag: {
+						AzureLibID: 4L
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			hide_until_deps_visible: true
+			id: "224E481BC09B2C2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75012D6924D4E2E6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10D8DFDC93A79CE5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			subtitle: "Инструменты из этой части можно только найти или выбить"
+			tasks: [{
+				id: "528FD03CC9D8A4FA"
+				item: {
+					Count: 1
+					id: "doom:axe_marauder_open"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			hide_until_deps_visible: true
+			id: "36A7908DF5C731B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A43CDE10CC64FF6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A403F26635F5D7A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4B69EF37EC04444F"
+				item: {
+					Count: 1
+					id: "doom:sentinelhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "doom:cruciblesword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72CB2DBC6018F25A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A88F817FB172A63"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C6E92D2025C14AF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "57D36C949BD87C2E"
+				item: {
+					Count: 1
+					id: "doom:cruciblesword"
+					tag: {
+						AzureLibID: 5L
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "12F15AB944A32DD6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DB20A32906245BA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2432FABB0E0FEA4B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "49CF8C2DFFAF3870"
+				item: {
+					Count: 1
+					id: "doom:argent_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "0DEB04DD92BC7FB2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "134EC6F369E7FD40"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "626EB5342184B3B8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "736FC71E58222B92"
+				item: {
+					Count: 1
+					id: "doom:argent_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "0FE83513AE042264"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "573146B8203770E1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B175E343CD752F2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "4997658D987B93B4"
+				item: {
+					Count: 1
+					id: "doom:argent_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "5B37FDE0D6602499"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49C57CC04DC0CDE7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "563D92DA9942E7FC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "69358CAEE793D175"
+				item: {
+					Count: 1
+					id: "doom:argent_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "504823007F4BFE5F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BDB0FE47DC12775"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79CAB84AE5AD67BD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "37FE0F26258C4E91"
+				item: {
+					Count: 1
+					id: "doom:argent_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "56521284C43FA79C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72ABD3E4B494CE9F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "158DD8755556554A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Инструменты такого типа можно скрафтить"
+			tasks: [{
+				id: "69D5F31640F76C54"
+				item: {
+					Count: 1
+					id: "doom:argent_paxel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "7B8B7F9775344D7B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "589EE8327C958DDC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64C50A730A1F0390"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6C5EF92FC0950A94"
+				item: {
+					Count: 1
+					id: "doom:unmaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "560118B8E7282A84"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4335A2ECBE6302EC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "662B0733B6CCBCE2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7F420C04B10DB25E"
+				item: {
+					Count: 1
+					id: "doom:unmaykr"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "1BA2725CCA828E53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CC9248125DD197B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11E7422BB840742C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Болты для штуки, похожей на арбалет"
+			tasks: [{
+				id: "28A793DDD9967EED"
+				item: "doom:unmaykr_bolt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3196FFCC14766A93"
+				"01C7BF71AE391CEF"
+				"78963FE31BB44A1D"
+			]
+			hide_until_deps_visible: true
+			id: "3FEB046E78911E02"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D933086F880A808"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F349AC978E7DE98"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "А это уже арбалет, но странный - стреляет взрывами "
+			tasks: [{
+				id: "3B59413DD51C4A23"
+				item: "doom:argent_bolt"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1C2907C7754F3A9E"
+				"78963FE31BB44A1D"
+				"01C7BF71AE391CEF"
+			]
+			id: "18289A46F9FE1C76"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "091F49DD16C75E4D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "643F7FDE47385E1C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D7E3DF51118B9DF"
+				item: {
+					Count: 1
+					id: "doom:ballista"
+					tag: {
+						AzureLibID: 3L
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3196FFCC14766A93"]
+			id: "1C2907C7754F3A9E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "01C48F2888661FE2"
+				item: "doom:gun_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["В незере творится что попало"]
+	title: "Groovy"
+}

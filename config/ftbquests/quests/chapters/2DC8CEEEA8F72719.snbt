@@ -1,0 +1,16 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "2DC8CEEEA8F72719"
+	group: "4B499A44B2723CF4"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: "farmersdelight:stove"
+	id: "2DC8CEEEA8F72719"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Готовка"
+}

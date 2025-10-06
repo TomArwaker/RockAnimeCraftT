@@ -1,0 +1,3196 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersiveengineering"
+	group: "08BE8EB081684B04"
+	icon: "immersiveengineering:light_bulb"
+	id: "292E330251D5748D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"3196FFCC14766A93"
+			]
+			description: ["Молот инженера - это главный инструмент настоящего инженера, ведь с помощью него Вы будете собирать все свои мультиблочные механизмы."]
+			hide_until_deps_visible: true
+			id: "1F866E833721D395"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BA920DCEF336E17"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "6B21507A9D8D10EC"
+				item: {
+					Count: 1
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F866E833721D395"]
+			description: ["Чтобы построить коксовую печь, необходимо поставить кирпичи коксовой печи 3х3х3, а после нажать молотом инженера ПКМ по любой стороне. В коксовой печи можно получить коксовый уголь и креозот."]
+			id: "16BCEE8E7DE5EAA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "008F1EF9C6C15A2D"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "crumpled_rsquare"
+			tasks: [{
+				count: 27L
+				id: "4B0058809AFF2577"
+				item: "immersiveengineering:cokebrick"
+				title: "Кирпич коксовой печи"
+				type: "item"
+			}]
+			title: "Коксовая печь"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16BCEE8E7DE5EAA4"]
+			description: ["Коксовый уголь можно получить в коксовой печи из обычного угля."]
+			id: "3EABF883490920A9"
+			rewards: [
+				{
+					count: 2
+					id: "459868134B794720"
+					item: "immersiveengineering:coal_coke"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EDBBA5DA024AD21"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3D6A6722FF817265"
+				item: "immersiveengineering:coal_coke"
+				title: "Коксовый уголь"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16BCEE8E7DE5EAA4"]
+			description: ["Креозот можно получить в коксовой печи, он создаётся при получении &7коксового угля. Креозот нужен для создания досок из обработанной древесины."]
+			id: "7E9B735108C06472"
+			rewards: [
+				{
+					id: "6E276C3334F41CEE"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F2C9FACCD967BB1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00E8EB4779889254"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E9B735108C06472"]
+			description: ["Доски из обработанной древесины создаются из ведра креозота и любых досок. Эти доски очень понадобятся вам в дальнейшем."]
+			id: "1EDB5F4D82DE3F36"
+			rewards: [
+				{
+					count: 4
+					id: "360665C17FD73CF4"
+					item: "immersiveengineering:treated_wood_horizontal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66284935A4806E7D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Пропитка"
+			tasks: [{
+				count: 16L
+				id: "360BCDDB72FE7851"
+				item: "immersiveengineering:treated_wood_horizontal"
+				title: "Доски из обработанной древесины"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EDB5F4D82DE3F36"]
+			description: ["Деревянные бочки - это простые ёмкости, в которых можно хранить до 12 вёдер жидкости."]
+			id: "428CC6F6CDBC419A"
+			rewards: [
+				{
+					id: "6CE831DB1C42EBFA"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17A6DA7CA588D74D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54A7A0F8FF5F5E83"
+				item: "immersiveengineering:wooden_barrel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EDB5F4D82DE3F36"]
+			description: ["Обработанные палки создаются также, как и обычные палки, только из обработанных досок. С помощью этих палок можно создать, например, часть водяного колеса."]
+			id: "737CCC2110922A14"
+			rewards: [
+				{
+					count: 4
+					id: "62F9EB2BECDD159D"
+					item: "immersiveengineering:stick_treated"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37292156058E1DF3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "60DA7170E8F68484"
+				item: "immersiveengineering:stick_treated"
+				title: "Обработанная палка"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["737CCC2110922A14"]
+			description: ["Части водяного колеса понадобятся для создания полноценного водяного колеса. "]
+			id: "7328F85F88B1D9ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F33255A907427FD"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "03E7AC34E6EEBA13"
+				item: "immersiveengineering:waterwheel_segment"
+				title: "Часть водяного колеса"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F866E833721D395"]
+			description: ["Чтобы создать доменную печь, необходимо поставить кирпичи доменной печи 3х3х3, а потом нажать молотом инженера ПКМ по любой стороне. В доменной печи можно создавать сталь!"]
+			id: "0AB6DC8DAF26D8C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CD0676AA3D9ABE9"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15EC0BE23AC7E8DB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_rsquare"
+			tasks: [{
+				count: 27L
+				id: "288CC04E0B9EAAA0"
+				item: "immersiveengineering:blastbrick"
+				title: "Кирпич доменной печи"
+				type: "item"
+			}]
+			title: "Доменная печь"
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0AB6DC8DAF26D8C1"]
+			description: ["Стальной слиток создаётся в доменной печи. Обратите внимание, что доменная печь использует коксовый уголь, вместо обычного. Стальные слитки очень пригодятся вам в дальнейшем, например, чтобы создать верстак 5х5."]
+			id: "3AFF1B058489D15B"
+			rewards: [
+				{
+					count: 2
+					id: "26348DF975187F4D"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "552ED8E27A2F7B6E"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FEC909525A9F4B4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_rsquare"
+			tasks: [{
+				count: 4L
+				icon: "immersiveengineering:ingot_steel"
+				id: "6B5BB8DBB8AC4DA2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "Стальной слиток"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["737CCC2110922A14"]
+			description: ["Лопасти ветряной мельницы нужны, чтобы собрать полноценную ветряную мельницу."]
+			id: "58E39033A0EF6360"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "149319D23F033E14"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "74A4A26B0BFB6F66"
+				item: "immersiveengineering:windmill_blade"
+				title: "Лопасть ветряной мельницы"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58E39033A0EF6360"]
+			description: ["Ветряная мельница - это бесплатный и простой способ получения энергии, хотя и не очень эффеективный."]
+			id: "313373728D5BBC98"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49EFC4CC88D8B2C4"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "crumpled_hexagon"
+			tasks: [{
+				id: "2DFAC7FD465F8DCD"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7328F85F88B1D9ED"]
+			description: ["Водяное колесо - довольно простой способ привести в действие Кинетический генератор. Скорость вращения колеса зависит от воды, обтекающей его, поэтому для получения оптимальных результатов вам нужно направить воду полукругом сверху вниз вдоль одной стороны. А также можно поставить друг с другом до 3 водяных колёс."]
+			id: "1C76A2DE98AD3C37"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24669C90984482A6"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "crumpled_hexagon"
+			tasks: [{
+				id: "3F24B09A0BE6C9E1"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3AFF1B058489D15B"]
+			description: ["С помощью кусачек инженера можно создавать различные провода и не только."]
+			id: "15ECA35E0F767620"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BE9FCF3B963552A"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "640C0C81681EA886"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Кусь"
+			tasks: [{
+				id: "5D79B63C76E0AA45"
+				item: {
+					Count: 1
+					id: "immersiveengineering:wirecutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15ECA35E0F767620"]
+			description: ["Медные провода можно объединить в моток низковольтного провода и не только."]
+			id: "643F3AE958462439"
+			rewards: [
+				{
+					count: 4
+					id: "30448BB11F346590"
+					item: "immersiveengineering:wire_copper"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "058E38887C7C0220"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C9162B91A7A382A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "28FCBEB60D2761BD"
+				item: "immersiveengineering:wire_copper"
+				title: "Медный провод"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["643F3AE958462439"]
+			description: ["Моток низковольтного провода можно использовать как провод, как ни странно, но не касайтесь его, если он под напряжением."]
+			id: "384FD483F981421D"
+			rewards: [
+				{
+					count: 2
+					id: "5E12B4A9273CD28E"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C50EE355FAB4AF6"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16D1BE8F500B31CD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "21173ABB4BF69C2F"
+				item: "immersiveengineering:wirecoil_copper"
+				title: "Моток низковольтного провода"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["384FD483F981421D"]
+			description: ["Катушка медного провода используется во многих рецептах, но главное - это кинетический генератор."]
+			id: "34462E761EB7CA9F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2663331C8082C2EE"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C487C7E8695B253"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "60A967478B02FFEE"
+				item: "immersiveengineering:coil_lv"
+				title: "Катушка медного провода"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["34462E761EB7CA9F"]
+			description: ["Кинетический генератор вырабатывает энергию из кинетической силы водяных колёс и ветряных мельниц."]
+			id: "1CEBF1B132A2D865"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "603AB1E7A1B2B56B"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1638B9BA25598E86"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_gear"
+			tasks: [{
+				id: "26DE77556EC080A2"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34462E761EB7CA9F"]
+			description: ["Термоэлектрический генератор - это ещё один вариант выработки электроэнергии, он работает без использования каких-либо механических частей, вместо этого он использует температурный градиент между двумя источниками тепла и холода."]
+			id: "6EA8A2545DF02637"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C556628613CEDAA"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CF7C256A580D90D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_hexagon"
+			tasks: [{
+				id: "165B825E4F81FE33"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F866E833721D395"]
+			description: ["Чтобы построить плавильную печь, необходимо поставить кирпичи плавильной печи 2х2х2 а после нажать молотом инженера ПКМ. В плавильной печи можно создавать различные сплавы."]
+			id: "5286715BD326C7B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68B85E040A619832"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "crumpled_rsquare"
+			tasks: [{
+				count: 4L
+				id: "566B63467B73B458"
+				item: "immersiveengineering:alloybrick"
+				title: "Кирпич плавильной печи"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5286715BD326C7B7"]
+			description: ["Констант - это сплав меди и никеля."]
+			id: "1297CE33EC6FB1B8"
+			rewards: [
+				{
+					count: 2
+					id: "41386A914D235042"
+					item: "immersiveengineering:ingot_constantan"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17797970804A28CF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "48847497462842A0"
+				item: "immersiveengineering:ingot_constantan"
+				title: "Константановый слиток"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5286715BD326C7B7"]
+			description: ["Электрум - это сплав серебра с золотом. "]
+			id: "2D5A8653D55EEA26"
+			rewards: [
+				{
+					count: 2
+					id: "7C320C055BF88849"
+					item: "immersiveengineering:ingot_electrum"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E04AEB2818F3E5F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "45CB151679496AE7"
+				item: "immersiveengineering:ingot_electrum"
+				title: "Электрумовый слиток"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["737CCC2110922A14"]
+			description: ["Рабочий стол инженера - это простое улучшение верстака. Рабочий стол инженера может удерживать предметы в рецепте, а также он имеет свой внутрений инвентарь."]
+			id: "7ED48462B0C277A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12FCB27595AFCE37"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3B468923D9CBE0E7"
+				item: "immersiveengineering:craftingtable"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7ED48462B0C277A6"]
+			description: ["Верстак инженера - это профессиональный рабочий стол образованного инженера. Он широко используется для создания предметов по чертежам."]
+			id: "0DF9C7B4CF9060A6"
+			rewards: [{
+				id: "22CA09386F77F3E6"
+				item: "immersiveengineering:screwdriver"
+				type: "item"
+			}]
+			shape: "crumpled_rsquare"
+			tasks: [{
+				id: "1DC7F19A4C2800EB"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34462E761EB7CA9F"]
+			description: [""]
+			id: "453CA6CCA55589C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "199C77E9BA3E0A5A"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EB70957539E4E3F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Попробуйте сами!"
+			tasks: [{
+				id: "7AF0A90198E2BF01"
+				item: "immersiveengineering:toolupgrade_shield_magnet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0DF9C7B4CF9060A6"]
+			description: ["С помощью этого чертежа можно создать специальные металлические пресс-формы на верстаке инженера."]
+			id: "3CA0FCD230F3B9B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5475715C3D5BA675"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			tasks: [{
+				id: "19C5742BC352901D"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			title: "Чертёж инженера: Металлическая пресс-форма"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0DF9C7B4CF9060A6"]
+			description: ["С помощью этого чертежа можно создать специальные компоненты для крафта на верстаке инженера."]
+			id: "5A26E77DA2BF655F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E075F8C87423480"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4B9E2F377D121D5D"
+				item: {
+					Count: 1
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "components"
+					}
+				}
+				type: "item"
+			}]
+			title: "Чертёж инженера: Компоненты для крафта"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3AFF1B058489D15B"]
+			description: ["Металлический пресс - это автоматизированный способ формирования металла."]
+			icon: "minecraft:piston"
+			id: "3268DDFD2B310EDF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74DFEF8657D85036"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43D20789F13319AB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "37B3626F92131842"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4498A9186D1E0EE5"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					id: "39CF41C6709C2B17"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "65970823ABDB04E7"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "316E1C74C68111E3"
+					item: "immersiveengineering:conveyor_basic"
+					title: "Конвейерная лента"
+					type: "item"
+				}
+			]
+			title: "Металлический пресс"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3268DDFD2B310EDF"]
+			description: ["Дробление руды - это эффективный способ увеличить её выход, поскольку каждая руда образует две пыли, которые затем можно переплавить. Этот промышленный дробитель - быстрый способ сделать это."]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "62B0294DCA991AD8"
+			rewards: [
+				{
+					id: "71F924B5F280232B"
+					item: "immersiveengineering:ingot_steel"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61DED35B5458F834"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AC24603B9DB483E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "06684D6F48A891A1"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "722A0750C9B3BA61"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					id: "38C19D018F7EE5ED"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4F40754880B66493"
+					item: "immersiveengineering:steel_fence"
+					title: "Стальной забор"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3574D8F4E7370086"
+					item: "minecraft:hopper"
+					title: "Воронка"
+					type: "item"
+				}
+			]
+			title: "Дробитель"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3268DDFD2B310EDF"]
+			description: ["Лесопилка - это станок, который распиливает деревянные брёвна на аккуратно уложенные доски. Машина работает в два этапа: сначала срезается кора с бревна, а затем с помощью пильного диска режется на части."]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "3D8CFD30C623508F"
+			rewards: [
+				{
+					id: "553E5D2BEBA53FFB"
+					item: "immersiveengineering:ingot_steel"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70D332B45C5B9D13"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "656D2A2C92720903"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "2547D9A0CF49B8EF"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "75424D9355AE0A84"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "70B48F28F240A47D"
+					item: "immersiveengineering:sheetmetal_iron"
+					title: "Железный листовой металл"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5EBE139B9C50FCFE"
+					item: "immersiveengineering:heavy_engineering"
+					title: "Тяжёлый инженерный блок"
+					type: "item"
+				}
+				{
+					id: "57CF1CFED9656A33"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C7F043BFC7C3298"
+					item: "immersiveengineering:conveyor_basic"
+					title: "Конвейерная лента"
+					type: "item"
+				}
+			]
+			title: "Лесопилка"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D8CFD30C623508F"]
+			description: ["Во время обоих этапов создаются Опилки, которые собираются и извлекаются через порт на передней панели машины."]
+			id: "22E4B1795DEAABEA"
+			rewards: [
+				{
+					count: 4
+					id: "44015991302842FD"
+					item: "immersiveengineering:dust_wood"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1608289F379CF9AD"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5401C5A30100D4A4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_rsquare"
+			tasks: [{
+				count: 8L
+				id: "516DD3D2DACC004E"
+				item: "immersiveengineering:dust_wood"
+				title: "Опилки"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22E4B1795DEAABEA"]
+			description: ["Прикольно и бесполезно."]
+			id: "53BC1D576D47F1CF"
+			rewards: [
+				{
+					id: "4129D81551C5AB1D"
+					item: "immersiveengineering:sawdust"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F4CA054E2C161D3"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "013F7BADFE2C9AC3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "А вдруг упадёте"
+			tasks: [{
+				id: "53C42A5C56A1DC5B"
+				item: "immersiveengineering:sawdust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4792C51D3AC01F2C"]
+			description: ["Бродильный аппарат - это многоблочная структура, которая извлекает этанол из определённых фруктов, зёрен и овощей в процессе брожения."]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "46932CFFC5993F2B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42FE5573B5DF703A"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C11EA37990F2C3D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "5D69C40B688CBBDE"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C345E1930466F11"
+					item: "minecraft:cauldron"
+					title: "Котёл"
+					type: "item"
+				}
+				{
+					id: "699AE7E081B1AFA0"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F91F620DFEB56C9"
+					item: "immersiveengineering:sheetmetal_iron"
+					title: "Железный листовой металл"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "464A1876CD0190E1"
+					item: "immersiveengineering:fluid_pipe"
+					title: "Жидкостная труба"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2CDC4C227FD787FE"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+			]
+			title: "Бродильный аппарат"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4792C51D3AC01F2C"]
+			description: ["Очиститель - это сложный мультиблок, который может перерабатывать одну или две жидкости в другую."]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "3D168244919413A1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "761D031A39D5FE1F"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E8EF97F651DBFC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "61FB40B2C4160140"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0BA94B37B0C6C650"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6B1C3C35EBC97AE5"
+					item: "immersiveengineering:heavy_engineering"
+					title: "Тяжёлый инженерный блок"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2A639CF0CAEEF3D5"
+					item: "immersiveengineering:sheetmetal_iron"
+					title: "Железный листовой металл"
+					type: "item"
+				}
+				{
+					id: "5460D4A132F92454"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6DEF8C59DC0B4F65"
+					item: "immersiveengineering:fluid_pipe"
+					title: "Жидкостная труба"
+					type: "item"
+				}
+			]
+			title: "Очиститель"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4792C51D3AC01F2C"]
+			description: ["Соковыжималка - это многоблочная структура, которая выжимает сок или масло из органических материалов с помощью большого поршня."]
+			icon: "minecraft:piston"
+			id: "2E3F792AADAF68D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "239A180D5CB2E761"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10CF7270874853CB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "20F2D427B79EB6B6"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3CC857D07C2A96EC"
+					item: "immersiveengineering:steel_scaffolding_grate_top"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "36DA65FB7601F796"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					id: "6EE872ADD2468D7D"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5D7080E23CA3577C"
+					item: "immersiveengineering:steel_fence"
+					title: "Стальной забор"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4A7E7B735A6763F7"
+					item: "immersiveengineering:fluid_pipe"
+					title: "Жидкостная труба"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "62AA5E926890DFF4"
+					item: "immersiveengineering:wooden_barrel"
+					title: "Деревянная бочка"
+					type: "item"
+				}
+			]
+			title: "Соковыжималка"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["46932CFFC5993F2B"]
+			description: ["Просто этанол, пригодится для создания биодизеля."]
+			id: "6A241310C42A3EA2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A966A8879FCA6A8"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BA9833D9FBC06B6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Пить нельзя!"
+			tasks: [{
+				id: "2C6F0E548FA47CEA"
+				item: "immersiveengineering:ethanol_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E3F792AADAF68D4"]
+			description: ["Просто масло, пригодится для создания биодизеля."]
+			id: "56539FB7DEC84AB1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B0AC888791D5E17"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D9FE2EED4D55AD9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "08C81FC69968561C"
+				item: "immersiveengineering:plantoil_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D168244919413A1"]
+			description: ["Отлично подойдёт для дизельного генератора и не только. Используется для многих двигателей как дизель и бензин, но производится из возобновляемых компонентов. Все виды изготавливаются на основе этанола и растительного масла, но в разных машинах. По эффективности примерно равны."]
+			id: "505873836071F3E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6DA6B3BEA03F1FBE"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AB82BCE2EE7EF27"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_rsquare"
+			subtitle: "Бережём экологию"
+			tasks: [{
+				id: "5BBC212379C07CD9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "pneumaticcraft:biodiesel_bucket"
+							}
+							{
+								Count: 1b
+								id: "createdieselgenerators:biodiesel_bucket"
+							}
+							{
+								Count: 1b
+								id: "immersiveengineering:biodiesel_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Биодизель"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4792C51D3AC01F2C"]
+			description: ["Смеситель - это многоблочная структура, которая растворяет твёрдые вещества в жидкие, смешивая их вместе."]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "5EBD27D607093719"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57806B5970A02C06"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B695CAD52B5FB84"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "05812E7CD435B0A8"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3A6305C17B78DE12"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5069F79D62D72478"
+					item: "immersiveengineering:sheetmetal_iron"
+					title: "Железный листовой металл"
+					type: "item"
+				}
+				{
+					id: "3024E9F32F6323D3"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "143AE16A6F2BBD18"
+					item: "immersiveengineering:steel_fence"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0597BC808F63F9BA"
+					item: "immersiveengineering:fluid_pipe"
+					title: "Жидкостная труба"
+					type: "item"
+				}
+			]
+			title: "Смеситель"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5EBD27D607093719"]
+			description: ["С помощью ведра бетона можно создать бетон, вот это да!"]
+			id: "2AAB3E14C3B43D7A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E8B45336791CC45"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D4C976D3E0CAB64"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "77BD9CAA2B6A9664"
+				item: "immersiveengineering:concrete_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["505873836071F3E2"]
+			description: ["Дизельный генератор является мощным источником электроэнергии, который работает на биодизеле или на другом горючем топливе."]
+			icon: "immersiveengineering:radiator"
+			id: "6343ADA99173309A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "048596888FF75EBD"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48175F09F525E04F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 9L
+					id: "5FBEDCCE11F2DD2C"
+					item: "immersiveengineering:radiator"
+					title: "Блок радиатора"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "18ED78A0D3BE6A3E"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E0A54A6335103FC"
+					item: "immersiveengineering:generator"
+					title: "Блок генератора"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "3C100A0395E667E7"
+					item: "immersiveengineering:heavy_engineering"
+					title: "Тяжёлый инженерный блок"
+					type: "item"
+				}
+				{
+					id: "7494AF7CF22A4C06"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "36BCE5F117841BF6"
+					item: "immersiveengineering:fluid_pipe"
+					title: "Жидкостная труба"
+					type: "item"
+				}
+			]
+			title: "Дизельный генератор"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AAB3E14C3B43D7A"]
+			description: ["Прикольный блок, можно использовать в качестве декорации, либо для создания ядерного реактора"]
+			id: "5640D34B5C62D803"
+			rewards: [
+				{
+					count: 32
+					id: "443DC7EEF772C4A4"
+					item: "immersiveengineering:concrete"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EDBA3E721471762"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B8536F6368C4208"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Неплохой набор функций"
+			tasks: [{
+				count: 16L
+				id: "32916D3FBB5A72ED"
+				item: "immersiveengineering:concrete"
+				title: "Бетон"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EDB5F4D82DE3F36"]
+			description: ["Забор из обработанной древесины можно использовать как обычный забор. Но я всё же советую вам создать бункер и жидкостный резервуар."]
+			id: "18F23E1DE14A9108"
+			rewards: [
+				{
+					count: 2
+					id: "2FEC8CCCADF2C44E"
+					item: "immersiveengineering:treated_fence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D71F2BD05F4EBDD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "459CBB9F6798EC5D"
+				item: "immersiveengineering:treated_fence"
+				title: "Забор из обработанной древесины"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18F23E1DE14A9108"]
+			description: ["В бункере можно хранить до 41 472 однотипных предметов, что делает его идеальным хранилищем для мусорных предметов, например, булыжник, земля, семена и т.п."]
+			icon: "immersiveengineering:sheetmetal_iron"
+			id: "068567673E668B70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7202A3B779807955"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Склад мусора"
+			tasks: [
+				{
+					count: 50L
+					id: "58F08437129A4342"
+					item: "immersiveengineering:sheetmetal_iron"
+					title: "Железный листовой металл"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B6BD501F99D54A5"
+					item: "immersiveengineering:treated_fence"
+					title: "Забор из обработанной древесины"
+					type: "item"
+				}
+			]
+			title: "Бункер"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["18F23E1DE14A9108"]
+			description: ["Жидкостный резервуар - это мультиблок, который может хранить до 512 вёдер жидкости."]
+			icon: "immersiveengineering:sheetmetal_iron"
+			id: "31A21E6BE5A19999"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12134DEFA02B2175"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			tasks: [
+				{
+					count: 34L
+					id: "38F31F3ECA7CCDD9"
+					item: "immersiveengineering:sheetmetal_iron"
+					title: "Железный листовой металл"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "07C156033EA31DF6"
+					item: "immersiveengineering:treated_fence"
+					title: "Забор из обработанной древесины"
+					type: "item"
+				}
+			]
+			title: "Жидкостный резервуар"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3AFF1B058489D15B"]
+			description: ["Продвинутая доменная печь - это гораздо более профессиональный способ создания стали. Она не только позволяет автоматизировать входы и выходы, но и может быть оснащена воздухонагревателями для ускорения процесса очистки за счёт добавления горячего воздуха."]
+			icon: "immersiveengineering:blastbrick_reinforced"
+			id: "7386B63289BF8642"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B78DECED614892C"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3208757034F23BD1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "crumpled_rsquare"
+			tasks: [
+				{
+					count: 27L
+					id: "55CF288E6DF371DD"
+					item: "immersiveengineering:blastbrick_reinforced"
+					title: "Кирпич продвинутой доменной печи"
+					type: "item"
+				}
+				{
+					id: "6EC8AB39D392DCD0"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+			]
+			title: "Продвинутая доменная печь"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7386B63289BF8642"]
+			description: ["Дуговая печь - массивная структура, используемая для быстрой плавки металлов. Она состоит из стального ковша, покрытого электродами, которые нагревают металл."]
+			icon: "immersiveengineering:sheetmetal_steel"
+			id: "646EF3639DA45574"
+			rewards: [
+				{
+					id: "3806418927488990"
+					item: "immersiveengineering:ingot_steel"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "574B4964D0076E8D"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63D72F652C7509AB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4749E81EB48D9901"
+					item: "immersiveengineering:sheetmetal_steel"
+					title: "Стальной листовой металл"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1305FDCA052A1EAB"
+					item: "immersiveengineering:storage_steel"
+					title: "Стальной блок"
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "7147DB3ED1B855C0"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					title: "Стальная плита из листового металла"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "27152A77D103B63C"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1F2FA5EBEF39928B"
+					item: "immersiveengineering:heavy_engineering"
+					title: "Тяжёлый инженерный блок"
+					type: "item"
+				}
+				{
+					id: "7AE91D568F567138"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					id: "064745FDF87D8AD6"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "689FDE0FD28B5AD5"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "77E6D12188B4F4D1"
+					item: "immersiveengineering:blastbrick_reinforced"
+					title: "Кирпич продвинутой доменной печи"
+					type: "item"
+				}
+			]
+			title: "Дуговая печь"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["505873836071F3E2"]
+			description: ["Экскаватор - это одна из вершин современного машиностроения. Он способен выкапывать минералы из жил, недоступных для обычной добычи."]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "236DF9F4E41D665D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C918838EF817C8C"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1011EDB60FE8A7D0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					count: 6L
+					id: "144989062E92D090"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "3C2561347A8BE013"
+					item: "immersiveengineering:sheetmetal_steel"
+					title: "Стальной листовой металл"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2453F9A9ABDF6FDD"
+					item: "immersiveengineering:radiator"
+					title: "Блок радиатора"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "57BD5F4761E679C6"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					id: "1804C646A15179CE"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7ADFCDBD0902980C"
+					item: "immersiveengineering:heavy_engineering"
+					title: "Тяжёлый инженерный блок"
+					type: "item"
+				}
+			]
+			title: "Экскаватор: Двигатель"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["505873836071F3E2"]
+			description: ["Экскаватор состоит из двух частей: Двигатель и Роторный ковш."]
+			icon: "immersiveengineering:steel_scaffolding_standard"
+			id: "773BA23069FCE710"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4665A83162DD5D0B"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C840E584ADEE110"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					count: 26L
+					id: "7EE2E6E3E194AB9F"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					title: "Стальные леса"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5AD7A3C0D0046ACF"
+					item: "immersiveengineering:sheetmetal_steel"
+					title: "Стальной листовой металл"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6220C901D9138060"
+					item: "immersiveengineering:radiator"
+					title: "блок радиатора"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "014C2EA363E41DF8"
+					item: "immersiveengineering:light_engineering"
+					title: "Лёгкий инженерный блок"
+					type: "item"
+				}
+				{
+					id: "6BAEE449ECAF05A9"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "74F1FDD406711474"
+					item: "immersiveengineering:heavy_engineering"
+					title: "Тяжёлый инженерный блок"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "575D48687CF538BB"
+					item: "immersiveengineering:storage_steel"
+					title: "Стальной блок"
+					type: "item"
+				}
+			]
+			title: "Экскаватор: Роторный ковш"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"236DF9F4E41D665D"
+				"773BA23069FCE710"
+			]
+			description: ["С помощью Колонкового бура можно узнать, какие минералы содержатся под ним."]
+			id: "59EE7169BCD28B2D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1012AF2A91A59C29"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CAE4823667D04B3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "5C361034C312594F"
+				item: "immersiveengineering:sample_drill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["313373728D5BBC98"]
+			description: ["С помощью парусов ветряной мельницы можно увеличить количество производимой энергии. Для этого, нужно нажать ПКМ по центру ветряной мельницы."]
+			id: "33B9608141485208"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EB413ECDB8A7D8B"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			tasks: [{
+				count: 8L
+				id: "0496F319B12499FC"
+				item: "immersiveengineering:windmill_sail"
+				title: "Парус ветряной мельницы"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7386B63289BF8642"]
+			description: ["Воздухонагреватель доменной печи позволяет ускорить процесс очистики за счёт добавления горячего воздуха. "]
+			id: "1F2FB239A143701C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02663373D54790B4"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41E97F3B109253A6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0C320E2EDBBF81AD"
+				item: "immersiveengineering:blastfurnace_preheater"
+				title: "Воздухонагреватель доменной печи"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["384FD483F981421D"]
+			description: ["Изолированный моток низковольтного провода можно использовать как и обычный моток провода, только этот не будет бить вас током при касании."]
+			id: "42A74B6CB3E9C038"
+			rewards: [
+				{
+					count: 2
+					id: "476CD4E60AA1D15B"
+					item: "immersiveengineering:wirecoil_copper_ins"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "778B80288971BA5D"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B9685CDFF9AB542"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0C165310BFB17B5E"
+				item: "immersiveengineering:wirecoil_copper_ins"
+				title: "Изолированный моток низковольтного провода"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3D8CFD30C623508F"]
+			description: ["Пильный диск нужен для лесопилки."]
+			id: "12375DEC2DCB88C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3832F72A455D6368"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02BA158A8C3A8C79"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36FFA1A85F0513A6"
+				item: {
+					Count: 1
+					id: "immersiveengineering:sawblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12375DEC2DCB88C2"]
+			description: ["Пильный диск нужен для лесопилки."]
+			id: "24EDE45FCCC7966C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5589D52D535A9C9D"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A8E91E21EA37CEE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23D27C22005B1B5B"
+				item: {
+					Count: 1
+					id: "immersiveengineering:rockcutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62B0294DCA991AD8"]
+			id: "4792C51D3AC01F2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "265651966ED5D2DF"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DBCE80347664EDB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B6AD8A031C92770"
+				item: "immersiveengineering:dust_coke"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3268DDFD2B310EDF"]
+			description: ["Развитие этой ветки поможет сделать многие процессы более компактными"]
+			id: "7C19544B824785C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "798AD3EAC5FF0A94"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6445D243D7F4BBA7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Также для большинства машин есть улучшения!"
+			tasks: [
+				{
+					id: "2B5C4EC33546EF4E"
+					item: "thermal:tin_gear"
+					type: "item"
+				}
+				{
+					id: "782544A7E49B3A64"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:fluid_duct"
+								}
+								{
+									Count: 1b
+									id: "thermal:fluid_duct_windowed"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64F4DEACE8DE202C"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+			]
+			title: "Удобные механизмы"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C19544B824785C6"]
+			description: ["На её основе изготавливаются машины из Thermal"]
+			id: "2062FB2108B641BC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73668335AF8E6FA8"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC0AD72F4B9F7CA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Пока бесполезна"
+			tasks: [{
+				id: "6DC12823A49AC5E3"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Измельчает предметы, один из удобных вариантов переработки руд при помощи электричества"]
+			id: "07BC25F29B1A5C17"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6303210248ADFD76"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C0BD97EFF6B628F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Пальцы не совать!"
+			tasks: [{
+				id: "1DD86470E3BD054B"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Позволяет изготавливать сплавы, либо просто заниматься переплавкой"]
+			id: "314D4BD9E1A6A3EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C3F1CFF94ED1D8F"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E8E699112502078"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Уменьшенная и электрическая версия плавильной печи!"
+			tasks: [{
+				id: "080AB984B01F28F0"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Может разделять некоторые предметы на составные части"]
+			id: "46637644C5597B3F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1744DA41FE40A3DA"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A37BC711EE3FC5D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Стиральная машинка"
+			tasks: [{
+				id: "506730E8C5D748C9"
+				item: "thermal:machine_centrifuge"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			id: "74224C956002459A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30411106C38C17DF"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36F4761920AB3905"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Не работает тоже"
+			tasks: [{
+				id: "2E8E56E0CB95E879"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			id: "13975D8E59D62897"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3652A667BD67B0F6"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "381CA03C83A3C6D5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Не работает"
+			tasks: [{
+				id: "307D3C50E3171D61"
+				item: "thermal:fluid_cell_frame"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["74224C956002459A"]
+			description: ["Как для жидкости, но для энергии"]
+			id: "6D95C97691448932"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AC69D2FA4040BBD"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56EF9D2ED39EFA87"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Работает"
+			tasks: [{
+				id: "0F0025EA4D1C54B7"
+				item: {
+					Count: 1
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["13975D8E59D62897"]
+			description: ["Удобная ёмкость для жидкости, можно улучшать"]
+			id: "70487B62FB21ECF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A6B21D29ED75108"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12ECFE134482F7CF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "А вот так работает"
+			tasks: [{
+				id: "157C8573F859EE28"
+				item: {
+					Count: 1
+					id: "thermal:fluid_cell"
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								Amount: 0
+								Capacity: 32000
+								FluidName: "minecraft:empty"
+								Tank: 0b
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Нарезает брёвна на доски с большим выхлопом!"]
+			id: "1E7B4A673D71FB28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "39033A7C0014E007"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59E82A39ED9BC6BE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Жаль, что не рубит сама"
+			tasks: [{
+				id: "07A6260CB940B6F4"
+				item: "thermal:machine_sawmill"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Использует различные штампы для обработки предметов, к примеру может разбирать, собирать, сжимать, давить в формы..."]
+			id: "2CA533C047D4CF86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AA496044C8D74E6"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "311E0FC1200D5DC9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Слишком много функций..."
+			tasks: [{
+				id: "5A96F4D87CA48B71"
+				item: "thermal:machine_press"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Плавит многие ресурсы в жидкую форму"]
+			id: "4B91DEBB89425204"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17CA4404E12C97CA"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B3A2B93DE6199BB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Высокая температура"
+			tasks: [{
+				id: "2B65B53A51C57A55"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Как магмовый тигель, но наоборот"]
+			id: "4A77307BD69DC0BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FE0ED993D64396F"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D3DE7664D6EB7BB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Низкая температура"
+			tasks: [{
+				id: "2A8A69BBC17E3D49"
+				item: "thermal:machine_chiller"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Раскладывает некоторые ресурсы на компоненты с помощью нагрева"]
+			id: "158411FA47261033"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F8C5D5B56B5675A"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54ADE88FE271EB11"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Какая-то химия..."
+			tasks: [{
+				id: "5810F477E3ABC70B"
+				item: "thermal:machine_pyrolyzer"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5640D34B5C62D803"]
+			description: ["Служит каркасом для постройки реактора. Самое важное - из этого блока мы можем сделать как рамку, так и стенки реактора! Непрописанные предметы и турбины надо читать в гайдах, потому что там чёрт ногу сломит, а русского перевода для внутриигровой книги нет"]
+			id: "34BED3CEC1794C7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "766EC32BF31D1792"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06B826B44B273606"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Начало е****ии"
+			tasks: [{
+				id: "720C3CC672440FA4"
+				item: "bigreactors:basic_reactorcasing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["34BED3CEC1794C7F"]
+			id: "1D469CF9298E6C8A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "673BBBD1DC41CBB2"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "44D76AF13A547A5B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4260D08DF69E92DF"
+				item: "bigreactors:reinforced_reactorcasing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["34BED3CEC1794C7F"]
+			description: ["Главный блок, здесь вся информация о реакторе"]
+			id: "79C8127C8FD89CEE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "363216D4C14E1614"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4782905C62F8CE9C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Пульт управления, где-то уже видел..."
+			tasks: [{
+				id: "5DA067744B88C2B6"
+				item: "bigreactors:basic_reactorcontroller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D469CF9298E6C8A"]
+			id: "5FDFAF5285FDB3D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16A5D41FE9F63746"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BCF1CA61EE811F4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1254BD0A5B5DEA26"
+				item: "bigreactors:reinforced_reactorcontroller"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34BED3CEC1794C7F"]
+			description: ["В нём хранится топливо реактора. Стержни должны стоять в реакторе от пола до потолка, а над каждым стержнем должен быть контролирующий стержень"]
+			id: "048AA78785515F2F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B85C882A02D49BD"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02EE6E3665A398DB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Не перепутайте"
+			tasks: [
+				{
+					id: "547A9F689B076007"
+					item: "bigreactors:basic_reactorfuelrod"
+					type: "item"
+				}
+				{
+					id: "1A3554EB0D4EAAA3"
+					item: "bigreactors:basic_reactorcontrolrod"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["34BED3CEC1794C7F"]
+			description: ["Порты для загрузки или извлечения энергии/сигнала/материала из реактора"]
+			id: "43ADF3C8C4C6657E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "753E16C0CDD5B60C"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62E359960A3AEC36"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5A79CB0612840CE9"
+					item: "bigreactors:basic_reactorsolidaccessport"
+					type: "item"
+				}
+				{
+					id: "128742DB8EEBAE8B"
+					item: "bigreactors:basic_reactorchargingportfe"
+					type: "item"
+				}
+				{
+					id: "3C916280C078DEFB"
+					item: "bigreactors:basic_reactorredstoneport"
+					type: "item"
+				}
+			]
+			title: "Порты доступа"
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["34BED3CEC1794C7F"]
+			description: ["Выходы энергии в зависимости от типа охлаждения реактора"]
+			id: "6B151F5A81F52ABC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D74BF829353E22F"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "784022CB6D4A2D99"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "420D7780FFA0A39E"
+					item: "bigreactors:basic_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "0C8770825462DF76"
+					item: "bigreactors:basic_reactorpowertapfe_passive"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D469CF9298E6C8A"]
+			id: "23C59EB948EC989D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "795A9B19DBE4A7CA"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3316BA57DD091D8E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4B65D6FBBFC934AF"
+					item: "bigreactors:reinforced_reactorpowertapfe_active"
+					type: "item"
+				}
+				{
+					id: "7E9774522D3261BC"
+					item: "bigreactors:reinforced_reactorpowertapfe_passive"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D469CF9298E6C8A"]
+			id: "330A066E128D452E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7623FA834B52ECCC"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C46004539D6A52A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1BC5A61034146297"
+					item: "bigreactors:reinforced_reactorfuelrod"
+					type: "item"
+				}
+				{
+					id: "08BE124458AF160C"
+					item: "bigreactors:reinforced_reactorcontrolrod"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D469CF9298E6C8A"]
+			id: "3EDBA70C2C828947"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5701DED5E1BC4FB2"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F00C4F8E9573BF4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "66CCEA5F8F385B96"
+					item: "bigreactors:reinforced_reactorsolidaccessport"
+					type: "item"
+				}
+				{
+					id: "259AA07F5041E92A"
+					item: "bigreactors:reinforced_reactorchargingportfe"
+					type: "item"
+				}
+				{
+					id: "32976F4EF2456FAE"
+					item: "bigreactors:reinforced_reactorredstoneport"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["643F3AE958462439"]
+			description: ["Вырабатывает электричество засчёт силы вращения"]
+			id: "4B8FCDB6120A0C21"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "684A596AC256900C"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F82324D316BBE48"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Шуметь не должен"
+			tasks: [{
+				id: "556CFFB80B16AE49"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["413B400DB65141B4"]
+			description: ["Генерирует энергию путём сжигания жидкого топлива. На текущей момент вашего развития скорее всего почти бесполезен :)"]
+			id: "59CDAC7929EF0A7F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D90A02F64E1C69D"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FCF3F6C673E555A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Допотопное чудо"
+			tasks: [{
+				id: "13981AC3103D7461"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["413B400DB65141B4"]
+			description: ["Создаёт немало энергии из обычной лавы"]
+			id: "4207FE86EC9689BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "705D83072B9806BD"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "522DAE55CDE9982F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Просто лава"
+			tasks: [{
+				id: "6F3C744540EE0754"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 4.5d
+		}
+		{
+			dependencies: ["413B400DB65141B4"]
+			description: ["Создаёт энергию из монет разных металлов"]
+			id: "0EDA90822C037CA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "026DFA4636F06D4E"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "433319CAE16E159F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Госдолг США составляет...."
+			tasks: [{
+				id: "69CCA9BE82DA12F7"
+				item: "thermal:dynamo_numismatic"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["413B400DB65141B4"]
+			description: ["Генерирует энергию из самоцветов. Вырабатывает немало, но какой ценой..."]
+			id: "064839597A492C2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02429AE34F015EDB"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C31E3CB90233A65"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Энергия кристаллов"
+			tasks: [{
+				id: "19B2A9762A5FC3F3"
+				item: "thermal:dynamo_lapidary"
+				type: "item"
+			}]
+			x: -3.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["413B400DB65141B4"]
+			description: ["Создаёт энергию из бутыльков опыта и зачарованных книг"]
+			id: "07081C342E3E00DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38D5644446514F6F"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "490412F5FAE7EDA2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Красивый"
+			tasks: [{
+				id: "52C9D3C2C1B35291"
+				item: "thermal:dynamo_disenchantment"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["413B400DB65141B4"]
+			description: ["Производит энергию из всего съедобного"]
+			id: "51A6E7FB2CD06762"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C05C7D6350FF697"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B0A8BE8979548EA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 0.5d
+			subtitle: "Прожорливая машина"
+			tasks: [{
+				id: "5AA7D75903218B23"
+				item: "thermal:dynamo_gourmand"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2062FB2108B641BC"]
+			description: ["Ещё один генератор этой серии ищите в главе с бензином и нефтью"]
+			id: "413B400DB65141B4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0630FC23B5BA91BC"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62A67BCD6CDBD333"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Важный компонент"
+			tasks: [{
+				id: "4F6540AAD22DFC5A"
+				item: "thermal:rf_coil"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C19544B824785C6"]
+			id: "2591A50C421A2765"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D2309128854185E"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F0A10D5140C0C95"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "108F74468654E903"
+				item: {
+					Count: 1
+					id: "thermal:wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5640D34B5C62D803"]
+			id: "2D810774C59A524A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5724BBDAFA74CA57"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FE472A9D7215670"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Сальто не помогает делать"
+			tasks: [{
+				id: "279358FA053AEBC5"
+				item: "bigreactors:wrench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5640D34B5C62D803"]
+			id: "2DC81F1120D69BB6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DF5E163699A238E"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "384B4BF1931B1BF7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Для экстремалов (реактор может и бахнуть)"
+			tasks: [{
+				id: "5AD5193E35B720DC"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bigreactors:erguide"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F866E833721D395"]
+			id: "4D46F0C7F14255DB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07AC9F1CAB5602B2"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "Для начала неплохие девайсы и красивые"
+			tasks: [{
+				id: "0032BE1504A109C7"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7C19544B824785C6"]
+			id: "7E932DE3FCCD78A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F8B47DC0EDC3915"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E6C75BC93191484"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Ещё одна книга..."
+			tasks: [{
+				id: "0827BB344547ABEA"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "thermal:guidebook"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Этот блок потребляет энергию и не даёт спавниться/убивает всех враждебных мобов в указанном радиусе"]
+			hide_until_deps_visible: true
+			icon: "darktech:entity_destroyer"
+			id: "567C51513B9156C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4377105D66DC3E63"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Залог безопасности"
+			tasks: [{
+				id: "60E7AE103FDC9EB4"
+				item: "darktech:entity_destroyer"
+				type: "item"
+			}]
+			title: "Никаких криперов"
+			x: -10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["567C51513B9156C8"]
+			id: "64C58BF46E8C6741"
+			subtitle: "Магически уменьшает расходы энергии"
+			tasks: [{
+				id: "54C426D11E43904A"
+				item: "darktech:energy_block"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "6B88EE66A5AFE82E"
+			subtitle: "Да, такое есть, но как это получить - никто не знает"
+			tasks: [{
+				id: "3990AA3C2F73663E"
+				item: {
+					Count: 1
+					id: "create_sabers:brass_saber_blue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+	]
+	subtitle: ["Это мой научный довод - оголённый медный провод"]
+	title: "Электричество"
+}

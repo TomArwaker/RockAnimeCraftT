@@ -1,0 +1,2040 @@
+{
+	autofocus_id: "5361F72BAB72D318"
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "254B71962495BCDE"
+	group: "6E434B4FD255C1FB"
+	hide_quest_until_deps_complete: true
+	icon: "tomeofblood:archmage_tome_of_blood"
+	id: "254B71962495BCDE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "5C68ABBF96C48A4C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D4BB7A23E39B943"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AC77CC31FD05626"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Особая магическая книга..."
+			tasks: [{
+				id: "454531DDD90103C4"
+				item: "tomeofblood:novice_tome_of_blood"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C68ABBF96C48A4C"]
+			id: "3DD8599869012693"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "408413FA26858A8B"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EE5430033B72AD7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "42EE1D5C267790E7"
+				item: "tomeofblood:apprentice_tome_of_blood"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DD8599869012693"]
+			id: "5117868425BDC36B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "039740FE9BC81276"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BF8071219EFE41E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "173507E2F95B58C8"
+				item: "tomeofblood:archmage_tome_of_blood"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C8D74692C963000"]
+			id: "63675417AE18407C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BC4F95E67A9E896"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45368C1878ACD61B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0881797152CD5681"
+				item: "tomeofblood:glyph_sentient_harm"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["63675417AE18407C"]
+			id: "6820ECDE54485810"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "176EE59F17B9083D"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5ED9E579BE97ACD1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3E7FE6FE851FDD1D"
+				item: "tomeofblood:glyph_sentient_wrath"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: [
+				"Магия Крови - мощная ветвь магии, основанная на использовании жизненной силы."
+				""
+				"Эта ветвь магии позволяет создавать мощные ритуалы, алтари и артефакты."
+				""
+				"Начните с создания Кровавого Алтаря."
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			id: "3A9B90A453C933C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77F915493F82F91E"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D109E405FD112BC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "5A92A24D01F60C12"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			title: "Добро пожаловать в Магию Крови"
+			x: -31.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A9B90A453C933C4"]
+			description: [
+				"Жизненная сила - основа магии крови. Соберите её с помощью кинжала жертвоприношения."
+				""
+				"1. Возьмите кинжал в руку"
+				"2. Используйте ПКМ по себе"
+				"3. Потеря здоровья наполнит чашу"
+				""
+				"Создайте Кровавый Алтарь для хранения энергии."
+			]
+			icon: "bloodmagic:altar"
+			id: "3DA7D0BA045CE7AB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "215AE0A41B43C41B"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05535C7E8CE93497"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "49E5D4B7057851E7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "41D32B8152806B22"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+			]
+			title: "Сбор крови"
+			x: -28.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"Используйте алтарь для преобразования крови в Жизненную Эссенцию (LP)."
+				""
+				"Поместите пустую табличку в алтарь и активируйте его кинжалом."
+			]
+			id: "6AAB831CB3FB536A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A3CDD9C324C7A17"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7297A478FF993421"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "7CBFE84B4FE3DC01"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			title: "Создание табличек"
+			x: -26.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: [
+				"Улучшите алтарь до 2 уровня для увеличения мощности."
+				""
+				"Требования для улучшения:"
+				"- 8 рун алтаря"
+				"- Кровавые камни вокруг алтаря"
+				""
+				"Детали смотрите в Путеводителе."
+			]
+			icon: "bloodmagic:altar"
+			id: "4B51189C36B8D291"
+			min_width: 350
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13D5EA222F38E500"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68A19E5DB0C10A45"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				count: 8L
+				id: "4CDFCAAED8ABB615"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "Улучшение алтаря (Уровень 2)"
+			x: -23.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: ["Используйте усиленный алтарь для создания Улучшенной таблички."]
+			id: "2C3CA7B9D1A7DC47"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "52F992B570EBA025"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52660A8B0B5D9BCE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4CEA3279AF0BEE01"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"Кровавые сферы - портативные хранилища Жизненной Эссенции."
+				""
+				"Слабая сфера крови имеет ёмкость 10,000 LP."
+				""
+				"Держите сферу в руке и используйте кинжал для наполнения."
+			]
+			id: "5BF29A151A04FEF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40209E08F40D2A64"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D191DA8D97BAEAA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Вместимость: 10,000 LP"
+			tasks: [{
+				id: "65E0BEE90716B68C"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			title: "Портативное хранилище крови"
+			x: -28.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"Ритуалы - мощные многоблочные структуры."
+				""
+				"Создайте Главный ритуальный камень"
+				"и 8 ритуальных камней для активации."
+				""
+				"Изучите доступные ритуалы в Путеводителе."
+			]
+			icon: "bloodmagic:masterritualstone"
+			id: "4578C0EE82F66BD9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "035A7AB886D9AC8C"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E956013C74A6786"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6995C629EAA148F5"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "32F2BC0D3AA69E25"
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+			]
+			title: "Ритуалы 1 уровня"
+			x: -18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: ["Руна жертвоприношения увеличивает выход LP при жертвоприношении существ."]
+			id: "08F28A9E4DEA7CD0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25560831E4F0BEDC"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3251FFEE45E9D116"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6C6CDA42FB379A80"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"Кинжал жертвоприношения позволяет собирать кровь существ."
+				""
+				"1. Постройте алтарь с чашей"
+				"2. Принесите моба в зону алтаря"
+				"3. Используйте кинжал на мобе"
+				""
+				"Даёт больше LP чем само-жертвоприношение."
+			]
+			id: "5361F72BAB72D318"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22A991C2A5B62723"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2005A9724F5D907E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Альтернатива само-жертвоприношению"
+			tasks: [{
+				id: "5D7178C2EF652773"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6AAB831CB3FB536A"
+				"506D48AD9FB2E89D"
+			]
+			description: [
+				"Адская Кузница - продвинутая плавильня для демонических материалов."
+				""
+				"Требует для работы Демоническую Волю."
+			]
+			id: "7BA086472D87D705"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A6C1B5ACF988306"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47DF7042359C8BB6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "59D4952D3D164F6D"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			title: "Адская Кузница"
+			x: -27.0d
+			y: -3.959183673469383d
+		}
+		{
+			dependencies: ["11D37E7391B49A88"]
+			description: [
+				"Одухотворённый меч - оружие, питающееся Демонической Волей."
+				""
+				"Может быть улучшен с помощью глифов."
+			]
+			id: "7C8D74692C963000"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12C2805828118D59"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B2878E36E48F4D4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "72A92CB3A5DA9044"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Одухотворённый меч"
+			x: -27.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: [
+				"Демоническая Воля - ресурс для продвинутых заклинаний."
+				""
+				"Мелкий камень души может хранить 100 единиц воли."
+				""
+				"Используйте камень на мобах для сбора."
+			]
+			id: "11D37E7391B49A88"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "254745745F0E8309"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35E3BC2E798E0C19"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1E4979886B89B2AD"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Хранение Демонической Воли"
+			x: -27.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["11D37E7391B49A88"]
+			description: ["Улучшенный камень души увеличивает ёмкость хранения воли."]
+			id: "487275B970530E3F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "788F10BF3BA49909"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "626AB31E2D106FFD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "55AF014185F20835"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["487275B970530E3F"]
+			description: ["Продвинутый камень души для хранения больших объёмов воли."]
+			id: "626C07DB8B8C5A04"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C0A4AFF7AD0802C"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70B2B96378B391A9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04BCD1D949FCB24D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["626C07DB8B8C5A04"]
+			description: ["Великий камень души - максимальное хранилище демонической воли."]
+			id: "20458B8987CD6CB9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FB2572C41A66AE0"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BD553FA5581188E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25B30F1BCCEE920A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5886C648D14180E1"]
+			description: [
+				"Насыщенные таблички открывают доступ к продвинутым рецептам."
+				""
+				"Требуют алтарь 3 уровня для создания."
+			]
+			id: "375FF0D8ACD2E17F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B185717A0A59A2A"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DADC32B7EAC8700"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2BEC3F34860494B0"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: ["Руна вместимости увеличивает максимальный запас LP в алтаре."]
+			id: "0B2B8247DA280E90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00D0DABC54750A80"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "275CBAD9F5550963"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "41758E5DA17E2FDF"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: ["Руна перемещения увеличивает скорость передачи LP между устройствами."]
+			id: "47B985B56C582D6A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22505D0174768633"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "558553FDF9E82A12"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "00D5D96DA535CFE7"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["431C44439CA54077"]
+			description: [
+				"Демонические таблички - ключ к высшим уровням магии."
+				""
+				"Требуют алтарь 4 уровня для создания."
+			]
+			id: "7CA3AE708F46CEBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DC6B0ECBA0E8AC4"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3562A645ED22EA78"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "57F75D0B2554BA61"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: ["Превосходная руна вместимости значительно увеличивает ёмкость алтаря."]
+			id: "6C0D4CBC089988ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68FE0DCF8D28B3C5"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EAA5C064E18DE86"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0B14A7CBC056CC9F"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"Руна зарядки создаёт внутренний буфер в алтаре."
+				""
+				"Позволяет хранить дополнительную энергию"
+				"для сложных рецептов."
+			]
+			id: "6C57FF70679AF123"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04C2C7AB8B01FB19"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13A998594FA82EAC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73F90730D99D6384"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2214B7DCE4075A02"]
+			description: ["Эфирные таблички - высшая ступень развития алтаря (Уровень 5)."]
+			id: "396AA75774059D0B"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E71C303E7CFE001"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68C4E66640623419"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "600A5AEE6C546B4C"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"Руна ускорения увеличивает скорость работы алтаря."
+				""
+				"Требует больше LP для операций."
+			]
+			id: "0EE2D22A577D10B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "549BDC9A27F9469F"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60C9A6F12C90036E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7EB95246A2F0981D"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0E8418B42A744030"]
+			description: [
+				"Фрукт Тау временно увеличивает скорость регенерации LP."
+				""
+				"Эффект:"
+				"- Увеличивает скорость восстановления LP"
+				"- Длится 5 минут"
+			]
+			id: "50A28E1946047A6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "021C6FF71C5672B7"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AA8E3DB9389D71B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D780C226FCF4A03"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50A28E1946047A6E"]
+			description: [
+				"Сильный фрукт Тау - улучшенная версия, дающая мощные эффекты."
+				""
+				"Предупреждение: вызывает сильную жажду после использования."
+			]
+			id: "5E2D15E4A410B5DA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F76C4707BC81A40"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E399B6F006696FD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "102AEEB23B1AA7EF"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"Алхимическая камера - многофункциональное устройство для создания зелий и сплавов."
+				""
+				"Требует Жизненную Эссенцию для работы."
+			]
+			id: "308581359FEF32E9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "369AF38286BB2724"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D7D7A43E934800D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1589663D302CE21E"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0E51D6BB2BC756B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10EA7A35B60B06B2"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "098900267F460B7A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Вместимость: 150,000 LP"
+			tasks: [{
+				id: "7BB6F203FCA31A25"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "048BD38532A1DDCF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "336B53D5D4ECD4BC"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F91A604D814BB03"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Вместимость: 1,000,000 LP"
+			tasks: [{
+				id: "2F13F6D6E170BBEC"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5E2D15E4A410B5DA"
+				"308581359FEF32E9"
+			]
+			description: [
+				"Создайте запас демонической воли для продвинутых рецептов."
+				""
+				"Компоненты:"
+				"- Осколок слабой крови"
+				"- Большой кровяной кирпич"
+				""
+				"Используйте Обратитель Сангвина"
+			]
+			id: "25343A0C4C22AA60"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E1F6CB2CF2EB69A"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51516B76FFB14AF2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3A104E7D6C6AA524"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+				{
+					id: "04EAE604D8B668B3"
+					item: "bloodmagic:largebloodstonebrick"
+					type: "item"
+				}
+				{
+					id: "6C20FD13B73935A7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sanguinereverter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"Ритуалы Сумерек - мощные ритуалы 2 уровня."
+				""
+				"Требуют Демоническую Волю для активации."
+			]
+			id: "263925A79EBB270F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24A29BD906B9F9D9"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A7B38B6BC0DDE83"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "46C11FFD8A06B63E"
+					item: {
+						Count: 1
+						id: "bloodmagic:duskscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "088CD8231DD1A37A"
+					item: "bloodmagic:ritualdivinerdusk"
+					type: "item"
+				}
+			]
+			title: "Ритуалы 2 уровня"
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"Демоническая Воля выпадает из существ при использовании Душеловки."
+				""
+				"1. Создайте Душеловку"
+				"2. Используйте на мобе"
+				"3. Убейте моба для получения воли"
+				""
+				"Соберите 5 единиц воли."
+			]
+			id: "506D48AD9FB2E89D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "04303E71450CE7A7"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7154885DE6DBD8C6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3D1BAA6CA8B979A9"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+				{
+					id: "42D29681DC076E3C"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 5.0d
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Сбор Демонической Воли"
+			x: -28.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: [
+				"Алхимический стол - устройство для создания базовых зелий."
+				""
+				"Требует Жизненную Эссенцию для работы."
+			]
+			id: "7CC2D826CA6BBDDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AB8FB0DBD287CBE"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00D6BA8B16A0F1B6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "33ECB0563BA9E2CB"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -24.50425170068028d
+			y: -3.95d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"Разные руны изменяют характеристики алтаря:"
+				"- Руна скорости: ускоряет операции"
+				"- Руна эффективности: снижает затраты LP"
+				""
+				"Экспериментируйте с комбинациями!"
+			]
+			id: "49F57CE3B472FF6D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72D618C32719251A"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "418C363E6BE18B66"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3EF20FD3AC7ED48B"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			title: "Модификация алтаря"
+			x: -23.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"Руна само-жертвоприношения увеличивает количество LP при самоповреждении."
+				""
+				"Эффект складывается с другими рунами."
+			]
+			id: "6CE4ED7A2642674F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "794017F37562BB00"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71383CD3C27B7C19"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6692D1D1E4E4F758"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"Улучшите алтарь до 3 уровня для доступа к новым рецептам."
+				""
+				"Требования:"
+				"- 28 рун алтаря"
+				"- Улучшенная табличка"
+				"- Кровавые блоки нового уровня"
+				""
+				"Следуйте инструкциям в Путеводителе."
+				""
+			]
+			icon: "bloodmagic:altar"
+			id: "5886C648D14180E1"
+			min_width: 350
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "12DA219451E97FEB"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75C4678ECB59F60C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.25d
+			subtitle: "Используйте Путеводитель"
+			tasks: [{
+				count: 28L
+				id: "45FE50B70B45B915"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "Улучшение алтаря (Уровень 3)"
+			x: -20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"375FF0D8ACD2E17F"
+				"25343A0C4C22AA60"
+			]
+			description: [
+				"Алтарь 4 уровня открывает доступ к энд-гейм контенту."
+				""
+				"Требования:"
+				"- 48 рун алтаря"
+				"- Демоническая табличка"
+				"- Продвинутые кровавые блоки"
+				""
+				"Будьте готовы к большим затратам LP!"
+			]
+			icon: "bloodmagic:altar"
+			id: "431C44439CA54077"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F092614E3711CBA"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27386CA32A2D1897"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				count: 48L
+				id: "03DBCA5695879C49"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "Улучшение алтаря (Уровень 4)"
+			x: -15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08143AD0D63FFD1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58CC08697D3F7D9B"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34949F9C0A1B2C87"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Вместимость: 25,000 LP"
+			tasks: [{
+				id: "46DC0EE4792CCA0D"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CC2D826CA6BBDDB"]
+			description: [
+				"Мистический пепел - основа для создания мощных сигил."
+				""
+				"Создаётся в Алхимическом наборе."
+			]
+			id: "1F3B9803AFAEED5F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B5994A217FDB4E9"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D31A2693D9F28BA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Результат алхимического синтеза"
+			tasks: [{
+				id: "6168644A110A263A"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: [
+				"Сигил прорицания позволяет видеть скрытую информацию:"
+				"- Запас LP в устройствах"
+				"- Структуры ритуалов"
+				"- Уровень демонической воли"
+				""
+				"Удерживайте Shift для активации."
+			]
+			id: "281AAC27DEBEE84D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23F1F4E939BA5559"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "448E8907FF67E71D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "19EF9DDE6B18A8B5"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: [
+				"Сигил воды создаёт источники воды."
+				""
+				"Требует LP для активации. Эффективен при строительстве."
+			]
+			id: "7EED2502F1F38147"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "784862A0F6C0BD06"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F962D37F02D75D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7825C546B68A7F85"
+				item: "bloodmagic:watersigil"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			description: [
+				"Сигил лавы создаёт источники лавы."
+				""
+				"Осторожно! Требует много LP и может быть опасен."
+			]
+			id: "3AADA53EC01FB0ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10865866CCBDC58B"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "451CE2A3C4080403"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4EFA9FB003D8D147"
+				item: "bloodmagic:lavasigil"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4578C0EE82F66BD9"]
+			description: [
+				"Определитель ритуалов - инструмент для автоматизации создания ритуалов."
+				""
+				"1. Выберите ритуал в интерфейсе"
+				"2. Используйте на земле для разметки"
+				""
+				"Требует Кристалл активации для работы."
+			]
+			id: "0E8418B42A744030"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "632E3605EABC10CF"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "303040B8C5C5BF1E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1FDBAA650C202A"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+				{
+					id: "7D265539B810DCE3"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			x: -18.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"431C44439CA54077"
+				"42CDD69527871332"
+			]
+			description: [
+				"Алтарь 5 уровня - вершина развития технологии крови."
+				""
+				"Требования:"
+				"- 64 руны алтаря"
+				"- Эфирная табличка"
+				"- Огромные ресурсы LP"
+				""
+				"Открывает доступ к финальным рецептам."
+			]
+			icon: "bloodmagic:altar"
+			id: "2214B7DCE4075A02"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20FE8FB599922E82"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C119F983968BA37"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "3830486EDCC81431"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "Алтарь 5 уровня"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E8418B42A744030"]
+			description: [
+				"Ключи открывают доступ к скрытым подземельям."
+				""
+				"Простой ключ можно найти в сундуках или создать."
+			]
+			id: "6DD7D0A248FEAC00"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F4DC2E50D06729E"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "049456D7940B11D9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "049052953E05D38F"
+				item: "bloodmagic:simplekey"
+				type: "item"
+			}]
+			title: "Ключи от подземелий"
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42CDD69527871332"]
+			description: ["Усиленные руны - элитные версии обычных рун из Демонического мира."]
+			id: "2CA28551F2A5B761"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18D3B3A872A0C098"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0962F675207DE87A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4BD6380E3CB0AFA1"
+					item: "bloodmagic:sacrificerune2"
+					type: "item"
+				}
+				{
+					id: "4A26B1A6BDC9BEF2"
+					item: "bloodmagic:selfsacrificerune2"
+					type: "item"
+				}
+				{
+					id: "374B021596B02DB5"
+					item: "bloodmagic:altarcapacityrune2"
+					type: "item"
+				}
+				{
+					id: "642940CFA557BEF9"
+					item: "bloodmagic:bettercapacityrune2"
+					type: "item"
+				}
+				{
+					id: "5F5E0CDAB56FBAA8"
+					item: "bloodmagic:orbcapacityrune2"
+					type: "item"
+				}
+			]
+			title: "Усиленные руны"
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"Сигил телепозиции позволяет сохранять и перемещаться к точкам."
+				""
+				"Сигил подавления временно отключает способности мобов."
+			]
+			id: "5E2CB036B00758AE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27AAECF9B38D1794"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14E9324A56147C6E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5A91384EF5463B4D"
+					item: "bloodmagic:telepositionsigil"
+					type: "item"
+				}
+				{
+					id: "097D8139589AF377"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofsuppression"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["263925A79EBB270F"]
+			description: [
+				"Демонический мир - измерение, наполненное продвинутыми ресурсами."
+				""
+				"Для доступа требуется:"
+				"- Ритуал 'Путь к Бездне'"
+				"- Стабильный портал"
+				""
+				"Опасно! Будьте готовы к сильным врагам."
+			]
+			id: "42CDD69527871332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63AA64CF1664F026"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21ED9C898FFD6452"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7877DD9632B05697"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			title: "Демонический мир"
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"Сигилы 2 уровня требуют алтарь 2+ уровня:"
+				"- Сигил воздуха: прыжки в воздухе"
+				"- Сигил пустоты: сбор предметов"
+				"- Сигил провидца: ночное видение"
+				"- Сигил горняка: ускоренная добыча"
+				"- Сигил зелёной рощи: ускоренный рост"
+			]
+			id: "4C6B73322F56BE73"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72791F2865010C8E"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DFCE64F75BC6A12"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "54A7E248C8A40239"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:growthsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:miningsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:seersigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:voidsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:airsigil"
+							}
+						]
+					}
+				}
+				title: "Сигилы 2 уровня"
+				type: "item"
+			}]
+			title: "Сигилы 2 уровня"
+			x: -22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"Сигилы 3 уровня требуют алтарь 3+ уровня:"
+				"- Кровавый свет: освещение без факелов"
+				"- Сигил хранения: портативное хранилище"
+				"- Сигил магнетизма: притягивание предметов"
+			]
+			id: "1780A9FDD6983435"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06630338FECCFFCD"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EA0442A0A000981"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "36BBEFDBCCEC8DE0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:bloodlightsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofholding"
+								tag: {
+									currentSigil: 5
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofmagnetism"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Сигилы 3 уровня"
+				type: "item"
+			}]
+			title: "Сигилы 3 уровня"
+			x: -19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E51D6BB2BC756B6"]
+			description: [
+				"Живая броня - экзоскелет, питающийся вашей кровью."
+				""
+				"Особенности:"
+				"- Автоматически ремонтируется"
+				"- Может быть улучшена"
+				"- Требует LP для работы"
+				""
+				"Полный набор даёт особые бонусы."
+			]
+			id: "41030E1E341C3A4E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FC8F36D1E03767D"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7180A38EFAEA6D59"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "26FD5D4411242B25"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A82F03CFF9D25A"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671E6A4CA8F8F77B"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9B38CD413946E0"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Живая броня"
+			x: -19.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["0E51D6BB2BC756B6"]
+			id: "3958ADC95BF8646A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25F37859156575F0"
+					table_id: 8308439302894077721L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D5D04BF1AE3AF49"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 1.25d
+			tasks: [
+				{
+					id: "4081D07E3BB68205"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:living_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A7B8C9E0AE3DBB0"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:living_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61AFC83E50062CDA"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:living_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "635E0AAA02382B6E"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:living_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -3.75d
+		}
+	]
+	title: "Магия крови"
+}

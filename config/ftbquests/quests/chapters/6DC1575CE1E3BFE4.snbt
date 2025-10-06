@@ -1,0 +1,718 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6DC1575CE1E3BFE4"
+	group: "08BE8EB081684B04"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:bee_nest"
+	id: "6DC1575CE1E3BFE4"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"39C11F914911507A"
+			]
+			id: "5D2C092D533C5BB2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49517AA5A8C6EF5A"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "320874E36F4E98F3"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "56705D826B6153F1"
+				item: "productivebees:centrifuge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5D2C092D533C5BB2"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "125A345A1B1E7E63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17032DF907131D41"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321D1A07879131F7"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70D5BB03B19AB578"
+				item: "productivebees:powered_centrifuge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Набор инструментов для разведения пчёл, соты которых при переработке будут выделять не только мёд, но и разные ресурсы вплоть до редких и дорогих!"]
+			id: "39C11F914911507A"
+			rewards: [
+				{
+					id: "5C86252D7587C8A8"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20D5C618D4F700B1"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AFF0FF4AD05D0B7"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Пчёлы с ресурсами!"
+			tasks: [{
+				id: "478818D3F63DF992"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"39C11F914911507A"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "424CA98F0C1DF747"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1FC49D9308C7AE5A"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "103167372D782BAC"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "51EF378CDD3E046E"
+				item: "productivebees:honey_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"424CA98F0C1DF747"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "587ECB865721BFB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5C1DAD24DCB06439"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48D5A0D23E5D9AEF"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "168E365611CE1756"
+				item: "productivebees:honey_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"39C11F914911507A"
+			]
+			id: "492FF18069AF03C4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28F3739B3C15DB36"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F66E63A9E10B77D"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D6AC872072BAA73"
+				item: "productivebees:bottler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"39C11F914911507A"
+			]
+			id: "1C08392DDCCBBC88"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DB57D5F2220E2E6"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3861BEE69C7F7683"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12415A764A98092C"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"39C11F914911507A"
+			]
+			hide_until_deps_visible: true
+			id: "0733A97F9305734E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F88063C912BB100"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DAA0936D77AC9D9"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "649DAA6A50E337DF"
+				item: "productivebees:gene_indexer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"39C11F914911507A"
+			]
+			id: "61FAB1DFD3F801B8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "028471A6889AD22E"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0083B4C0BFB96281"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7896A8C5B3467C6D"
+				item: {
+					Count: 1
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"39C11F914911507A"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "2060F58416A0660E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D3BE5C50D7AA2B5"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B3A315E6DBD8052"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0818F3BC8EE7339F"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2060F58416A0660E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "7EFD3BC2816D2D4A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24FCA06020404FD3"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "101DCC705FEA1465"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "080FA1EDA497158F"
+				item: "productivebees:sturdy_bee_cage"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"39C11F914911507A"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "479DE73C06BBE725"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70C188DFE9ABD643"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F3211F445A3DCAA"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7036F2216CBFAF2D"
+				item: "productivebees:honey_treat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"479DE73C06BBE725"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "6C21F2E55FA24875"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "078B98844AB5BAAC"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34B670E2F108498D"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6419B677A5E90BBB"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5D2C092D533C5BB2"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "3C1A6273FD979FA3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1578C35668D872B5"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "408271B8634B34EC"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3BC2149CF8F4ABDB"
+					item: "productivebees:wax"
+					type: "item"
+				}
+				{
+					id: "6954BC2E81B65F5D"
+					item: "productivebees:wax_block"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3C1A6273FD979FA3"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "79E9DB972A3DC987"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E3AF4DFB79BA016"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "637BDCD078DB62DF"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "11EA3B6D3BE3D7FF"
+				item: "productivebees:upgrade_comb_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5D2C092D533C5BB2"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "0FE97ED958F52F6A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03C938284640342E"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A542B26EB2CB38F"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1A91285838A6843C"
+					item: "productivebees:draconic_dust"
+					type: "item"
+				}
+				{
+					id: "56B56E98A8E91223"
+					item: "productivebees:draconic_chunk"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0FE97ED958F52F6A"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "4B1E03E13DB6F65A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E52B2AA59A25120"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5872A71C9E54B867"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3B1F4767D853363D"
+				item: "productivebees:inactive_dragon_egg"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4B1E03E13DB6F65A"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "002E8C3040B93B16"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14ABAA2F34998CE4"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39B9737A51279685"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "040C505C87A22E7A"
+				item: "productivebees:heated_centrifuge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0FE97ED958F52F6A"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "1662103587D17064"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "678E78E471F53749"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D2C2C510D5264E2"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64C366E13E5A0EA2"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6C21F2E55FA24875"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "781958F89738E816"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34080882B5DFE049"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "661EDE1436EAFAAF"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "21224E664BA73862"
+				item: "productivebees:upgrade_time"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C21F2E55FA24875"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "2A021814E20D8BFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6ED847AB62E038E5"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52DE4F139C622E5F"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2B8CADB57D259A5D"
+				item: "productivebees:upgrade_filter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6C21F2E55FA24875"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "653194B990919C7A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7EFFF056702478E9"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29DEF6FA9201527D"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "223C3D7B430FBA15"
+				item: "productivebees:upgrade_anti_teleport"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6C21F2E55FA24875"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "5D195D6CCCD95E6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11379180924B821C"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EA663BD7BC6B1FD"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "28CA7838B6F5992B"
+				item: "productivebees:upgrade_breeding"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6C21F2E55FA24875"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "358FF161DFFFEF5A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C25F9B4A5EF4CCC"
+					table_id: 1614578694371228430L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B5627A0C582C787"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "229497180DBF50B5"
+				item: "productivebees:upgrade_range"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+	]
+	subtitle: ["Неправильные пчолы"]
+	title: "Productive Bees"
+}

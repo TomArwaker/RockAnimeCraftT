@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "70FAD70633E8BFB4"
+	group: "3E5C9570DCB452CF"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "magistuarmoryaddon:gilded_xivcenturyknight_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "70FAD70633E8BFB4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1D3689E1906638C1"]
+			id: "5A91FBE3DDCE23C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CA10E34F5AE7F57"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2646DFDF1E945AAC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Русский витязь!"
+			tasks: [
+				{
+					id: "0A3307DAE69528D8"
+					item: {
+						Count: 1
+						id: "slavicarmory:gnezdovo_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13A7F3B813416871"
+					item: {
+						Count: 1
+						id: "slavicarmory:rus_chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7805E57C2C882C2F"
+					item: {
+						Count: 1
+						id: "slavicarmory:rus_chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B0CF38DA5C4DA15"
+					item: {
+						Count: 1
+						id: "slavicarmory:rus_chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Русская броня"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D3689E1906638C1"]
+			description: ["Есть множество вариантов этой брони"]
+			id: "4C70761F6E5C403D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C7098AAE486C72C"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2594AA42EFA6447D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Честь превыше всего"
+			tasks: [
+				{
+					id: "74FA349D2A560D59"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:iron_samurai_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DA910C8DA1A8C4A"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:iron_samurai_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A28CD15339188BA"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:iron_samurai_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63C353C7767550E5"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:iron_samurai_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня самурая"
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D3689E1906638C1"]
+			id: "06272498ED213877"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C554C0932304415"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DA6133BB1F05D19"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "Или ты из этих? -_-"
+			tasks: [
+				{
+					id: "0525BFD90F71923B"
+					item: {
+						Count: 1
+						id: "magistuarmory:armet"
+						tag: {
+							ArmorDecoration: {
+								Items: [{
+									color: -10092544
+									dyeable: 1b
+									name: "magistuarmory:big_plume"
+								}]
+							}
+							Damage: 0
+							display: {
+								Name: "{\"translate\":\"magistuarmory.decorated\",\"with\":[\"Армет\"]}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70EEF98C9792BBDE"
+					item: {
+						Count: 1
+						id: "magistuarmory:knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "651D098E0F557DA8"
+					item: {
+						Count: 1
+						id: "magistuarmory:knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FD1E7C9406C99D3"
+					item: {
+						Count: 1
+						id: "magistuarmory:knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня рыцаря"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1D3689E1906638C1"]
+			id: "09A4893C3506CAFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E26E7E60E2ABCFE"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "516B719B654281C4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "А вы часто думаете о римской империи?"
+			tasks: [
+				{
+					id: "690C22D2475DC089"
+					item: {
+						Count: 1
+						id: "antiquelegacy:iron_melos"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45887A91EBA84AF3"
+					item: {
+						Count: 1
+						id: "antiquelegacy:segmentata"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "057F3FFED8DEFB2D"
+					item: {
+						Count: 1
+						id: "antiquelegacy:iron_roman_greaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38D78027E352BCC7"
+					item: {
+						Count: 1
+						id: "antiquelegacy:sandals"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня легионера"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1D3689E1906638C1"]
+			description: ["В epic knights много безделушек, которые можно прицепить к абсолютно любой броне!"]
+			id: "13132B8E29EE51FF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0EBF64CD784B159D"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F955A92AED6E20C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			subtitle: "МЫ РУССКИЕ С НАМИ БОГ"
+			tasks: [{
+				id: "6401F53A35C948A9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "magistuarmoryaddon:silver_cross_necklace_decoration"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "magistuarmoryaddon:golden_cross_necklace_decoration"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Тут есть очень много видов снаряжения из разных эпох и культур от исторических до фантастических, не поленитесь пошариться!"]
+			icon: {
+				Count: 1
+				id: "magistuarmoryaddon:gilded_maximilian_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1D3689E1906638C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11AE8880A7593473"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41EA0D2D89E43D31"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			subtitle: "Каждый найдёт на свой вкус"
+			tasks: [{
+				id: "3F9D844103A91BA1"
+				title: "И это лишь очень малая часть"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D3689E1906638C1"]
+			id: "2F038938C2CB66BD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "20A91E13E18AE320"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220643E8FEC6D62E"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+			]
+			subtitle: "Вариантов не так много, как у самурайской"
+			tasks: [
+				{
+					id: "430D889C301DABAB"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:iron_ninja_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2005030CC61A0428"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:iron_ninja_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "703A410362F2CB21"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:ninja_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B793AF9D35467EF"
+					item: {
+						Count: 1
+						id: "samurai_dynasty:iron_ninja_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Одежда ниндзя"
+			x: -4.5d
+			y: -6.0d
+		}
+	]
+	subtitle: ["Можно стать витязем"]
+	title: "Собери свой лук"
+}

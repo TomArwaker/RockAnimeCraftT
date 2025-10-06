@@ -1,0 +1,577 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "20D9A47DBE05A8FA"
+	group: "4B499A44B2723CF4"
+	hide_quest_until_deps_complete: true
+	icon: "brewery:beer_wheat"
+	id: "20D9A47DBE05A8FA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"770C5DCB084834A4"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "64B469355177562F"
+			subtitle: "Дальше начинаем варить"
+			tasks: [{
+				id: "3CB36234F0780CE7"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"64B469355177562F"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "4B0A6242EAC84F7C"
+			tasks: [{
+				id: "1DAD6C5002EEEBC9"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4B0A6242EAC84F7C"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "0AD48C773701A255"
+			tasks: [{
+				id: "6B3F787BD397483F"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"770C5DCB084834A4"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "1F6A27827AC956B5"
+			tasks: [{
+				id: "2DAE111587B927FE"
+				item: "brewery:dried_wheat"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"770C5DCB084834A4"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "30FB40D34AC3FC6E"
+			tasks: [{
+				id: "254EF1B9C495C7B9"
+				item: "brewery:dried_barley"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"770C5DCB084834A4"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "4357DD8186D13F04"
+			tasks: [{
+				id: "174A3C9213F44F33"
+				item: "brewery:dried_corn"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"770C5DCB084834A4"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "3AF05D232AC83AF5"
+			tasks: [{
+				id: "79DAC0F1CAB79BA5"
+				item: "brewery:dried_oat"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "30C8BC663D9A9F2B"
+			tasks: [{
+				id: "2BAA124AB23BFDC4"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "60493BC1161BF8F9"
+			tasks: [{
+				id: "7288D923CDF263B6"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "010D21C3C38F1A68"
+			tasks: [{
+				id: "1F1D10A8CEF59A90"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "56AAC18A604EDF04"
+			tasks: [{
+				id: "013872D97A4F6CF3"
+				item: "brewery:beer_nettle"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "10B2391CD69F3651"
+			tasks: [{
+				id: "362FA412F6B0539D"
+				item: "brewery:beer_oat"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "66F86D9EAC1730E9"
+			tasks: [{
+				id: "4D26F84226B6E955"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "7043C468F787A1F6"
+			tasks: [{
+				id: "4DD0BAC84B923883"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "6E35CF3B9E1B3664"
+			tasks: [{
+				id: "3C5AFBD818DF7645"
+				item: "brewery:whiskey_lilitusinglemalt"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "0CF3888B8F457414"
+			tasks: [{
+				id: "07ACF318953DBB56"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "0395ED38527D4CA2"
+			tasks: [{
+				id: "059B738D29CD961C"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "39668AEDD6EABCC5"
+			tasks: [{
+				id: "6B030E124035C6C0"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "67401D868A48A7B9"
+			tasks: [{
+				id: "7B678155F2C72E74"
+				item: "brewery:whiskey_ak"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "01572B57AF9433B3"
+			tasks: [{
+				id: "213EDA0E90A9F024"
+				item: "brewery:whiskey_highland_hearth"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "31084CB88A24C42A"
+			tasks: [{
+				id: "2C0180437E90ED30"
+				item: "brewery:whiskey_smokey_reverie"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"64B469355177562F"
+			]
+			id: "2018B57B2A758864"
+			tasks: [{
+				id: "0B3CAF85D99286E3"
+				item: "brewery:whiskey_jamesons_malt"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"770C5DCB084834A4"
+				"04F3AC06F427A767"
+			]
+			id: "46A1F27146DAD668"
+			tasks: [{
+				id: "235CA4042609AEE5"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"770C5DCB084834A4"
+				"04F3AC06F427A767"
+			]
+			id: "4E4B081337CE1642"
+			tasks: [{
+				id: "6AB2F1CC3093C375"
+				item: "vinery:oak_wine_rack_mid"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "770C5DCB084834A4"
+			subtitle: "Всё начинается с зерна!"
+			tasks: [{
+				id: "22A25B42AB7BCCB2"
+				item: "farm_and_charm:silo_wood"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"770C5DCB084834A4"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "63AF01E4F95C4C8A"
+			tasks: [{
+				id: "2792B1D5840AA967"
+				item: "farm_and_charm:silo_copper"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"4A8F6BB5FDE5288B"
+				"770C5DCB084834A4"
+				"04F3AC06F427A767"
+			]
+			id: "023E06D61FEC20EE"
+			tasks: [{
+				id: "55EC80FA153FCD65"
+				title: "Виноделие будет в следующем обновлении"
+				type: "checkmark"
+			}]
+			x: -19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"16B06ECD853EC06E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "387C74F281B2F86E"
+			subtitle: "Тут процесс попроще"
+			tasks: [{
+				id: "44B1310CE4A6E8B0"
+				item: "drinkbeer:beer_barrel"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "16B06ECD853EC06E"
+			subtitle: "Ну-ка мечи стаканы на стол!"
+			tasks: [{
+				id: "2656D44862665577"
+				item: "drinkbeer:empty_beer_mug"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "629140A9AAE748F3"
+			tasks: [{
+				id: "536C98F1AC816BFB"
+				item: "drinkbeer:beer_mug"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "255452518AE8B838"
+			tasks: [{
+				id: "34DE0CBC401AC791"
+				item: "drinkbeer:beer_mug_blaze_stout"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "3BB84D3710BE7910"
+			tasks: [{
+				id: "06C7DCA9B35AD8E7"
+				item: "drinkbeer:beer_mug_blaze_milk_stout"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "52639335DBB88833"
+			tasks: [{
+				id: "23A8550D4F8EEB43"
+				item: "drinkbeer:beer_mug_apple_lambic"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "040813E336E6F671"
+			tasks: [{
+				id: "459C00739B0D84C6"
+				item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "293A3653F25876F9"
+			tasks: [{
+				id: "75D99C8BA0EF8F22"
+				item: "drinkbeer:beer_mug_haars_icy_pale_lager"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "25AA9AC2AE0374CC"
+			tasks: [{
+				id: "6E1BCF5452FF8202"
+				item: "drinkbeer:beer_mug_pumpkin_kvass"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "105834DC2E795AF5"
+			tasks: [{
+				id: "76A1C6FD652D1D6F"
+				item: "drinkbeer:beer_mug_night_howl_kvass"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "71B2B84876BB3476"
+			tasks: [{
+				id: "121B63CCCC5C82D5"
+				item: "drinkbeer:beer_mug_frothy_pink_eggnog"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "13C19D36FEDA9DEC"
+			tasks: [{
+				id: "563202751B499BFF"
+				item: "drinkbeer:beer_mug_wither_stout"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"387C74F281B2F86E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "6AE8502E614EC43B"
+			subtitle: "Поможет, если перебрал..."
+			tasks: [{
+				id: "69113F101D418865"
+				item: "drinkbeer:beer_mug_seltzer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+	]
+	subtitle: ["Глава дорабатывается!"]
+	title: "Приготовление напитков"
+}

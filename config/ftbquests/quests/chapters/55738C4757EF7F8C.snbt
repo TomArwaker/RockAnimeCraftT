@@ -1,0 +1,964 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "55738C4757EF7F8C"
+	group: "5C72E74C0EB56E87"
+	hide_quest_until_deps_complete: true
+	icon: "undergarden:deepturf_block"
+	id: "55738C4757EF7F8C"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Постройте портал из каменных кирпичей и подожгите его этим каталистом."]
+			id: "56BDF3DC0743ECEC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FD27D653934D714"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Ключ к новым землям!"
+			tasks: [{
+				id: "5B6F197F3E95D1D3"
+				item: "undergarden:catalyst"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56BDF3DC0743ECEC"]
+			id: "33BAC31846B85E50"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62A30B00728F83B3"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Новое измерение!"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "4C6A45B3CB7F35ED"
+				title: "Посетить измерение Подземный сад"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33BAC31846B85E50"]
+			description: ["Появляется в шахтах."]
+			id: "3533994A7E20AD53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F9738DBCD725534"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Крафтовый ингредиент!"
+			tasks: [{
+				id: "160212924C91CB51"
+				item: "undergarden:raw_cloggrum"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["33BAC31846B85E50"]
+			description: ["Втречается в шахте."]
+			id: "65DA848B635FC2DA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "286BC145896191B8"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Ледосталь!"
+			tasks: [{
+				id: "4BBAD5C86581C781"
+				item: "undergarden:raw_froststeel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3533994A7E20AD53"]
+			description: ["Из этих слитков можно скрафтит всё: от брони до щита."]
+			id: "5A0A352946FDAD28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ADDC7CCCE505D14"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Полезный слиток!"
+			tasks: [{
+				id: "5610DBD180EB63A6"
+				item: "undergarden:cloggrum_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65DA848B635FC2DA"]
+			description: ["Позволяет сделать инструменты и броню."]
+			id: "40444BC36346008C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70358F7144FF5CCE"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Холодный слиток!"
+			tasks: [{
+				id: "2BA666C93C8F7115"
+				item: "undergarden:froststeel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["33BAC31846B85E50"]
+			description: ["Появляются в любых катакомбах."]
+			id: "3231386158012906"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52898848BD22FF54"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Огромный робот!"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "7365622F3D2C97F7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3231386158012906"]
+			description: ["Падает с Защитников."]
+			id: "364BCF66CD1A168F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34DF001553C927C6"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Осколок чего-то крутого!"
+			tasks: [{
+				id: "1CBE889DC04F5137"
+				item: "undergarden:forgotten_nugget"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["364BCF66CD1A168F"]
+			description: ["Позволяет улучшать инструменты и хлоггрума."]
+			id: "5203045576711C8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3840FDA21D622325"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Незерит!"
+			tasks: [{
+				id: "7727CB17174AF172"
+				item: "undergarden:forgotten_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33BAC31846B85E50"]
+			description: ["Появляются чаще всего в шахтах."]
+			id: "6DB6DE5E03353D95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F5A84200B4202FB"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Худой человек!"
+			tasks: [{
+				entity: "undergarden:rotwalker"
+				id: "1F8B8F646E4EAE46"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6DB6DE5E03353D95"]
+			description: ["Из осколков можно сделать факела и кристаллы."]
+			id: "6946BEF7CDE8A954"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C725D1FBEC3626A"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Осколок утерия!"
+			tasks: [{
+				id: "56D541434AEFAE7C"
+				item: "undergarden:utheric_shard"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6946BEF7CDE8A954"]
+			description: ["Из красталла утерия можно сделать инструменты и броню."]
+			id: "514654B94823F2A2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EF310AE51AE2723"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Рубин?"
+			tasks: [{
+				id: "60B25DEE7AEA47AF"
+				item: "undergarden:utherium_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33BAC31846B85E50"]
+			id: "4D9267B93902E4FC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06FA147E6945C67C"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Босс этого мира!"
+			tasks: [{
+				entity: "undergarden:masticator"
+				id: "43D6EFBB36D9CE62"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D9267B93902E4FC"]
+			description: ["Позволяет сделать неплохой нагрудник."]
+			id: "6FE108004B6ED236"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "510F1ACC87875752"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Крафтовый ингредиент!"
+			tasks: [{
+				id: "423EFB149DC7903D"
+				item: "undergarden:masticator_scales"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FE108004B6ED236"]
+			description: ["Нагрудник сразу будет зачарован на шипы, что будет помогать вам в сражениях."]
+			id: "7F9497CE4E7645E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29D4CA23D4187B2C"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Острая штучка!"
+			tasks: [{
+				id: "59CE3F7747846FCC"
+				item: {
+					Count: 1
+					id: "undergarden:masticated_chestplate"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:thorns"
+							lvl: 5s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5203045576711C8C"]
+			description: ["Наносят больше урона всем мобам, кроме боссов."]
+			id: "0C476EDF2EC0ED8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "493516BFDE70DEFB"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Лучшее оружие!"
+			tasks: [
+				{
+					id: "122A66F7CC70B275"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A84ADEEB059F39F"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_battleaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5203045576711C8C"]
+			description: ["Капают на 1.5 быстрее в этом мире."]
+			id: "113AC8DC225BE957"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F974462A59CD12C"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Теперь лучше!"
+			tasks: [
+				{
+					id: "19BAC981188043F9"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20A0145402691D0A"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5203045576711C8C"]
+			description: ["Копают блоки в этом мире быстрее."]
+			id: "100385269130C68D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F0086A172BBDBF2"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Для деревни - пойдёт!"
+			tasks: [
+				{
+					id: "109C0985420F7C01"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1826DA51F0764E48"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A0A352946FDAD28"]
+			description: ["Немного хуже алмазной."]
+			id: "377511059D3B0BD1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5014506B56777E38"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Хорошая броня!"
+			tasks: [
+				{
+					id: "30550230F5893727"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23FF408519162242"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1255F888D7A06ED6"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "646A46C410379452"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A0A352946FDAD28"]
+			description: ["Неплохие оружия, которые Вы сможите улучшить."]
+			id: "390DCEEC49A433FE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "714239C1A3D7EFCA"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Теперь монстры будут вас бояться!"
+			tasks: [
+				{
+					id: "5734BBA8F5DED212"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "760AA9640E3947D8"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_battleaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E187693B0B4EBBC"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A0A352946FDAD28"]
+			description: ["Но вы сможите их улучшить до более хороших."]
+			id: "74C1E672043EC84F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10C6D7FEE2626652"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Не самые лучшие инструменты!"
+			tasks: [
+				{
+					id: "1B767ED8565DFC44"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07C2FA39FC7AE0D4"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5A0A352946FDAD28"]
+			description: ["Не очень прочные инструменты."]
+			id: "243E1DEA4F78471E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "181A7404C5054FF6"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Для дачного сезона!"
+			tasks: [
+				{
+					id: "79BE4C4A2695AF29"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C84E360D1F17F48"
+					item: {
+						Count: 1
+						id: "undergarden:cloggrum_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["40444BC36346008C"]
+			description: ["Каждый элемент брони будет замедлять Вас."]
+			id: "068697869FA84DC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44FEEE96148EE1CC"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Неплохая броня!"
+			tasks: [
+				{
+					id: "6F43986413313316"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EE410CE9A84771B"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50E0FB8A23D3E52A"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26FB621FE0EBCD3E"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40444BC36346008C"]
+			description: ["Удары по мобам будут замедлять их."]
+			id: "6329E536B15B0DB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35D4385C25B91F93"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Холодные инструменты!"
+			tasks: [
+				{
+					id: "087BBC38D7C87678"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46370146C89AB81F"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40444BC36346008C"]
+			description: ["Замедляет врага при ударе."]
+			id: "763C4CBD7C71C963"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E8EEEAA3FF898F3"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "\"Холодное\" оружие!"
+			tasks: [{
+				id: "19E92AE5E39CFF16"
+				item: {
+					Count: 1
+					id: "undergarden:froststeel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40444BC36346008C"]
+			description: ["Не самые прочные инструменты."]
+			id: "4A1027A5BB4E24C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CD09552250892A1"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Для копания картошки в поле!"
+			tasks: [
+				{
+					id: "64544FEA88329B5E"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "156EDDBFC916F081"
+					item: {
+						Count: 1
+						id: "undergarden:froststeel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["514654B94823F2A2"]
+			description: ["Броня не хоже алмазной."]
+			id: "2D4E5E270EEDA8F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "561DB3A3FCAE93A3"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Хорошая броня!"
+			tasks: [
+				{
+					id: "58A65455345096AA"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BC2EADE7FE7D7BA"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "338BA45FDF5D1D4B"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FB085A27A33567F"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["514654B94823F2A2"]
+			description: ["Меч наносит дополнительный урон мобам рода Rot"]
+			id: "05D3485829E976B6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "064C5D909B3F517F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Хороший меч!"
+			tasks: [{
+				id: "385953B569C02A13"
+				item: {
+					Count: 1
+					id: "undergarden:utherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["514654B94823F2A2"]
+			description: ["Этими инструментами вы сможите копать все типы рыд и брёвен."]
+			id: "601DA50CEBD9C7AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A921D379BB11CBB"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Хорошие инструменты!"
+			tasks: [
+				{
+					id: "794EFD419759A70B"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "173166046A6B0671"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["514654B94823F2A2"]
+			description: ["Быстрая лопата и прочная мотыга."]
+			id: "40ED3B53DDFB73AB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FADA2F6F52336E0"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Всё для огорода!"
+			tasks: [
+				{
+					id: "2152E4607A418C86"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7482D5108DC295ED"
+					item: {
+						Count: 1
+						id: "undergarden:utherium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Название говорит само за себя"]
+	title: "The Undergarden"
+}

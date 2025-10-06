@@ -1,0 +1,2655 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "alexs_cave"
+	group: "0CD6E10830E3FDCB"
+	hide_quest_until_deps_complete: true
+	icon: "alexscaves:beholder"
+	id: "35AA80A476E48156"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: [
+				"С установкой данного мода в мире игры теперь начали появляться 6 видов супер редких пещер. "
+				""
+				"Ваша задача - изучить каждый вид пещер и узнать все их тайны!"
+			]
+			id: "01F0BB49ADE5BED5"
+			rewards: [
+				{
+					id: "5834AFF449442566"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_book"
+					}
+					type: "item"
+				}
+				{
+					id: "25B241E32B02A5BC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:spelunkery_table"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Спелеология!"
+			tasks: [{
+				id: "27203785A9D3CB04"
+				title: "Начало исследований"
+				type: "checkmark"
+			}]
+			title: "Начало исследований"
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"01F0BB49ADE5BED5"
+				"4A8F6BB5FDE5288B"
+			]
+			description: [
+				"С данным модом в мире Вы можете встретить 6 разных &6Пещерных табличек&r, каждая из которых отвечает за отдельную уникальную пещеру. "
+				""
+				"С помощью данных табличек Вы можете получить &6Пещерные манускрипты&r для поиска местонахождения нужной Вам пещеры."
+				"{image: width:100 height:100 align:center}"
+			]
+			id: "18BF33237B73346A"
+			rewards: [
+				{
+					count: 3
+					id: "321E00DDEB074D5F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "121FF873684D7BF6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "622B1AE49C83E9B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1BEFEB26EAEB212F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D5FB5A9FD94DCC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "532E2371B0EB2BA3"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:candy_cavity"
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			subtitle: "100% способ найти новые пещеры!"
+			tasks: [
+				{
+					count: 2L
+					id: "101D31F0E975E104"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:magnetic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7830E203D2087471"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:primordial_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2CEFF1C1CF85A41E"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:toxic_caves"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "78C622B5F874D3AC"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:abyssal_chasm"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "45363FE23468BA5B"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "57A1BCE8DD605BD3"
+					item: {
+						Count: 1
+						id: "alexscaves:cave_tablet"
+						tag: {
+							CaveBiome: "alexscaves:candy_cavity"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пещерные таблички"
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"18BF33237B73346A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Пещерный манускрипт&r необходим, чтобы изучать новые главы в путеводителе, а также с помощью него можно создать карту пещеры."]
+			hide_dependency_lines: true
+			id: "4A8A3945DE50B539"
+			rewards: [{
+				id: "07274D86D174DB64"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Магниты!"
+			tasks: [{
+				id: "1DBFEE205F1BC8A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4A8A3945DE50B539"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Оно притягивает"]
+			id: "366C8348DA98A342"
+			rewards: [{
+				id: "385515636BAEDEC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:block_of_scarlet_neodymium"
+				}
+				type: "item"
+			}]
+			subtitle: "неодим"
+			tasks: [
+				{
+					id: "0B29B008D56AE571"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:raw_scarlet_neodymium"
+					}
+					type: "item"
+				}
+				{
+					id: "523C9D40B85C2BB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:scarlet_neodymium_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "Алый неодим"
+			x: -19.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4A8A3945DE50B539"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Оно отталкивает"]
+			id: "649664A9BA7F4DB6"
+			rewards: [{
+				id: "6949C66FA37E9BC0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:block_of_azure_neodymium"
+				}
+				type: "item"
+			}]
+			subtitle: "неодим"
+			tasks: [
+				{
+					id: "6756DDDCC3FF469A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:raw_azure_neodymium"
+					}
+					type: "item"
+				}
+				{
+					id: "79DEB280AC81B5AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:azure_neodymium_ingot"
+					}
+					type: "item"
+				}
+			]
+			title: "Лазурный неодим"
+			x: -16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4A8A3945DE50B539"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Что сказать магнитрон"]
+			id: "2B5DC70ADEDBEA8B"
+			rewards: [{
+				id: "743CF02002EF7123"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:heart_of_iron"
+				}
+				type: "item"
+			}]
+			subtitle: "железяка"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "4047A81B4D3AEB94"
+				type: "kill"
+				value: 1L
+			}]
+			x: -18.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3D447A310B74E2EF"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Защити меня неодим"]
+			id: "5AE5CCA4979DB670"
+			rewards: [{
+				id: "0ACFF5B61CFD770E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "щит"
+			tasks: [{
+				id: "68D2B1B7B54A89FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"3D447A310B74E2EF"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Время задуматся о карьере"]
+			id: "728B6FBA49405CA2"
+			rewards: [{
+				id: "4BAE82F86AC1417D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "карьер"
+			tasks: [{
+				id: "0DBF955C5C9DA46A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:quarry"
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4A8A3945DE50B539"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Немного надоедлевый моб"]
+			id: "76075B39081000BE"
+			rewards: [{
+				id: "5943B71C9CB69041"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "имеет связи"
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				id: "677D2A24437DECE3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"76075B39081000BE"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Алый груз"]
+			id: "36FC45CC1EE5B5C0"
+			subtitle: "тяжесть"
+			tasks: [{
+				id: "57CE623A41300463"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:heavyweight"
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"36FC45CC1EE5B5C0"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Нужен для карьера"]
+			id: "58A6D22C054911C4"
+			subtitle: "работник карьера"
+			tasks: [{
+				id: "5631AEC2B85FFC93"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:quarry_smasher"
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"366C8348DA98A342"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "1EFACA8C5D834FAA"
+			rewards: [{
+				count: 2
+				id: "16AB9EF19D3750FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:block_of_scarlet_neodymium"
+				}
+				type: "item"
+			}]
+			subtitle: "блок неодима"
+			tasks: [{
+				id: "3829067BE93C5917"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:block_of_scarlet_neodymium"
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"649664A9BA7F4DB6"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "26E87F6F32E1F8AF"
+			rewards: [{
+				count: 2
+				id: "56084FDD1D10F65F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:block_of_azure_neodymium"
+				}
+				type: "item"
+			}]
+			subtitle: "блок неодима"
+			tasks: [{
+				id: "34A1A0ABE4962B1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:block_of_azure_neodymium"
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"649664A9BA7F4DB6"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "5843B7A4FF736E9E"
+			rewards: [{
+				id: "02BB66EEDA020C16"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "магнит"
+			tasks: [{
+				id: "4901F9205985ED12"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:azure_magnet"
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"366C8348DA98A342"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "0401B4068557F5D9"
+			rewards: [{
+				id: "1E3F503BD160E966"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "магнит"
+			tasks: [{
+				id: "41905AEB8AAC8990"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:scarlet_magnet"
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4A8A3945DE50B539"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Безобидный моб"]
+			id: "59D47E5D72367B8C"
+			subtitle: "всегда маячит на горезонте"
+			tasks: [{
+				entity: "alexscaves:notor"
+				id: "78A328EBA75E6E61"
+				type: "kill"
+				value: 1L
+			}]
+			x: -19.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"59D47E5D72367B8C"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["..."]
+			id: "391D80CA3ABDDD18"
+			rewards: [{
+				id: "7C6AE901FA3EAC5D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:notor_gizmo"
+				}
+				type: "item"
+			}]
+			subtitle: "маячок"
+			tasks: [{
+				count: 3L
+				id: "42582D6069A275E8"
+				item: {
+					Count: 3
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:notor_gizmo"
+				}
+				type: "item"
+			}]
+			x: -20.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"391D80CA3ABDDD18"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Ого голограмма"]
+			id: "1C444039BCE30121"
+			subtitle: "прямиком из 2050 года"
+			tasks: [
+				{
+					id: "480884D3357D0A0A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:holocoder"
+					}
+					type: "item"
+				}
+				{
+					id: "669277305C211882"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hologram_projector"
+					}
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"18BF33237B73346A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Пещерный манускрипт&r необходим, чтобы изучать новые главы в путеводителе, а также с помощью него можно создать карту пещеры."]
+			hide_dependency_lines: true
+			id: "04D93F742AD43429"
+			rewards: [{
+				id: "794CA38A53F347DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			subtitle: "Динозавры!"
+			tasks: [{
+				id: "43407F0D10F971DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5CC6B4CAAFB3E0E2"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Будь я древним то одел бы это"]
+			id: "07D1545EB480D08C"
+			rewards: [{
+				count: 4
+				id: "31557E3B76E72516"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tough_hide"
+				}
+				type: "item"
+			}]
+			subtitle: "толстая кожа"
+			tasks: [{
+				id: "4DCE21ACCAE6E687"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tough_hide"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"20D8595702F449AA"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Кость атлатитана"]
+			id: "01672537E4E9C070"
+			rewards: [{
+				count: 2
+				id: "556425A1FF9E1D05"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:heavy_bone"
+				}
+				type: "item"
+			}]
+			subtitle: "широкая кость"
+			tasks: [{
+				id: "27FD70272D3798E7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:heavy_bone"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"04D93F742AD43429"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Он в... перьях!?"]
+			id: "20D8595702F449AA"
+			rewards: [{
+				count: 4
+				id: "6800C582B551985C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:feather"
+				}
+				type: "item"
+			}]
+			subtitle: "древний, очень древний"
+			tasks: [{
+				entity: "alexscaves:atlatitan"
+				id: "73D7CE147A9868EF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"04D93F742AD43429"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Ест травку, не важно какую"]
+			id: "5CC6B4CAAFB3E0E2"
+			rewards: [{
+				count: 4
+				id: "61FD15D7E7506CCC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dinosaur_nugget"
+				}
+				type: "item"
+			}]
+			subtitle: "травоядный"
+			tasks: [{
+				entity: "alexscaves:grottoceratops"
+				id: "182922E5859E1038"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"07D1545EB480D08C"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Я ведь шутил когда говорил что одену это"]
+			id: "6CFDF7691422EF88"
+			rewards: [{
+				id: "2986F2E0203DB86E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "первобытная броня"
+			tasks: [
+				{
+					id: "17CA7FB6E375E774"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:primordial_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5681BEE2BD45864A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:primordial_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B3377D1014CB59F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:primordial_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"01672537E4E9C070"
+				"4A8F6BB5FDE5288B"
+			]
+			description: [
+				"Призыв босса в первобытных пещерах"
+				"Кидать в лаву"
+			]
+			id: "271B5FD7BBD8005E"
+			subtitle: "он злой"
+			tasks: [{
+				id: "3D1AAD98E738CABB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:ominous_catalyst"
+				}
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"01672537E4E9C070"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Первобытное оружие, хорошо оглушает"]
+			id: "166585F5D1DC5EB5"
+			rewards: [{
+				count: 4
+				id: "4BAF0C00D65DB3DC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:serene_salad"
+				}
+				type: "item"
+			}]
+			subtitle: "оружие"
+			tasks: [{
+				id: "6B7B7B838261C90C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"01672537E4E9C070"
+				"483F7E0AAB07FFE4"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Достойное оружие!"]
+			id: "022F19603952C1B9"
+			rewards: [{
+				id: "7C482CFB30C3AC98"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "вымри!"
+			tasks: [{
+				id: "52E69E9E64D8461F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"04D93F742AD43429"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Местный босс первобытных пещер"]
+			hide_dependency_lines: true
+			id: "01E26F466CCCCE0F"
+			subtitle: "кто вообще может прочитать его название!?"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "543ACCAEEB4B11FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"01E26F466CCCCE0F"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Он буквально вырвал кусок тектонической плиты"]
+			id: "483F7E0AAB07FFE4"
+			rewards: [{
+				count: 4
+				id: "7EAF6AF3ACE02DDC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tectonic_shard"
+				}
+				type: "item"
+			}]
+			subtitle: "осколок тектонической плиты"
+			tasks: [{
+				count: 4L
+				id: "6AFE3DAE46940F84"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tectonic_shard"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"04D93F742AD43429"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Яйца разных динозавров"]
+			id: "1A5312BBEAF0AF4C"
+			rewards: [{
+				id: "3E69A5D5BBBD2178"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "вы собрали всю колекцию!"
+			tasks: [
+				{
+					id: "54C5CC9EAE6EDC99"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:subterranodon_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "43C990BE9DA2CE59"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:vallumraptor_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "07DCF57AA266C3DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:grottoceratops_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "16C2E6F663C01434"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:tremorsaurus_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "5DAAA56811C21AE5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:relicheirus_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "2E541C16FB09C93D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:atlatitan_egg"
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"18BF33237B73346A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Пещерный манускрипт&r необходим, чтобы изучать новые главы в путеводителе, а также с помощью него можно создать карту пещеры."]
+			hide_dependency_lines: true
+			id: "1F524C8A2873740B"
+			rewards: [{
+				id: "393B814FA11EE499"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			subtitle: "Водичка!"
+			tasks: [{
+				id: "28DB44D8262A3199"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1F524C8A2873740B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Босс в подводной безде"]
+			id: "7BA19C2E5F5D5E44"
+			rewards: [{
+				id: "5A88380E4470A96E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "местный босс"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "43629A58469E13B0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7BA19C2E5F5D5E44"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Что сказать просто эмбрион, только бесмертный"]
+			id: "75B7D4517D4FA3BD"
+			rewards: [{
+				id: "2F5BA4616D541116"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "он бесмертен"
+			tasks: [{
+				id: "30EE790094FC8F1A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:immortal_embryo"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"483F7E0AAB07FFE4"
+				"1A5312BBEAF0AF4C"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Сколько ему лет?"]
+			id: "6B69AD6B97501154"
+			rewards: [{
+				id: "3AE515D24A42CF5D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "где кинконг?"
+			tasks: [{
+				id: "1E803BC747988852"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tremorzilla_egg"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"18BF33237B73346A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Пещерный манускрипт&r необходим, чтобы изучать новые главы в путеводителе, а также с помощью него можно создать карту пещеры."]
+			hide_dependency_lines: true
+			id: "0F914936781E7027"
+			rewards: [{
+				id: "0214E1643338B453"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Радиация!"
+			tasks: [{
+				id: "5AABF94CD808EE15"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"18BF33237B73346A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Пещерный манускрипт&r необходим, чтобы изучать новые главы в путеводителе, а также с помощью него можно создать карту пещеры."]
+			hide_dependency_lines: true
+			id: "62BF8435C827A583"
+			rewards: [{
+				id: "40A714FC66A89012"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Тьма!"
+			tasks: [{
+				id: "15DF77687AB0EECA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0F914936781E7027"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["С него падают активные ядра"]
+			id: "690A61DE1C01F16B"
+			rewards: [{
+				count: 2
+				id: "3677147D5E65BDD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:fissile_core"
+				}
+				type: "item"
+			}]
+			subtitle: "лишь бы не взорвался"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				id: "30EBB94A9152837D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0D682F83C49DEA01"
+				"3AFF7D9A20E57A1A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Ядерная бомба, ну вот теперь на сервере появилась страна с ядеркой"]
+			id: "66E3FD45B0B0EB92"
+			rewards: [{
+				id: "784BDF23800E4192"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "режте красный провод!"
+			tasks: [{
+				id: "241EC2B721EADD86"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:nuclear_bomb"
+				}
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D682F83C49DEA01"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Излучает радиацию, интересно а можно ли приготовить на нём шашлыки?"]
+			id: "317F52575457AC54"
+			rewards: [{
+				id: "6AF7DECA58559098"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "пистолет прямиком из 2050"
+			tasks: [{
+				id: "2EC8162BE76DAE97"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:raygun"
+				}
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0D682F83C49DEA01"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Дистанционный взрыв"]
+			id: "34319E779908C1DC"
+			rewards: [{
+				id: "19FAC023D2D984C5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "большая красная кнопка"
+			tasks: [{
+				id: "1FA8A8F6469DF1C0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:remote_detonator"
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0F914936781E7027"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Делается из осколков пластинки"]
+			id: "2A4E48C9CEAB9DBF"
+			rewards: [{
+				id: "08B2E535D4031807"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "музыка!"
+			tasks: [{
+				id: "1E316C43F4C6D857"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:music_disc_fusion"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0F914936781E7027"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Полезная броня в токсичных пещерах"]
+			id: "5E39FEDF0317D502"
+			rewards: [{
+				id: "26E0C16A247FFE42"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Уолтер Уайт ты ли это?"
+			tasks: [
+				{
+					id: "311471A02AE5B676"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11713288EA5ABBD8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46679405E23C5EF8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFB619F65989876"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7D03F0CFB7AA6DF8"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Падает с мозгоньяка"]
+			id: "302CFB4A30C2138C"
+			rewards: [{
+				count: 4
+				id: "120B83340506F28B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:charred_remnant"
+				}
+				type: "item"
+			}]
+			subtitle: "интересно кто его обуглил?"
+			tasks: [{
+				count: 4L
+				id: "5C0F70508523989F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:charred_remnant"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"302CFB4A30C2138C"
+				"3AFF7D9A20E57A1A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Быстро плавит руды"]
+			id: "16D5BBB8DB11971E"
+			rewards: [{
+				count: 2
+				id: "6EBA4847E38B20CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:uranium_rod"
+				}
+				type: "item"
+			}]
+			subtitle: "3,6 рентгена в час"
+			tasks: [{
+				count: 8L
+				id: "2888B7F608175B7D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:nuclear_furnace_component"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"302CFB4A30C2138C"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Обычно включают в городах которые бомбят..."]
+			id: "724AAD2501855B47"
+			rewards: [{
+				id: "3FC05097BF7BE0FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "очень громкая"
+			tasks: [{
+				id: "00653E4BA497809F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:nuclear_siren"
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"0F914936781E7027"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Очень длинный язык!"]
+			id: "7D03F0CFB7AA6DF8"
+			rewards: [{
+				count: 4
+				id: "7E0CD17934512F8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:charred_remnant"
+				}
+				type: "item"
+			}]
+			subtitle: "жуткое существо"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				id: "6BBA102E3CD91EE8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0F914936781E7027"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Топливо для ядерной печи"]
+			hide_dependency_lines: true
+			id: "3AFF7D9A20E57A1A"
+			rewards: [{
+				count: 2
+				id: "1C86F79EEE026037"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:uranium_rod"
+				}
+				type: "item"
+			}]
+			subtitle: "осторожно радиация!"
+			tasks: [{
+				count: 2L
+				id: "2197ACD2543E5618"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:uranium_rod"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"62BF8435C827A583"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Его призывают подзектанты из веспра"]
+			id: "27C55D4B3B0B9512"
+			subtitle: "меня забыли"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				id: "71F113A781ABA85D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"62BF8435C827A583"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Его призывают подзектанты из мотылка"]
+			id: "635371DFD83E5CC3"
+			subtitle: "он наблюдает"
+			tasks: [{
+				entity: "alexscaves:watcher"
+				id: "72909FEAB81E3105"
+				type: "kill"
+				value: 1L
+			}]
+			x: -19.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"565F2F77D8158D0B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Теневой шёлк"]
+			id: "0635F577C52DC347"
+			rewards: [{
+				id: "41A3887C9A3E6B15"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "тёмный шёлк"
+			tasks: [{
+				id: "290581EDC8DA0BA1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:shadow_silk"
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0635F577C52DC347"
+				"07A46ED098EF70C5"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Броня из тёмных глубин"]
+			id: "24B385279A84AA84"
+			rewards: [{
+				id: "335B0417FD6BA8AE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "броня тьмы"
+			tasks: [
+				{
+					id: "663701AE3A7E12C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:hood_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E4862D1CD8A3057"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:cloak_of_darkness"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"07A46ED098EF70C5"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Тотем одержимости контролирует существ"]
+			id: "57EB98026547BE9B"
+			rewards: [{
+				id: "315ED1BDB7180058"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "контролируй"
+			tasks: [
+				{
+					id: "4141629D41E46050"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:totem_of_possession"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "077E86572BA5FF28"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:beholder"
+					}
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0635F577C52DC347"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Лук из шёлка, ладно"]
+			id: "7D17B0E2CC9479CE"
+			rewards: [{
+				id: "6ABEA13818CDF4E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "лук"
+			tasks: [{
+				id: "57BCCA5D4C578C15"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2B5DC70ADEDBEA8B"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "3D447A310B74E2EF"
+			tasks: [{
+				id: "4BDFA93ABC7ECB21"
+				item: "alexscaves:heart_of_iron"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"18BF33237B73346A"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Пещерный манускрипт&r необходим, чтобы изучать новые главы в путеводителе, а также с помощью него можно создать карту пещеры."]
+			hide_dependency_lines: true
+			id: "4945DED8EC3A8349"
+			rewards: [{
+				id: "42BA7EFE72B7F54D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Сладости!"
+			tasks: [{
+				id: "002EF0D56585A366"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:candy_cavity"
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"635371DFD83E5CC3"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "07A46ED098EF70C5"
+			tasks: [{
+				id: "16911C337A67AAB2"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"27C55D4B3B0B9512"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "565F2F77D8158D0B"
+			tasks: [{
+				id: "071EE02FC68CD72B"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"635371DFD83E5CC3"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "1DC97056E54E1505"
+			tasks: [{
+				id: "68F2CCBBBE16805F"
+				item: "alexscaves:dark_tatters"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"62BF8435C827A583"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "66DB462CBA04A2F2"
+			tasks: [{
+				entity: "alexscaves:underzealot"
+				id: "004D8C3DF94FCBC7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"66DB462CBA04A2F2"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "0A3AED707B54E5EF"
+			tasks: [{
+				id: "14F001919400F52C"
+				item: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"690A61DE1C01F16B"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "0D682F83C49DEA01"
+			tasks: [{
+				id: "5477884C15E75F33"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"4945DED8EC3A8349"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "70DBD4E46A0BFEA6"
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				id: "46FE16081B81A08F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"70DBD4E46A0BFEA6"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "309F2443789D2177"
+			tasks: [{
+				id: "4B737E3A7FAD3DC0"
+				item: {
+					Count: 1
+					id: "alexscaves:sugar_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"70DBD4E46A0BFEA6"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "67C7C92916B075F8"
+			tasks: [{
+				id: "43CD64E7650D83C0"
+				item: "alexscaves:radiant_essence"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"67C7C92916B075F8"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "082677AE05FEC542"
+			tasks: [{
+				id: "0B2E2890F4CC9182"
+				item: "alexscaves:confection_oven"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"67C7C92916B075F8"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "3FB4304FB258FD2A"
+			tasks: [{
+				id: "12841F128BB79052"
+				item: "alexscaves:conversion_crucible"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"67C7C92916B075F8"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "107D61EBACEBD490"
+			tasks: [{
+				id: "7B7F4AFCB6018E99"
+				item: "alexscaves:biome_treat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"67C7C92916B075F8"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "2916136A5BA8B921"
+			tasks: [{
+				id: "1ED13058F244CB86"
+				item: "alexscaves:sundrop"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"2916136A5BA8B921"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "131CC25264A22BA7"
+			tasks: [{
+				id: "55ECF13BAE7143E2"
+				item: {
+					Count: 1
+					id: "alexscaves:rainbounce_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4945DED8EC3A8349"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "1CD9E10E31D56058"
+			tasks: [{
+				entity: "create_confectionery:little_gingerbread_man"
+				id: "17A0B45CD10AB531"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"1CD9E10E31D56058"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "0F8974B376A2C954"
+			tasks: [{
+				id: "67DFF28B1ED2012A"
+				item: "alexscaves:gingerbread_crumbs"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"0F8974B376A2C954"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "620C1F1434BFFC63"
+			tasks: [{
+				id: "6C8113A5B0A68254"
+				item: "alexscaves:gingerbarrel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4945DED8EC3A8349"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "10011179ED00DDDF"
+			tasks: [{
+				entity: "alexscaves:caniac"
+				id: "61017F654EDBBCCF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"10011179ED00DDDF"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "5C75690DA2E72981"
+			tasks: [
+				{
+					id: "031345F45C2AFBB0"
+					item: "alexscaves:candy_cane"
+					type: "item"
+				}
+				{
+					id: "77CD04584100CABB"
+					item: "alexscaves:sharpened_candy_cane"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"388AE5BA34C0711A"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "186EAA50D6AF499B"
+			tasks: [{
+				id: "06EA4B434A2257FC"
+				item: "alexscaves:frostmint_spear"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"5C75690DA2E72981"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "65732DED36E73C3F"
+			tasks: [{
+				id: "38F6000D556ED9A7"
+				item: "alexscaves:peppermint_powder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"65732DED36E73C3F"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "388AE5BA34C0711A"
+			tasks: [{
+				id: "24AC722924007858"
+				item: "alexscaves:frostmint"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4945DED8EC3A8349"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "7300236C820CB046"
+			tasks: [{
+				entity: "alexscaves:gumbeeper"
+				id: "2C3399A58CB4B535"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7300236C820CB046"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "4FF6C2B4D7A541EE"
+			tasks: [{
+				id: "4C5A2659FB58A508"
+				item: "alexscaves:gumball_pile"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4FF6C2B4D7A541EE"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "207B2D79B5EDF51A"
+			tasks: [{
+				id: "5BBC3D15B6976255"
+				item: "alexscaves:shot_gum"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"5C75690DA2E72981"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "40CCD84B91BF6A99"
+			tasks: [{
+				id: "7BB9DF91BC7D0FB4"
+				item: "alexscaves:gobthumper"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5C75690DA2E72981"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "257021065CBA33D7"
+			tasks: [{
+				id: "7EE448EE5094D483"
+				item: "alexscaves:sundae"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1F524C8A2873740B"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "2F34A72F7C5F26E7"
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				id: "3A5375D080ABD8DF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2F34A72F7C5F26E7"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "42F2DD0CF993B03E"
+			tasks: [{
+				id: "05710D7D1449A2B3"
+				item: "alexscaves:depth_charge"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"42F2DD0CF993B03E"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "7483D01AF25BD5A0"
+			tasks: [{
+				id: "7C4A2D46837BA2C0"
+				item: "alexscaves:drain"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7BA19C2E5F5D5E44"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "59A67889C85D0E87"
+			tasks: [{
+				id: "2202DB8087887E9A"
+				item: "alexscaves:enigmatic_engine"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7BA19C2E5F5D5E44"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "58EEE73437568E18"
+			tasks: [{
+				id: "3A8B648D384287F7"
+				item: "alexscaves:sea_glass_shards"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"58EEE73437568E18"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "4FA39EC3B0EA73E4"
+			tasks: [{
+				id: "513B2EA4F9D0FF41"
+				item: "alexscaves:depth_glass"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1F524C8A2873740B"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "0961819D1441762D"
+			tasks: [{
+				entity: "alexscaves:gossamer_worm"
+				id: "62F1D1F1D570635A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0961819D1441762D"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "3AB2477678D39E47"
+			tasks: [{
+				id: "16CC946CAE7BD103"
+				item: "alexscaves:bioluminesscence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3AB2477678D39E47"
+				"4A8F6BB5FDE5288B"
+			]
+			id: "78E4512306D318B4"
+			tasks: [{
+				id: "12A5BA057D6EFF45"
+				item: "alexscaves:bioluminescent_torch"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: "Alex's Caves"
+}

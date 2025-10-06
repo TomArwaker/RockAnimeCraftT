@@ -1,0 +1,11 @@
+{
+	id: "19C05920E661C8EC"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 2, item: "jeg:rifle_ammo", random_bonus: 8, weight: 0.4f }
+		{ count: 2, item: "jeg:shotgun_shell", random_bonus: 8, weight: 0.4f }
+		{ item: "jeg:gunnite_ingot", random_bonus: 2, weight: 0.2f }
+	]
+	title: "пушки 2"
+}

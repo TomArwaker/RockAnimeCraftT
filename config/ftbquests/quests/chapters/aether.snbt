@@ -1,0 +1,630 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "5C72E74C0EB56E87"
+	hide_quest_until_deps_complete: true
+	icon: "aether:golden_gummy_swet"
+	id: "300B898E99C869A6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "3B3D73DB7A748AE4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4910FF20F3A816E2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FD75B01A986B48E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			tasks: [
+				{
+					count: 10L
+					id: "4C45DA8DE3E7F93C"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "2871B22BCB5C1AB5"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B3D73DB7A748AE4"]
+			id: "6930F3F5EC9C539C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "606E0E342ADCD67F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E95F5DEC219A93A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:slider"
+				id: "127A89C313F8E2B5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6930F3F5EC9C539C"]
+			id: "452D20883D49733E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1BEB03DB2723AA1E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77AF5D2C0EE47EFA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "479603B660651260"
+				item: "aether:bronze_dungeon_key"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["452D20883D49733E"]
+			id: "5537CC2B31980312"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FA1EFC9B9A6B383"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "573AB311FD3A25C6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:valkyrie_queen"
+				id: "0DD77B1ADAB63D10"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5537CC2B31980312"]
+			id: "6C890A51AE87D9B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14616725FFAB7F18"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74A881F2FDC2784C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "507986F66F372001"
+				item: "aether:silver_dungeon_key"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C890A51AE87D9B2"]
+			id: "63F77C060A22A87C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F4758BA94D3FDAD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "184BD2151ADD1F6B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:sun_spirit"
+				id: "6A5971470E38B367"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63F77C060A22A87C"]
+			id: "49919D4A23E8699B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "705F58BB9660ABA4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A2F1EFD9C0EC795"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3372948721A9BCCA"
+				item: "aether:gold_dungeon_key"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63F77C060A22A87C"]
+			id: "4CCDC7CFA966ED74"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08DB77E3F53C5953"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77DC07FC520D5F6F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "10622EE122CC1A18"
+				item: "aether:sun_altar"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B3D73DB7A748AE4"]
+			hide_dependency_lines: true
+			id: "5645AFE5272CFA71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "400CFA64A8531E4A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1895FA6B36F62715"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "aether:valkyrie"
+				id: "71983CE69865254A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5645AFE5272CFA71"]
+			id: "52D8F60643DAA1C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "41AA5C9D927D8CDB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40770AC9942B9636"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "796FDC56BAAFAA29"
+				item: "aether:victory_medal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B3D73DB7A748AE4"]
+			id: "70357BA0110AA1E0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71C1ED30E06745E8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77535A39E5F84E7B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "12E38C2C0006D211"
+				item: "aether:ambrosium_shard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70357BA0110AA1E0"]
+			id: "661A195224ED3AE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1978DBA4C8407EA2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15FAAAA63C02D076"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "34EE930113FC6DD3"
+				item: "aether_redux:enchanted_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70357BA0110AA1E0"]
+			id: "077BFD3817D0BB89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D5D8DD05BB83732"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "667358005143830E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "376532DAC21AA4C2"
+				item: "aether:ambrosium_torch"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["077BFD3817D0BB89"]
+			id: "1D87AD2A61A8F3B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19CD197187EA2F8A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "180E77BA7C31EDF3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7726666B78ECC7F4"
+				item: "aether:incubator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B3D73DB7A748AE4"]
+			id: "42E11E4E24D04700"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DDA3931DAD74357"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55D953BC8E4CA9C8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "32B7DFCBF725FD31"
+				item: "aether:zanite_gemstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42E11E4E24D04700"]
+			id: "5723962B22878449"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A6D805BABDC975B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49EAFE42970577A6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "32CA35E9BC5F6C23"
+				item: "aether:altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["42E11E4E24D04700"]
+			id: "5E673254318176CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C1A1D37B16D94CD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13F7B2AE683A0C37"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "32BFBD336BA4340A"
+				item: {
+					Count: 1
+					id: "aether:nature_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["42E11E4E24D04700"]
+			id: "5BA802D17C6C94E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37BE84FFCEFCC975"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A9F9386E830C4B1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3C14614D9D5A5CEA"
+					item: {
+						Count: 1
+						id: "aether:zanite_ring"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C448D69EC0559B2"
+					item: {
+						Count: 1
+						id: "aether:zanite_pendant"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["661A195224ED3AE0"]
+			id: "3556D236C9B27728"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0A118239AFA18648"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F0BB2723FE5E1CC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4394B4ED61A30E41"
+				item: "aether_redux:sentry_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5723962B22878449"]
+			id: "255C8FFF3B06A87A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E152A3D9B68E988"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74FCE95E8389A11D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7100561E76EC663A"
+				item: "aether_redux:gravitite_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B3D73DB7A748AE4"]
+			id: "33CE038211C44DCE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E3171BC3387AE90"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DEE73B953F1943E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "32B92F025DC6D9FD"
+				item: "aether:icestone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["33CE038211C44DCE"]
+			id: "06DB56F050747080"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "472F55C20F9EEFBF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F915C5C4DAD67B9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2C94B6B49AEFD083"
+				item: "aether:freezer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B3D73DB7A748AE4"]
+			id: "415439F0D0B3D114"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C1052090A89CEE6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23A1EE3C813245C2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3AF6B86801CE99DD"
+				item: "aether:book_of_lore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Или там"]
+	title: "Aether"
+}

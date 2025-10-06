@@ -1,0 +1,11 @@
+{
+	id: "734D8186A6E54719"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "bloodmagic:blankrune", random_bonus: 4, weight: 0.6f }
+		{ item: "bloodmagic:weakbloodorb", weight: 0.1f }
+		{ item: "bloodmagic:blankslate", random_bonus: 2, weight: 0.3f }
+	]
+	title: "крова"
+}

@@ -1,0 +1,459 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "4A8D6C5969B31F87"
+	group: "3B44E90EB23A6F28"
+	hide_quest_until_deps_complete: true
+	icon: "structurize:sceptergold"
+	id: "4A8D6C5969B31F87"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["&6Инструмент для строительства&r - это самый важный инструмент, который нужен для создания собственной колонии."]
+			id: "2C99DE39599D0AE1"
+			rewards: [
+				{
+					count: 2
+					id: "6039C8AD8F99E4BB"
+					item: "minecraft:raw_gold"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5212FB9DB8FF2290"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Самое важное!"
+			tasks: [{
+				id: "2426A1FA7248ACB9"
+				item: "structurize:sceptergold"
+				title: "Инструмент для строительства "
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C99DE39599D0AE1"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Ратуша&r - это самое первое и самое главное строение в вашей колонии. Именно с ратуши начинается развитие колонии!"]
+			id: "2F7739EAE638E34C"
+			rewards: [
+				{
+					id: "60DE35128ED5D913"
+					item: {
+						Count: 1
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "440B2E80EDB42D96"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			size: 1.1d
+			subtitle: "Начало колонии!"
+			tasks: [{
+				id: "4636505E811CBFB1"
+				item: "minecolonies:blockhuttownhall"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F7739EAE638E34C"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["С помощью &6хижины строителя&r в вашей колонии начнут появлятся строители, которые будут выстраивать вашу колонию."]
+			id: "77FD7924E4C9F49B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0188545AF625E38B"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			size: 1.2d
+			subtitle: "Строительство!"
+			tasks: [{
+				id: "709E053A6113D6EB"
+				item: "minecolonies:blockhutbuilder"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C99DE39599D0AE1"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["В &6бочке для компоста&r можно создать компост."]
+			id: "2A295A99E1EB08A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C1B15D0D1951598"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Компост!"
+			tasks: [{
+				id: "163BDECDCB0D90A8"
+				item: "minecolonies:barrel_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2A295A99E1EB08A1"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Прямо как костная мука."]
+			id: "456E8BAAC577EF97"
+			rewards: [
+				{
+					count: 6
+					id: "54BE08BEC0DD60BE"
+					item: "minecolonies:compost"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04F4AF45D06B60E7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Костная мука!"
+			tasks: [{
+				count: 4L
+				id: "74B26EDE6003EA68"
+				item: "minecolonies:compost"
+				title: "Компост"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"77FD7924E4C9F49B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["В &6ресторане&r жители вашей колонии будут питаться."]
+			hide_dependency_lines: true
+			id: "530C5641D46E0AB9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02C41EDCC557E071"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Готовка!"
+			tasks: [{
+				id: "77EBD35BCC51ACA0"
+				item: "minecolonies:blockhutcook"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"77FD7924E4C9F49B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["На &6складе&r будут храниться предметы вашей колонии."]
+			hide_dependency_lines: true
+			id: "2B1589DB8B80A05C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "686210CD7A69C382"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Хранилище!"
+			tasks: [{
+				id: "62CB53D8A875D15C"
+				item: "minecolonies:blockhutwarehouse"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"77FD7924E4C9F49B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["С помощью &6фермы&r ваша колония сможет сама производить еду."]
+			hide_dependency_lines: true
+			id: "62F2D549BCD26EE7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "508600A5362E2477"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Выращивание еды!"
+			tasks: [{
+				id: "4D9C6482AFAD579F"
+				item: "minecolonies:blockhutfarmer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"77FD7924E4C9F49B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["В &6университете&r вы будете открывать новые строения для вашей колонии."]
+			id: "36DCE7FA65BB1F52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "315A02FD0ABCE175"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gold"
+			subtitle: "Учёба!"
+			tasks: [{
+				id: "091AC18F09373D04"
+				item: "minecolonies:blockhutuniversity"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"77FD7924E4C9F49B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["С помощью &6шахты&r ваша колония будет сама добывать полезные ископаемые."]
+			hide_dependency_lines: true
+			id: "281D82ACDEC902F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19C05A59BD640CD8"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Добыча ресурсов!"
+			tasks: [{
+				id: "72DFA8CF6EB5FD7D"
+				item: "minecolonies:blockhutminer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"77FD7924E4C9F49B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["С помощью &6хижины лесника&r ваша колония сможет сама добывать дерево для развития!"]
+			hide_dependency_lines: true
+			id: "6624CFD1C397FF48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24A9A8B7811AF95D"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Добыча ресурсов!"
+			tasks: [{
+				id: "795442B328E5303B"
+				item: "minecolonies:blockhutlumberjack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"77FD7924E4C9F49B"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["&6Сторожевая башня&r нужна для защиты колонии."]
+			hide_dependency_lines: true
+			id: "4E2542511296B43B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FA1A109B4319792"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Защита!"
+			tasks: [{
+				id: "786C63E868255B07"
+				item: "minecolonies:blockhutguardtower"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"36DCE7FA65BB1F52"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["В &6школе&r жители вашей колонии будут учиться."]
+			hide_dependency_lines: true
+			id: "19CD8CE2013A27C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1955B3B87AC2515F"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Учёба!"
+			tasks: [{
+				id: "4C61BE396F395DB9"
+				item: "minecolonies:blockhutschool"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"36DCE7FA65BB1F52"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["В &6больнице&r жители вашей колонии будут лечиться."]
+			hide_dependency_lines: true
+			id: "1BD339F1C02EE43B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "432100F184ED7425"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "diamond"
+			subtitle: "Лечение!"
+			tasks: [{
+				id: "771F9C0B290900B5"
+				item: "minecolonies:blockhuthospital"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2C99DE39599D0AE1"
+				"4A8F6BB5FDE5288B"
+			]
+			description: ["Интересное хранилище."]
+			id: "139BCE3B00A83815"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08CFC02A5F6F60B5"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "iron"
+			subtitle: "Хранилище!"
+			tasks: [{
+				id: "337ABDA97C5FDFA7"
+				item: "minecolonies:blockminecoloniesrack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: ["Начало вашей колонии."]
+			id: "0F31B41596CC29EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75F2EEF254BB93CF"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Начало!"
+			tasks: [{
+				id: "318C1C3CBEC1D851"
+				item: "minecolonies:supplycampdeployer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "644676DB079AAF43"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5002794D43977A30"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60E9E493474ECAEF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "191FA6F025CF20F6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			size: 3.0d
+			subtitle: "Я КАМЕНЩИК РАБОТАЮ ТРИ ДНЯ БЕЗ ЗАРПЛАТЫ"
+			tasks: [{
+				id: "5C27B548E28E7608"
+				item: "minecolonies:blockhutstonemason"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Своё поселение"]
+	title: "MineColonies"
+}

@@ -1,0 +1,388 @@
+{
+	autofocus_id: "5D750EA2D943A997"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "33EA6F879A18216D"
+	group: "08BE8EB081684B04"
+	icon: "createbigcannons:cannon_carriage"
+	id: "33EA6F879A18216D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33DBC1A1F36B9173"]
+			description: ["Это глава про большие пушки! Они могут быть стационарными, либо прикреплены к любому самодельному транспорту. Процесс их создания довольно сложный и муторный, но результат получается шикарный, и, как ни странно, он может принести пользу. Квесты раскрывают только самые простые пушки (из чугуна, без автоматической системы заряжания), но по схожим принципам делаются и пушки из других материалов и других типов. Части пушек после отливки можно подобрать только киркой с шёлковым касанием или перетащить другим способом, просто ломать нельзя!"]
+			hide_until_deps_visible: true
+			id: "5D750EA2D943A997"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6769764FEECC29D6"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38F22D8E03251277"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "126631E2ED87672F"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			subtitle: "Это тяжело"
+			tasks: [{
+				id: "21B7D8E3BA9F1242"
+				item: "createbigcannons:casting_sand"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "6B0FA335A0655C34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34285B5821E985E4"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32CF8C5EA4E20F00"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04BE9B9A317FBCB7"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			subtitle: "Придётся сверлить"
+			tasks: [{
+				id: "7FCBAD0DA26D75F0"
+				item: "createbigcannons:cannon_drill"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "7FA1CB283D6B3240"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11286A07F0BE05BC"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D6DEB7328903B9E"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "026F5D2A2B6631D3"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "186DD6A496C4027B"
+				item: "createbigcannons:cannon_builder"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "6B5E33203544EF5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59184C3DAA744842"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63DCDF931BD53D0E"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "706A6B9C6269A05A"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1D4C720884955409"
+				item: "createbigcannons:cast_iron_cannon_end"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "1F712E32BA4C860A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4134ACFC318D5A6C"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "475B83A425357A3C"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E299049D57E5610"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "01EB287DA17D0DE5"
+				item: "createbigcannons:unbored_cast_iron_cannon_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "3150FC17CCA4AA0C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5AF3AAAE08BC79B5"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B0862F860D653C9"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DBA3399FDB97E74"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "71532F262DFFDBB6"
+				item: "createbigcannons:unbored_cast_iron_sliding_breech"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "2F7F990995B26847"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BAEF963EF38E125"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69EDA180FB1F8D1E"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52B44512D5B1E915"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0535C477EEB677E5"
+				item: "createbigcannons:cast_iron_sliding_breechblock"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "7F605CF92B139317"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2219BAFFAFD1CE60"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6EF970C67F75C406"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "504465465EE34D5E"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			subtitle: "Для начала подойдёт"
+			tasks: [{
+				id: "64CF79C80BE40D81"
+				item: "createbigcannons:molten_cast_iron_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "3E41B4AE903D3352"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E056E3E3031EABF"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E49F3CB1B73D6C"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CDD433A71FD921D"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1CC8A0903FABD98A"
+				item: "createbigcannons:unbored_cast_iron_cannon_barrel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			description: ["Самая простая пушка, просто чтобы освоить базовые механики"]
+			id: "74CA111152C5502A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F32BBEC2804B1F8"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DF041029930A426"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			subtitle: "Лучше отойти подальше"
+			tasks: [
+				{
+					id: "378C9683D6B38C8B"
+					item: "createbigcannons:log_cannon_end"
+					type: "item"
+				}
+				{
+					id: "5F7FC934B2F33D81"
+					item: "createbigcannons:log_cannon_chamber"
+					type: "item"
+				}
+				{
+					id: "424FB942F7CF5826"
+					item: {
+						Count: 1
+						id: "createbigcannons:powder_charge"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "14230F56F053D76F"
+					item: "createbigcannons:mortar_stone"
+					type: "item"
+				}
+				{
+					id: "32F984F427BB1C13"
+					item: "createbigcannons:cannon_carriage"
+					type: "item"
+				}
+			]
+			title: "Первая пушка"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D750EA2D943A997"]
+			id: "3DFBC8AC7E7BCCF6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B400F8DF2F7FEFC"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13AF965631667FC0"
+					table_id: 8069706027635087977L
+					type: "random"
+				}
+			]
+			subtitle: "Инструменты для ручной зарядки"
+			tasks: [
+				{
+					id: "3E188589063C755D"
+					item: "createbigcannons:ram_rod"
+					type: "item"
+				}
+				{
+					id: "2169CEDBD004CE07"
+					item: "createbigcannons:worm"
+					type: "item"
+				}
+			]
+			title: "Банник и толкатель"
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	subtitle: ["Ставь чугун"]
+	title: "Большие пушки"
+}

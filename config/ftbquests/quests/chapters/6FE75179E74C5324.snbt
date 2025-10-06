@@ -1,0 +1,23 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "6FE75179E74C5324"
+	group: "4B499A44B2723CF4"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1
+		id: "magistuarmoryaddon:straw_hat"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6FE75179E74C5324"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Глава ещё в работе!"]
+	title: "Огородные дела "
+}

@@ -1,0 +1,7 @@
+{
+	id: "6FED08ADA8B959A8"
+	loot_size: 1
+	order_index: 10
+	rewards: [{ item: "jeg:spectre_round", random_bonus: 3 }]
+	title: "Пушки 3"
+}

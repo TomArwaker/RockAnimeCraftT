@@ -1,0 +1,9 @@
+#Mon Oct 06 04:05:21 YEKT 2025
+shadowDistance=128.0
+LIGHT_SHAFT=false
+MULTICOLORED_BLOCKLIGHT=true
+SHADOW_FILTER=false
+shadowMapResolution=1024
+SHADOW_COLOR=false
+AO=false
+FXAA_SUBPIXEL=0.50

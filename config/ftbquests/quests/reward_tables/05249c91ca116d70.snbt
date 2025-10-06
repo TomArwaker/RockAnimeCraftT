@@ -1,0 +1,38 @@
+{
+	id: "05249C91CA116D70"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			type: "xp"
+			weight: 0.6f
+			xp: 50
+		}
+		{
+			type: "xp"
+			weight: 0.5f
+			xp: 60
+		}
+		{
+			type: "xp"
+			weight: 0.4f
+			xp: 70
+		}
+		{
+			type: "xp"
+			weight: 0.3f
+			xp: 80
+		}
+		{
+			type: "xp"
+			weight: 0.2f
+			xp: 90
+		}
+		{
+			type: "xp"
+			weight: 0.1f
+			xp: 100
+		}
+	]
+	title: "опыт"
+}

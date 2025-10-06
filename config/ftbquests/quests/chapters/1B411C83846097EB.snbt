@@ -1,0 +1,1959 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1B411C83846097EB"
+	group: "5C72E74C0EB56E87"
+	hide_quest_until_deps_complete: true
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "1B411C83846097EB"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: [
+				"&6Сумеречный Лес&r - новое &aизмерение&r с большим количеством проработанных и уникальных &aбоссов&r; системой &aпрогресса&r, основанной на убийстве боссов; множеством &aмобов&r с интересными пасхалками; большим количеством &aданжей&r, &aдостижений&r и многим другим."
+				""
+				"Чтобы попасть в новый мир, необходимо &aпостроить портал&r, как на картинке ниже. Следует выкопать яму &e2х2&r, залить в неё &bводу&r (именно бесконечный источник) и расставить &aцветы&r по периметру ямы. После проделанной работы нужно кинуть &3алмаз&r в воду и произойдёт &7нечто&r!"
+				" "
+				"{image:vanilla_classic_remake:textures/portal_to_twilight_forest_incomplete.png width:200 height:100 align:1}"
+				""
+				"{image:vanilla_classic_remake:textures/portal_to_twilight_forest_complete.png width:200 height:100 align:1}"
+			]
+			id: "0AFECA103FCCF23A"
+			rewards: [
+				{
+					count: 2
+					id: "09A5840316838FDF"
+					item: "quark:rainbow_rune"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "49A83781AAE27E35"
+					item: {
+						Count: 1
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66BBC0A5DC262C3F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D98F91CCEDBC4A1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15EA07C73FB68345"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Абсолютно новое измерение!"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "2648E3A46617AC4C"
+				title: "Посетить измерение Сумеречный Лес"
+				type: "dimension"
+			}]
+			x: -12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["62C8A4F4FA049FE0"]
+			description: ["Необходимо найти самого первого босса этого измерения - &6Нага&r. А после, одолеть его."]
+			id: "06CBAD8BCECDCDF3"
+			rewards: [
+				{
+					id: "11341EEA57501FA8"
+					item: "quark:golden_apple_crate"
+					type: "item"
+				}
+				{
+					id: "0DC449636EEA6B53"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "0C049832F7C8C2C7"
+					item: "farmersdelight:apple_cider"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25F3274692A798B8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28FE2A2EE58406A1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "045153EF20A60027"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Огромная змея!"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "66F1879851C48615"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06CBAD8BCECDCDF3"]
+			description: ["&6Трофей наги&r выпадает после убийства самой наги."]
+			id: "22A6CCC23C2D1061"
+			rewards: [
+				{
+					count: 4
+					id: "07A02504DCF5DCE2"
+					item: "oceansdelight:squid_rings"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E3E370AB048FAB0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B5307066E3B91D8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CFCB213C5DB8FA8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Первый трофей!"
+			tasks: [{
+				id: "543DE51691A2E345"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06CBAD8BCECDCDF3"]
+			description: [
+				"&6Чешуя наги&r выпадет после убийства самой наги."
+				""
+				"Чешуя наги необходима для создания &aброни из чешуи наги&r."
+			]
+			id: "620060537AB35D26"
+			rewards: [
+				{
+					count: 6
+					id: "05ECB6854C44F652"
+					item: "twilightforest:naga_scale"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "759F75671C52A563"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79C6CD817FC94089"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6381BAF74139E59A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Обладает магическими свойствами!"
+			tasks: [{
+				count: 4L
+				id: "4576EDC824854D56"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["620060537AB35D26"]
+			description: ["&6Броня из чешуи наги&r вполне хорошо защищает. Но её главное преимущество в том, что она обладает полезными &aэффектами&r сразу после создания."]
+			id: "22A89BEA68A0DA0A"
+			rewards: [
+				{
+					count: 2
+					id: "6D221F6D3CC24BB6"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AA5D193306232CD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13A10061F0E2AC4B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09A489922E937EB1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Броня сразу с эффектами!"
+			tasks: [
+				{
+					id: "097A25572039FEA0"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C8C817D20405597"
+					item: {
+						Count: 1
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня из чешуи наги"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["22A6CCC23C2D1061"]
+			description: ["Необходимо найти второго босса измерения - &6Сумеречный Лич&r. А после, одолеть его."]
+			id: "568E339ABFF7A602"
+			rewards: [
+				{
+					count: 2
+					id: "6C041DDB9AAC4614"
+					item: "upgradednetherite_items:netherite_apple"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A6F30ADC2914127"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1939B0518B52745A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4861E41A2BD5336D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Нежить!"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "09CCFAB9E6240115"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			description: ["&6Трофей лича&r выпадает после убийства самого сумеречного лича."]
+			id: "0BF7880FE91B6666"
+			rewards: [
+				{
+					count: 2
+					id: "59D1038FF4D36E60"
+					item: "ends_delight:fried_dragon_egg"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FBE2CEFC68361D3"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E860CF771D6BC2E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ADD64B0F3F896C5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Второй трофей!"
+			tasks: [{
+				id: "3A242741D4D4A8BF"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			description: ["Стреляет пулями."]
+			id: "321CF520641CEBDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C8961ABB02A1D5E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "785DE6520161A1F6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6703DE4B7ED030F7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Неплохое дальнее оружие!"
+			tasks: [{
+				id: "1DD1308727EF9B6C"
+				item: {
+					Count: 1
+					id: "twilightforest:twilight_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			description: ["Высасывает жизни из мобов, отдавая их вам."]
+			id: "757E37DC1CDDAA63"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19294457A07F629B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B0872BFEC68DF52"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DA4F015114D5ECC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Теперь ты вампир!"
+			tasks: [{
+				id: "1361EB02AC8BE60F"
+				item: {
+					Count: 1
+					id: "twilightforest:lifedrain_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			description: ["Призывает зомби, у которых ограниченный срок жизни."]
+			id: "59D6A0B3682157D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CA3606FB80F2FC6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BE45B1B661877F1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64BA682475E0563B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Личные помощники!"
+			tasks: [{
+				id: "6F15B4DC9B90ABC4"
+				item: {
+					Count: 1
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["568E339ABFF7A602"]
+			id: "7502F166B14ABB5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4312F65799F0B4C8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4408EA9EE2C1E965"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F6F70BE947A639E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Отражатель!"
+			tasks: [{
+				id: "1EFF39EAA287B759"
+				item: {
+					Count: 1
+					id: "twilightforest:fortification_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71146B5E7089A3B5"]
+			description: ["Необходимо найти &aлабиринт&r гриботавра и одолеть его."]
+			id: "5AE48A334FE50D59"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C10EFCFD8E71BC5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F0DCB6562C8AB2A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6043E1E6732E91EE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Животное?!"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "74B28C72970FB973"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AE48A334FE50D59"]
+			description: ["&6Трофей гриботавра&r выпадает при убийстве &aгриботавра&r."]
+			id: "411013196B68BFA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CBB7AA4158735B4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19AEBD7C66874212"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E5A196F050293EA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Третий трофей!"
+			tasks: [{
+				id: "5F9263FC2DB3DAD3"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5AE48A334FE50D59"]
+			description: ["Съеште эту похлёбку, чтобы спокойно путешествовать по жарким землям."]
+			id: "5D59B600FF5D690B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F15E30E4D86BBE2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C1E59E5A71A15DA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75276D244AA817AF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Довольно питательная еда!"
+			tasks: [{
+				id: "634BF7EEC688B8C7"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AE48A334FE50D59"]
+			description: ["При беге наносит дополнительный урон мобам."]
+			id: "16C1CC7285B68D28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30EEA3EA41D16CCC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61D8C46DF408CD6B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "742B10E73162083E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Очень хорошее оружие!"
+			tasks: [{
+				id: "329DF37DC531D331"
+				item: {
+					Count: 1
+					id: "twilightforest:diamond_minotaur_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["411013196B68BFA4"]
+			description: ["Необходимо найти &6Гидру&r, а после ододелеть её."]
+			id: "4636FFBEE32833E5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70A213E36C589276"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30E9EF20B664FB15"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0190556C15106688"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Прямо как в сказках!"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "057451F514211659"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4636FFBEE32833E5"]
+			description: ["&6Трофей гидры&r выпадает после убийства босса."]
+			hide_until_deps_visible: false
+			id: "44134EE872FCDB7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38F3F3D07FBFF811"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39BB0365DAAD9ECD"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F6DE78994A990B6"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Четвёртый трофей!"
+			tasks: [{
+				id: "7CF6C9B5FF019DCB"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4636FFBEE32833E5"]
+			description: ["Съев это мясо, вы солучите регенерацию."]
+			id: "2840646BF0E99DFD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D02B7ABFB7A1436"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A2CA2DC410FDE03"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19A5B15EC34874EB"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Вкусно и полезно!"
+			tasks: [{
+				id: "5F012D5D1E160B71"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4636FFBEE32833E5"]
+			description: ["Из крови крафтятся огненные слитки."]
+			id: "7456786190948B9D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "181030A2D6641C4F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "394D3FA89E9CB6E2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "042BFFBB5C9E018B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Даже не смей пытаться это выпить!"
+			tasks: [{
+				id: "35F813928DA53993"
+				item: "twilightforest:fiery_blood"
+				type: "item"
+			}]
+			x: -2.75d
+			y: -4.767857142857125d
+		}
+		{
+			dependencies: ["7456786190948B9D"]
+			description: ["Из слитком можно скрафтить броню и инструменты."]
+			id: "7710DC59B6351661"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4514FE783373D4C5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4210F899B2C787C2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DE70BA0FA47EC96"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Излучает немного тепла!"
+			tasks: [{
+				id: "5068BCEB984366E6"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7710DC59B6351661"]
+			description: ["Атакующие вас мобы будут поджигаться."]
+			id: "66EC38BF11EB06B9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51FB1A1ADA456058"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AD463180EFDDA6D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FA42E6AF92D4DA2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Смотря на вас, у меня пылает сердце!"
+			tasks: [
+				{
+					id: "31CDA0BBB072B34C"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00D69B393D45A9E0"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "544CA0E008270A77"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40F677A28605DBFE"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Огненная броня"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7710DC59B6351661"]
+			description: ["Меч будет поджигать врагов, а кирка автоматически плавить руды."]
+			id: "781F927EF445EF76"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DD9ED89D555BBBE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55141C04F3FAFE23"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5668DFFD0A079172"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Горячие!"
+			tasks: [
+				{
+					id: "056209D12AB8E3A7"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40834E6783C12290"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Огненные инструменты"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["653B567D11A82D11"]
+			description: ["Необходимо найти &aструктуру&r с &6Ур-Гастом&r, а после уничтожить его."]
+			id: "20C904F4EE6D103C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "200CCFE8F97264D2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F78421BA44B8921"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "499E4EBFA7E40FA1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Он летает!"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "40EC5E2A5D0DA116"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20C904F4EE6D103C"]
+			description: ["&6Трофей Ур-Гаста&r можно получить после его убийства."]
+			id: "4DA0EF7E83174979"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E67742A8E5CADE4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59364CF6BC698D76"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51AC4664E7AFB1E2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Шестой трофей!"
+			tasks: [{
+				id: "324E864B9AF0329B"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["20C904F4EE6D103C"]
+			description: ["Из карминита можно сделать несколько блоков-механизмов."]
+			id: "5C7256D15435750F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36F02F4D03940A5A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FB9A6A45A68042F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "561FAF13DE4AFC82"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Похоже на кровь!"
+			tasks: [{
+				id: "44F1585E529A16E1"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20C904F4EE6D103C"]
+			description: ["Это тоже самое, что и кровь Гидры."]
+			id: "329815C94B4FFB56"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "64AF2AE53C33BDDA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "221F5975CE50E6C4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AEC493E7F30C204"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "На вкус ужасное!"
+			tasks: [{
+				id: "0AA9EF073D1EE3D7"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4DA0EF7E83174979"]
+			description: ["Необходимо найти &aструктуру&r с &6Альфа-йети&r, а после убить его."]
+			id: "0B8EB3D5AA1768F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6910EFCBDDC0C3E1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B92AE28DB635C04"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02E2BF6204CB4A4A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "У него холодно!"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "4686B5F437B80C84"
+				type: "kill"
+				value: 1L
+			}]
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B8EB3D5AA1768F0"]
+			description: ["&6Трофей Альфа-йети&r выпадает после убийства этого босса."]
+			id: "2C4CA744F9DDC365"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32FAC2FF41A4E506"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2469894D7BD86AEA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2053BE937117A9B5"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Седьмой трофей!"
+			tasks: [{
+				id: "3059DE4F54AFE1D4"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B8EB3D5AA1768F0"]
+			description: ["Из меха можно создать броню, которая будет иметь зачарования."]
+			id: "6EFE9929677DD2A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50F373602FC9D84F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6541A38C34DDBE6C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A59C0464597095E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "А говорили Йети не существует!"
+			tasks: [{
+				id: "048AE0FED8A7ABDD"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6EFE9929677DD2A3"]
+			description: ["Замораживает атакоющего."]
+			id: "4F1D655B30E0F368"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6945717D6AFCC6E8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "254E5CC1CE1B958B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C9C307E4374E87C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Зима в сердце, на душе вьюга!"
+			tasks: [
+				{
+					id: "63C7BCA7B950C18A"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BFF383BFBFCFFD1"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ADC6AA97B392315"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40B43D0AA6F8A083"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Одежда йети"
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0B8EB3D5AA1768F0"]
+			description: ["Засыпает снегом поверхность и замораживает воду."]
+			id: "4E7DAC10729379BE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45CAD817187856BC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05A0B6E37518DCB7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15BC724EB2B2822F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "С новым годом!"
+			tasks: [{
+				id: "507CF053CC93F4B3"
+				item: "twilightforest:ice_bomb"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2C4CA744F9DDC365"]
+			description: ["Необходимо найти &aструктуру&r со &6Снежной королевой&r, а после нужно уничтожить этого босса."]
+			id: "15B58FFDBB2B3766"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0334724E477E003E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "50DF42F50F6B4D1A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "395B0A5F4EC6F9E4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Снежное царство!"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "69BAF94F6148A31D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15B58FFDBB2B3766"]
+			description: [
+				"&6Трофей Снежной королевы&r выпадает после убийства босса."
+				""
+				"А также, этот трофей и босс является финальным в &aСумеречном лесу&r."
+			]
+			id: "32A2447D9C4BAF7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2474150237456B3E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0CB9E65045E48A66"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13619519E606FABC"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Финал!"
+			tasks: [{
+				id: "3593EEE0E5BBA007"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15B58FFDBB2B3766"]
+			description: ["Стреляет сразу тремя стрелами, тратя при этом одну"]
+			id: "0545B934E4E04F0A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7618ECFFDA38F960"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61A58BBF032D6DE0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A123062538981A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Тратит одну стрелу!"
+			tasks: [{
+				id: "2EE18001B1E71EAF"
+				item: {
+					Count: 1
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["15B58FFDBB2B3766"]
+			description: ["Будет следовать за ближейшей к стреле цели."]
+			id: "43C3F589CDE0074B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "481174795AEB3F7D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57B7010DD3A8DD14"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41A85B6DC135DF76"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Автоприцел!"
+			tasks: [{
+				id: "3209C917839C0060"
+				item: {
+					Count: 1
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44134EE872FCDB7D"]
+			description: ["Необходимо найти тронный зал, где появятся фантомы призраков, которых нужно убить."]
+			id: "331B68B30B5195E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "295B0525A829C40F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "246C545A7FFA6B81"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B664B342186B3CF"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Призраки существуют!"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "5C28112C812B1CED"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["331B68B30B5195E1"]
+			description: ["Трофей Фантомного Рыцаря можно получить после убийства всех шести духов."]
+			id: "653B567D11A82D11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A1135AC50426F57"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "257D7EA82EA006F8"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F1D5C1A75737C4D"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Пятый трофей!"
+			tasks: [{
+				id: "6A0DA2CD6C3E396D"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0AFECA103FCCF23A"]
+			description: ["Карта покажет местонахождение всех боссов и данжей."]
+			id: "62C8A4F4FA049FE0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "567A0670A72B9F12"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "371F39CC49AD3CEE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0AC0CFE634217667"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Ваш путеводитель по этому миру!"
+			tasks: [{
+				id: "65B2E2404C0A84A8"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BF7880FE91B6666"]
+			description: ["Карта поможет вам найти комнату босса в лабиринте минотавра."]
+			id: "71146B5E7089A3B5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4472519CDDE7CD7E"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59B69230A6466ECE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "416C7F303E2CE753"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "iron"
+			subtitle: "Даже с ней будет нелегко!"
+			tasks: [{
+				id: "3C9C6F0A5BE2240C"
+				item: "twilightforest:maze_map"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62C8A4F4FA049FE0"]
+			description: ["Чтобы получить трофей, необходимо скормить Квест-Раму все 16 цветов шерсти."]
+			id: "72DFED12846B2E83"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "199440A0C9C4FE13"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E291A5735CABC0A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C6E3006E6C54F0"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Девятый трофей!"
+			tasks: [{
+				id: "09DFFFFE54771DE6"
+				item: "twilightforest:quest_ram_trophy"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["331B68B30B5195E1"]
+			description: ["Выпадает почти со всех мобов в подземелье."]
+			id: "2F67D3072EF6014C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B0FE7623AFE6AE4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D1477F1EA83E898"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6DE2B11D48A663F7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Маленькая частичка чего-то большего!"
+			tasks: [{
+				count: 8L
+				id: "6421054B10663437"
+				item: "twilightforest:armor_shard"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2F67D3072EF6014C"]
+			description: ["Переплавте чтобы получить слиток."]
+			id: "390BED420D37C985"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F58D0534A9FBD87"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FBFBE598382B1DE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E9BADFF3FA49F05"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Кучка металлолома!"
+			tasks: [{
+				count: 4L
+				id: "3E70E1B9B084F5C9"
+				item: "twilightforest:armor_shard_cluster"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["390BED420D37C985"]
+			description: ["Из слитков можно сделать броню и инструменты."]
+			id: "736374340FAA484D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F81CF827FA414B9"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31D221AE540C23E1"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46DEEB0457D37C85"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Крафтовый ингредиент!"
+			tasks: [{
+				count: 10L
+				id: "5B34960A373AFD88"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["736374340FAA484D"]
+			description: ["Наносят дополнительный урон врагам с бронёй."]
+			id: "281881127D7AC454"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A12A750FF098883"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41CB19B3213A138F"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A02F0D1D19ACA8C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Выглядят устрашающе!"
+			tasks: [
+				{
+					id: "14862D74AEA36613"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "045EAA172DAD195C"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678676DB75D60FDA"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Рыцарские инструменты"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["736374340FAA484D"]
+			description: ["По защите, броня не хуже алмазной."]
+			id: "732D164835CB2B34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E71A926DD4AB8C2"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78D509B24ED54CE7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75AA8C9616B9D2CA"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "gold"
+			subtitle: "Очень хорошая броня!"
+			tasks: [
+				{
+					id: "3FF6067BCB60FF2E"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4CE51CAE838D02BA"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4459474C1B7A75FA"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C9782A94D4C9C71"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Рыцарская броня"
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["32A2447D9C4BAF7D"]
+			description: ["Замок является ареной для финального босса, которого уже как 8 лет не могут добавить."]
+			id: "6FA155274B0E6147"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A1710C1DB98B3AE"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "312708C57B2D8259"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A91FB48EFA07C92"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Финал?"
+			tasks: [{
+				id: "353F651B25DAFA19"
+				structure: "twilightforest:final_castle"
+				type: "structure"
+			}]
+			title: "Найти структуру Финальный Замок"
+			x: -5.0d
+			y: -3.0d
+		}
+	]
+	subtitle: ["В этом лесу можно найти много приключений"]
+	title: "Twilight Forest"
+}

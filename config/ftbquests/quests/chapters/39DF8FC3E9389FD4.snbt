@@ -1,0 +1,585 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "39DF8FC3E9389FD4"
+	group: "08BE8EB081684B04"
+	hide_quest_until_deps_visible: true
+	icon: "man_of_many_planes:scarlet_biplane"
+	id: "39DF8FC3E9389FD4"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B5B9082DFEA6F01"]
+			id: "30CCAA5CEDD78A19"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BAEB855069600E0"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DF510D035C84740"
+					table_id: 3534538013013508986L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E9C86A96C7C4A4D"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64AED045A6A0EC79"]
+			id: "533EA2E4D6531ADA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "13B110FBFA4B492C"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20394EB36E52FD38"
+					table_id: 3534538013013508986L
+					type: "random"
+				}
+			]
+			subtitle: "Улучшенная версия, вмещает более одного человека и имеет больше слотов под улучшения и предметы"
+			tasks: [{
+				id: "7B3CD5A93DBF0E98"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B5B9082DFEA6F01"]
+			id: "458A8FB46E389A10"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35053189CD60D2BA"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63DFD525C5B537CA"
+					table_id: 3534538013013508986L
+					type: "random"
+				}
+			]
+			subtitle: "Для тех, кому лень копать руками"
+			tasks: [{
+				id: "08CB59ACEF547542"
+				item: "immersive_machinery:tunnel_digger"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3560CC4AFB3FDCA4"]
+			id: "6340559AACAA60AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44824787B7232C79"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A4A832DF8C3C86C"
+					table_id: 3534538013013508986L
+					type: "random"
+				}
+			]
+			subtitle: "Дрон для перемещения предметов"
+			tasks: [{
+				id: "021847B21922B709"
+				item: {
+					Count: 1
+					id: "immersive_machinery:bamboo_bee"
+					tag: {
+						ContainerPositions: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B5B9082DFEA6F01"]
+			id: "363F34436BB2FEB8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22F80634BDD619C2"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "388F157B19968C95"
+					table_id: 3534538013013508986L
+					type: "random"
+				}
+			]
+			subtitle: "Удобная подлодка для исследования океана"
+			tasks: [{
+				id: "237EE663361C4E6C"
+				item: "immersive_machinery:copperfin"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B5B9082DFEA6F01"]
+			id: "2804D3F44F6E4667"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16AA18FEDCF4DD1B"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "147FAA9877441283"
+					table_id: 3534538013013508986L
+					type: "random"
+				}
+			]
+			subtitle: "Собирает урожай"
+			tasks: [{
+				id: "3E6BE9F235621C73"
+				item: "immersive_machinery:redstone_sheep"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"1B015AA5D1B06C70"
+				"7B5B9082DFEA6F01"
+			]
+			description: ["Удобно для строительства вместо лесов"]
+			id: "3560CC4AFB3FDCA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62C26233E1E41B66"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "243C1AA1C5175CCA"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+			]
+			subtitle: "На нем можно летать!"
+			tasks: [{
+				id: "6D572569F4525D42"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1B015AA5D1B06C70"
+				"7B5B9082DFEA6F01"
+			]
+			id: "777550720A8507EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "27449285A6FA56BF"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AE818FB6AC98E85"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+			]
+			subtitle: "Покоряем дальние горизонты"
+			tasks: [{
+				id: "0607B7F769C19EDE"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["777550720A8507EA"]
+			id: "78D01F8031D262E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73C84CFED985D425"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E5471C3DBE76003"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+			]
+			subtitle: "Пригодится при переезде"
+			tasks: [{
+				id: "4ADF9EB9D6BECC3A"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["78D01F8031D262E1"]
+			id: "66562C95920197F2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6019F726A7BDD2EE"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FEFDC1C6EF07271"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+			]
+			subtitle: "А вдруг НАТО нападёт?"
+			tasks: [{
+				id: "66B82685DB7263B9"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1B015AA5D1B06C70"
+				"7B5B9082DFEA6F01"
+			]
+			id: "64AED045A6A0EC79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C82E821C6FD42DA"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B6FD3980EB8EC69"
+					table_id: 3534538013013508986L
+					type: "loot"
+				}
+			]
+			subtitle: "От винта!"
+			tasks: [{
+				id: "00BBB738BA57A946"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B015AA5D1B06C70"]
+			id: "7B5B9082DFEA6F01"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A0BB4A6B1FC9A26"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					id: "020964AA50136551"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+				{
+					id: "1C393C9E861DB7BB"
+					item: "immersive_aircraft:sail"
+					type: "item"
+				}
+			]
+			subtitle: "Глава про транспорт для покорения небес, воды и шахт"
+			tasks: [{
+				id: "2EDB552BB156698C"
+				title: "От винта!"
+				type: "checkmark"
+			}]
+			title: "Новые возможности"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "0680D4F9B41AA548"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20F1425E0E181A0A"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "219409D8AEDFE20C"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "511C9945AB8E5FF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25F79E59C75CCD66"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C125F961E7EB583"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B5B9082DFEA6F01"]
+			id: "4B35FF059FEE2D04"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C11DE7361824C9E"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2864349085F7305A"
+					table_id: 3534538013013508986L
+					type: "random"
+				}
+			]
+			subtitle: "Тут придётся приложить усилия, зато топливо не ест"
+			tasks: [{
+				id: "741B45701A7D6DAB"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "5D158ABDA90F67F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2458D47FB423B3A3"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "620A2A4F236EDCAC"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "5ED4527ED69112EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32387D8AF5279D9E"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65FE0F7E06F1AB22"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "251730B9EF53A3F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AAF346A6B48D236"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FE68FEC6AE20780"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "22CE09317B68F74E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06FE0CE79EF5DE68"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1CB96D1CD3E52CAC"
+				item: "immersive_aircraft:bomb_bay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "4B598E514F75586D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CE1070E6F269687"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "24E0F02CC4DEAE7B"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "25DB973024557532"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B26E967EA8A5132"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65AB3DC1FED1D5AC"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "6B42CAF051655F66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "37AEEB822228A379"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D8D7D96D93D4BF7"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "663667C7C3A7AC81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E5F6D367B8929D4"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EABB9C5D7084D9C"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["60BC98A87567F3AC"]
+			id: "3172A71CB823C335"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F694B7F2BB5E83A"
+				table_id: 370593219325554032L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55E2A1ACA6044AB5"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B015AA5D1B06C70"]
+			id: "60BC98A87567F3AC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "19C751204FFC9EF3"
+					table_id: 370593219325554032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1261EB3894BB30CB"
+					table_id: 1354482553199179703L
+					type: "choice"
+				}
+			]
+			subtitle: "Модифицируют характеристики, иногда с плюсами и минусами"
+			tasks: [{
+				id: "4A11CFF006C78E2D"
+				title: "Улучшения для летательных аппаратов"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "Транспорт"
+}

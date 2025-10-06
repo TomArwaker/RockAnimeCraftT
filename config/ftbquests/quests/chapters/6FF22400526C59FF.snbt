@@ -1,0 +1,405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6FF22400526C59FF"
+	group: "3E5C9570DCB452CF"
+	hide_quest_until_deps_complete: true
+	icon: {
+		Count: 1
+		id: "magistuarmoryaddon:steel_german_greatsword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6FF22400526C59FF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E5894554A64FBDE"]
+			id: "6EC894457F86BC09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53BB30C173C78931"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27A1E56AB78C39C6"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49987F7355D11D0B"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4A824E1C64E24CF8"
+					item: {
+						Count: 1
+						id: "slavicarmory:steel_bardiche"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59F3BC8834860873"
+					item: {
+						Count: 1
+						id: "magistuarmoryaddon:steel_swiss_halberd"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E5894554A64FBDE"]
+			id: "25557A1EA2EFF16A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40E560D8BA44B95A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7546DEF1AB64B6C9"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02E830320728814A"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4BD9DEBFEE9673B3"
+					item: {
+						Count: 1
+						id: "magistuarmory:iron_heavymace"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D8837BD89F9927E"
+					item: {
+						Count: 1
+						id: "magistuarmory:iron_morgenstern"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A70E8E9A6089FF9"
+					item: {
+						Count: 1
+						id: "magistuarmory:iron_chainmorgenstern"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2E5894554A64FBDE"]
+			id: "19E5811BF3C2EDDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "219499ABC50FFBB7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "508A15B294DF3737"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42989B0A993276A7"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5269B7B3472A450A"
+					item: {
+						Count: 1
+						id: "magistuarmory:iron_zweihander"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65C4BE78E6595333"
+					item: {
+						Count: 1
+						id: "magistuarmory:iron_bastardsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E5894554A64FBDE"]
+			id: "1DB72DD10A86C498"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5074902CD0D8EE3C"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "782BDEA48977C863"
+					table_id: 1354482553199179703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "414713B2E429F4D4"
+					table_id: 4984083108249729365L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7C419E8FEDBB1CF3"
+					item: {
+						Count: 1
+						id: "slavicarmory:steel_rus_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64B17822C3AB8D3A"
+					item: {
+						Count: 1
+						id: "slavicarmory:steel_rus_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			description: [
+				"Это просто примеры из огромного количества оружия разных типов, из разных материалов и эпох, и всё это можно делать для использования или коллекции! Также есть оружие под любую броню из главы про шмот и всё, что туда не вошло."
+				"Ещё есть куча щитов!"
+			]
+			icon: {
+				Count: 1
+				id: "magistuarmoryaddon:steel_german_greatsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2E5894554A64FBDE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28264E821D1EA89D"
+				table_id: 4984083108249729365L
+				type: "random"
+			}]
+			subtitle: "И ещё много-много всего"
+			tasks: [{
+				id: "1BDE254DFBC5D0B3"
+				title: "Снаряжаемся"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2E5894554A64FBDE"]
+			description: ["Добавлена совместимость epic knights и ice and fire, можно делать любое оружие из первого из материалов второго!"]
+			id: "50C9F8881BFD4418"
+			subtitle: "Один из примеров"
+			tasks: [{
+				id: "0163842DDE62735F"
+				item: {
+					Count: 1
+					id: "epic_knights_ice_and_fire:dragonsteel_lightning_zweihander"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2E5894554A64FBDE"]
+			description: ["Также есть незеритовый вариант и мистические катаны, которые делаются из частей монстров японского фольклора"]
+			id: "103A4BD5F86F81F0"
+			subtitle: "Для самураев"
+			tasks: [{
+				id: "46E043EDA7707BC1"
+				item: {
+					Count: 1
+					id: "samurai_dynasty:katana"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17E6352BA1BC423B"]
+			id: "2F6B5A5849D91D21"
+			tasks: [{
+				id: "6F8BE39645F59EC6"
+				item: {
+					Count: 1
+					id: "medieval_boomsticks:war_dart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17E6352BA1BC423B"]
+			id: "1B4D75CD8064DC9A"
+			tasks: [
+				{
+					id: "3C859BEDB5E8BEC7"
+					item: {
+						Count: 1
+						id: "medieval_boomsticks:arbalest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59F64CDCE3FC4856"
+					item: "medieval_boomsticks:heavy_bolt"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17E6352BA1BC423B"]
+			id: "44018AFDE5A2DA75"
+			tasks: [{
+				id: "65B16852561D05B7"
+				item: "medieval_boomsticks:recurve_bow"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["17E6352BA1BC423B"]
+			id: "7AFF183C07E8D9B0"
+			tasks: [{
+				id: "6F5AC2B61B6FC083"
+				item: "medieval_boomsticks:iron_throwing_knife"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17E6352BA1BC423B"]
+			id: "7176C1A2E9A8CC69"
+			tasks: [{
+				id: "121A8C0EC64EA6FE"
+				item: {
+					Count: 1
+					id: "medieval_boomsticks:iron_throwing_axe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17E6352BA1BC423B"]
+			id: "2B50BE2A61745A07"
+			tasks: [{
+				id: "4937A78B1996A56C"
+				item: {
+					Count: 1
+					id: "medieval_boomsticks:javelin"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4A8F6BB5FDE5288B"]
+			id: "17E6352BA1BC423B"
+			tasks: [{
+				id: "20B13F0DB1007D73"
+				title: "Метательное оружие"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+	]
+	subtitle: ["Обычное, легендарное и даже волшебное"]
+	title: "Оружие эпох"
+}
